@@ -1,0 +1,827 @@
+[
+  {
+    "team": "England",
+    "squad_size": 35,
+    "mapped": 33,
+    "pct_top5": 0.9428571428571428,
+    "avg_tier": 4.757142857142857,
+    "squad_idx": 4.675591836734694,
+    "ucl_count": 0,
+    "top_league": "PL",
+    "top_league_n": 29,
+    "league_dist": {
+      "PL": 29,
+      "BL1": 1,
+      "PD": 2,
+      "SA": 1
+    }
+  },
+  {
+    "team": "Germany",
+    "squad_size": 26,
+    "mapped": 26,
+    "pct_top5": 0.9615384615384616,
+    "avg_tier": 4.634615384615385,
+    "squad_idx": 4.634615384615385,
+    "ucl_count": 1,
+    "top_league": "BL1",
+    "top_league_n": 19,
+    "league_dist": {
+      "BL1": 19,
+      "PL": 5,
+      "CL": 1,
+      "PD": 1
+    }
+  },
+  {
+    "team": "Netherlands",
+    "squad_size": 25,
+    "mapped": 25,
+    "pct_top5": 0.8,
+    "avg_tier": 4.62,
+    "squad_idx": 4.62,
+    "ucl_count": 3,
+    "top_league": "PL",
+    "top_league_n": 13,
+    "league_dist": {
+      "SA": 5,
+      "BL1": 1,
+      "PL": 13,
+      "DED": 2,
+      "FL1": 1,
+      "CL": 3
+    }
+  },
+  {
+    "team": "Spain",
+    "squad_size": 27,
+    "mapped": 25,
+    "pct_top5": 0.9259259259259259,
+    "avg_tier": 4.722222222222222,
+    "squad_idx": 4.617283950617284,
+    "ucl_count": 0,
+    "top_league": "PD",
+    "top_league_n": 18,
+    "league_dist": {
+      "PL": 6,
+      "PD": 18,
+      "BL1": 1
+    }
+  },
+  {
+    "team": "Belgium",
+    "squad_size": 26,
+    "mapped": 25,
+    "pct_top5": 0.7692307692307693,
+    "avg_tier": 4.461538461538462,
+    "squad_idx": 4.410059171597633,
+    "ucl_count": 5,
+    "top_league": "PL",
+    "top_league_n": 7,
+    "league_dist": {
+      "PD": 2,
+      "PL": 7,
+      "FL1": 5,
+      "CL": 5,
+      "SA": 5,
+      "BL1": 1
+    }
+  },
+  {
+    "team": "France",
+    "squad_size": 25,
+    "mapped": 23,
+    "pct_top5": 0.92,
+    "avg_tier": 4.24,
+    "squad_idx": 4.13824,
+    "ucl_count": 0,
+    "top_league": "FL1",
+    "top_league_n": 7,
+    "league_dist": {
+      "FL1": 7,
+      "SA": 4,
+      "PL": 7,
+      "BL1": 2,
+      "PD": 3
+    }
+  },
+  {
+    "team": "Switzerland",
+    "squad_size": 26,
+    "mapped": 23,
+    "pct_top5": 0.8846153846153846,
+    "avg_tier": 4.173076923076923,
+    "squad_idx": 4.02862426035503,
+    "ucl_count": 0,
+    "top_league": "BL1",
+    "top_league_n": 8,
+    "league_dist": {
+      "BL1": 8,
+      "FL1": 3,
+      "SA": 4,
+      "PL": 4,
+      "PD": 4
+    }
+  },
+  {
+    "team": "Portugal",
+    "squad_size": 26,
+    "mapped": 22,
+    "pct_top5": 0.6538461538461539,
+    "avg_tier": 4.173076923076923,
+    "squad_idx": 3.980473372781065,
+    "ucl_count": 4,
+    "top_league": "PL",
+    "top_league_n": 7,
+    "league_dist": {
+      "PL": 7,
+      "CL": 4,
+      "PPL": 1,
+      "FL1": 4,
+      "PD": 4,
+      "SA": 2
+    }
+  },
+  {
+    "team": "Argentina",
+    "squad_size": 29,
+    "mapped": 26,
+    "pct_top5": 0.6206896551724138,
+    "avg_tier": 4.0344827586206895,
+    "squad_idx": 3.909274673008323,
+    "ucl_count": 2,
+    "top_league": "PD",
+    "top_league_n": 7,
+    "league_dist": {
+      "FL1": 3,
+      "PL": 5,
+      "PD": 7,
+      "CLI": 4,
+      "BSA": 2,
+      "SA": 2,
+      "CL": 2,
+      "BL1": 1
+    }
+  },
+  {
+    "team": "Senegal",
+    "squad_size": 28,
+    "mapped": 22,
+    "pct_top5": 0.7142857142857143,
+    "avg_tier": 3.875,
+    "squad_idx": 3.625892857142857,
+    "ucl_count": 2,
+    "top_league": "FL1",
+    "top_league_n": 8,
+    "league_dist": {
+      "FL1": 8,
+      "SA": 2,
+      "CL": 2,
+      "PL": 6,
+      "PD": 3,
+      "BL1": 1
+    }
+  },
+  {
+    "team": "Croatia",
+    "squad_size": 26,
+    "mapped": 20,
+    "pct_top5": 0.6538461538461539,
+    "avg_tier": 3.826923076923077,
+    "squad_idx": 3.56198224852071,
+    "ucl_count": 3,
+    "top_league": "SA",
+    "top_league_n": 7,
+    "league_dist": {
+      "CL": 3,
+      "BL1": 5,
+      "SA": 7,
+      "PL": 2,
+      "PD": 3
+    }
+  },
+  {
+    "team": "Sweden",
+    "squad_size": 26,
+    "mapped": 19,
+    "pct_top5": 0.5769230769230769,
+    "avg_tier": 3.826923076923077,
+    "squad_idx": 3.517825443786982,
+    "ucl_count": 3,
+    "top_league": "PL",
+    "top_league_n": 8,
+    "league_dist": {
+      "BL1": 3,
+      "PPL": 1,
+      "CL": 3,
+      "PL": 8,
+      "SA": 3,
+      "PD": 1
+    }
+  },
+  {
+    "team": "Austria",
+    "squad_size": 26,
+    "mapped": 19,
+    "pct_top5": 0.6538461538461539,
+    "avg_tier": 3.730769230769231,
+    "squad_idx": 3.429437869822485,
+    "ucl_count": 1,
+    "top_league": "BL1",
+    "top_league_n": 14,
+    "league_dist": {
+      "PD": 2,
+      "BL1": 14,
+      "CL": 1,
+      "PL": 1,
+      "PPL": 1
+    }
+  },
+  {
+    "team": "Czechia",
+    "squad_size": 24,
+    "mapped": 17,
+    "pct_top5": 0.3333333333333333,
+    "avg_tier": 3.7291666666666665,
+    "squad_idx": 3.4028645833333333,
+    "ucl_count": 8,
+    "top_league": "CL",
+    "top_league_n": 8,
+    "league_dist": {
+      "CL": 8,
+      "PPL": 1,
+      "SA": 1,
+      "BL1": 3,
+      "FL1": 2,
+      "PL": 2
+    }
+  },
+  {
+    "team": "Norway",
+    "squad_size": 24,
+    "mapped": 17,
+    "pct_top5": 0.5416666666666666,
+    "avg_tier": 3.7291666666666665,
+    "squad_idx": 3.4028645833333333,
+    "ucl_count": 4,
+    "top_league": "SA",
+    "top_league_n": 5,
+    "league_dist": {
+      "PD": 2,
+      "CL": 4,
+      "BL1": 2,
+      "PL": 4,
+      "SA": 5
+    }
+  },
+  {
+    "team": "Japan",
+    "squad_size": 26,
+    "mapped": 19,
+    "pct_top5": 0.5,
+    "avg_tier": 3.6538461538461537,
+    "squad_idx": 3.3587278106508873,
+    "ucl_count": 3,
+    "top_league": "BL1",
+    "top_league_n": 6,
+    "league_dist": {
+      "SA": 1,
+      "FL1": 2,
+      "DED": 3,
+      "BL1": 6,
+      "CL": 3,
+      "PL": 3,
+      "PD": 1
+    }
+  },
+  {
+    "team": "Morocco",
+    "squad_size": 29,
+    "mapped": 20,
+    "pct_top5": 0.4827586206896552,
+    "avg_tier": 3.586206896551724,
+    "squad_idx": 3.2523186682520806,
+    "ucl_count": 4,
+    "top_league": "PL",
+    "top_league_n": 5,
+    "league_dist": {
+      "PL": 5,
+      "FL1": 5,
+      "CL": 4,
+      "BL1": 1,
+      "SA": 1,
+      "DED": 2,
+      "PD": 2
+    }
+  },
+  {
+    "team": "Brazil",
+    "squad_size": 25,
+    "mapped": 18,
+    "pct_top5": 0.48,
+    "avg_tier": 3.42,
+    "squad_idx": 3.1327199999999995,
+    "ucl_count": 0,
+    "top_league": "PL",
+    "top_league_n": 7,
+    "league_dist": {
+      "BSA": 6,
+      "PL": 7,
+      "FL1": 2,
+      "PD": 2,
+      "SA": 1
+    }
+  },
+  {
+    "team": "Ivory Coast",
+    "squad_size": 26,
+    "mapped": 17,
+    "pct_top5": 0.5,
+    "avg_tier": 3.3653846153846154,
+    "squad_idx": 3.015902366863905,
+    "ucl_count": 2,
+    "top_league": "FL1",
+    "top_league_n": 4,
+    "league_dist": {
+      "PPL": 2,
+      "FL1": 4,
+      "CL": 2,
+      "BL1": 2,
+      "SA": 3,
+      "PL": 3,
+      "PD": 1
+    }
+  },
+  {
+    "team": "Colombia",
+    "squad_size": 26,
+    "mapped": 18,
+    "pct_top5": 0.3076923076923077,
+    "avg_tier": 3.25,
+    "squad_idx": 2.9499999999999997,
+    "ucl_count": 3,
+    "top_league": "CLI",
+    "top_league_n": 5,
+    "league_dist": {
+      "CLI": 5,
+      "BSA": 2,
+      "CL": 3,
+      "PL": 3,
+      "SA": 2,
+      "BL1": 1,
+      "FL1": 1,
+      "PD": 1
+    }
+  },
+  {
+    "team": "Turkey",
+    "squad_size": 27,
+    "mapped": 16,
+    "pct_top5": 0.3333333333333333,
+    "avg_tier": 3.3518518518518516,
+    "squad_idx": 2.9421810699588473,
+    "ucl_count": 6,
+    "top_league": "CL",
+    "top_league_n": 6,
+    "league_dist": {
+      "PL": 2,
+      "CL": 6,
+      "PPL": 1,
+      "SA": 3,
+      "PD": 1,
+      "BL1": 3
+    }
+  },
+  {
+    "team": "United States",
+    "squad_size": 27,
+    "mapped": 15,
+    "pct_top5": 0.5185185185185185,
+    "avg_tier": 3.1666666666666665,
+    "squad_idx": 2.744444444444444,
+    "ucl_count": 1,
+    "top_league": "FL1",
+    "top_league_n": 4,
+    "league_dist": {
+      "PD": 2,
+      "BL1": 3,
+      "FL1": 4,
+      "CL": 1,
+      "PL": 3,
+      "SA": 2
+    }
+  },
+  {
+    "team": "Uruguay",
+    "squad_size": 28,
+    "mapped": 18,
+    "pct_top5": 0.25,
+    "avg_tier": 3.0,
+    "squad_idx": 2.6785714285714284,
+    "ucl_count": 1,
+    "top_league": "BSA",
+    "top_league_n": 9,
+    "league_dist": {
+      "CLI": 1,
+      "BSA": 9,
+      "CL": 1,
+      "PD": 4,
+      "PL": 2,
+      "SA": 1
+    }
+  },
+  {
+    "team": "Ghana",
+    "squad_size": 29,
+    "mapped": 14,
+    "pct_top5": 0.41379310344827586,
+    "avg_tier": 2.8620689655172415,
+    "squad_idx": 2.417954815695601,
+    "ucl_count": 1,
+    "top_league": "FL1",
+    "top_league_n": 4,
+    "league_dist": {
+      "CL": 1,
+      "BL1": 3,
+      "FL1": 4,
+      "BSA": 1,
+      "PD": 2,
+      "SA": 2,
+      "PL": 1
+    }
+  },
+  {
+    "team": "Paraguay",
+    "squad_size": 26,
+    "mapped": 16,
+    "pct_top5": 0.15384615384615385,
+    "avg_tier": 2.6538461538461537,
+    "squad_idx": 2.3476331360946743,
+    "ucl_count": 0,
+    "top_league": "BSA",
+    "top_league_n": 8,
+    "league_dist": {
+      "CLI": 4,
+      "BSA": 8,
+      "PL": 2,
+      "FL1": 1,
+      "SA": 1
+    }
+  },
+  {
+    "team": "Scotland",
+    "squad_size": 26,
+    "mapped": 11,
+    "pct_top5": 0.4230769230769231,
+    "avg_tier": 2.826923076923077,
+    "squad_idx": 2.337647928994083,
+    "ucl_count": 0,
+    "top_league": "PL",
+    "top_league_n": 7,
+    "league_dist": {
+      "PL": 7,
+      "SA": 4
+    }
+  },
+  {
+    "team": "Algeria",
+    "squad_size": 24,
+    "mapped": 11,
+    "pct_top5": 0.4166666666666667,
+    "avg_tier": 2.75,
+    "squad_idx": 2.3031249999999996,
+    "ucl_count": 0,
+    "top_league": "FL1",
+    "top_league_n": 4,
+    "league_dist": {
+      "FL1": 4,
+      "SA": 1,
+      "BL1": 4,
+      "DED": 1,
+      "PL": 1
+    }
+  },
+  {
+    "team": "Ecuador",
+    "squad_size": 31,
+    "mapped": 16,
+    "pct_top5": 0.1935483870967742,
+    "avg_tier": 2.629032258064516,
+    "squad_idx": 2.247398543184183,
+    "ucl_count": 1,
+    "top_league": "CLI",
+    "top_league_n": 4,
+    "league_dist": {
+      "CLI": 4,
+      "BSA": 4,
+      "PPL": 1,
+      "CL": 1,
+      "BL1": 1,
+      "FL1": 2,
+      "PL": 2,
+      "SA": 1
+    }
+  },
+  {
+    "team": "Congo DR",
+    "squad_size": 26,
+    "mapped": 10,
+    "pct_top5": 0.38461538461538464,
+    "avg_tier": 2.6923076923076925,
+    "squad_idx": 2.1952662721893494,
+    "ucl_count": 0,
+    "top_league": "FL1",
+    "top_league_n": 4,
+    "league_dist": {
+      "FL1": 4,
+      "PL": 4,
+      "PD": 2
+    }
+  },
+  {
+    "team": "Bosnia-Herzegovina",
+    "squad_size": 25,
+    "mapped": 8,
+    "pct_top5": 0.24,
+    "avg_tier": 2.44,
+    "squad_idx": 1.9422399999999997,
+    "ucl_count": 2,
+    "top_league": "BL1",
+    "top_league_n": 3,
+    "league_dist": {
+      "BL1": 3,
+      "CL": 2,
+      "FL1": 1,
+      "SA": 2
+    }
+  },
+  {
+    "team": "Tunisia",
+    "squad_size": 23,
+    "mapped": 7,
+    "pct_top5": 0.2608695652173913,
+    "avg_tier": 2.4130434782608696,
+    "squad_idx": 1.9094517958412098,
+    "ucl_count": 1,
+    "top_league": "BL1",
+    "top_league_n": 3,
+    "league_dist": {
+      "CL": 1,
+      "FL1": 2,
+      "PL": 1,
+      "BL1": 3
+    }
+  },
+  {
+    "team": "Curaçao",
+    "squad_size": 26,
+    "mapped": 8,
+    "pct_top5": 0.0,
+    "avg_tier": 2.173076923076923,
+    "squad_idx": 1.7217455621301774,
+    "ucl_count": 1,
+    "top_league": "DED",
+    "top_league_n": 7,
+    "league_dist": {
+      "DED": 7,
+      "CL": 1
+    }
+  },
+  {
+    "team": "Cape Verde Islands",
+    "squad_size": 23,
+    "mapped": 6,
+    "pct_top5": 0.043478260869565216,
+    "avg_tier": 2.152173913043478,
+    "squad_idx": 1.6749527410207936,
+    "ucl_count": 1,
+    "top_league": "PPL",
+    "top_league_n": 3,
+    "league_dist": {
+      "CL": 1,
+      "DED": 1,
+      "PPL": 3,
+      "PD": 1
+    }
+  },
+  {
+    "team": "South Korea",
+    "squad_size": 26,
+    "mapped": 6,
+    "pct_top5": 0.19230769230769232,
+    "avg_tier": 2.1538461538461537,
+    "squad_idx": 1.6568047337278105,
+    "ucl_count": 0,
+    "top_league": "BL1",
+    "top_league_n": 3,
+    "league_dist": {
+      "DED": 1,
+      "BL1": 3,
+      "FL1": 1,
+      "PL": 1
+    }
+  },
+  {
+    "team": "Haiti",
+    "squad_size": 24,
+    "mapped": 5,
+    "pct_top5": 0.16666666666666666,
+    "avg_tier": 2.0625,
+    "squad_idx": 1.5726562499999999,
+    "ucl_count": 0,
+    "top_league": "FL1",
+    "top_league_n": 2,
+    "league_dist": {
+      "CLI": 1,
+      "FL1": 2,
+      "PL": 2
+    }
+  },
+  {
+    "team": "Egypt",
+    "squad_size": 22,
+    "mapped": 4,
+    "pct_top5": 0.18181818181818182,
+    "avg_tier": 2.0454545454545454,
+    "squad_idx": 1.5433884297520661,
+    "ucl_count": 0,
+    "top_league": "FL1",
+    "top_league_n": 2,
+    "league_dist": {
+      "PD": 1,
+      "FL1": 2,
+      "PL": 1
+    }
+  },
+  {
+    "team": "Australia",
+    "squad_size": 25,
+    "mapped": 5,
+    "pct_top5": 0.12,
+    "avg_tier": 2.02,
+    "squad_idx": 1.5352000000000001,
+    "ucl_count": 0,
+    "top_league": "DED",
+    "top_league_n": 2,
+    "league_dist": {
+      "PD": 1,
+      "DED": 2,
+      "SA": 1,
+      "BL1": 1
+    }
+  },
+  {
+    "team": "Canada",
+    "squad_size": 26,
+    "mapped": 4,
+    "pct_top5": 0.15384615384615385,
+    "avg_tier": 1.9615384615384615,
+    "squad_idx": 1.4636094674556213,
+    "ucl_count": 0,
+    "top_league": "PD",
+    "top_league_n": 2,
+    "league_dist": {
+      "PD": 2,
+      "FL1": 1,
+      "SA": 1
+    }
+  },
+  {
+    "team": "Panama",
+    "squad_size": 23,
+    "mapped": 3,
+    "pct_top5": 0.043478260869565216,
+    "avg_tier": 1.7826086956521738,
+    "squad_idx": 1.3175803402646502,
+    "ucl_count": 0,
+    "top_league": "CLI",
+    "top_league_n": 1,
+    "league_dist": {
+      "CLI": 1,
+      "PD": 1,
+      "BSA": 1
+    }
+  },
+  {
+    "team": "South Africa",
+    "squad_size": 22,
+    "mapped": 2,
+    "pct_top5": 0.045454545454545456,
+    "avg_tier": 1.75,
+    "squad_idx": 1.2727272727272725,
+    "ucl_count": 0,
+    "top_league": "PPL",
+    "top_league_n": 1,
+    "league_dist": {
+      "PPL": 1,
+      "PL": 1
+    }
+  },
+  {
+    "team": "New Zealand",
+    "squad_size": 25,
+    "mapped": 2,
+    "pct_top5": 0.04,
+    "avg_tier": 1.72,
+    "squad_idx": 1.24528,
+    "ucl_count": 0,
+    "top_league": "PL",
+    "top_league_n": 1,
+    "league_dist": {
+      "PL": 1,
+      "DED": 1
+    }
+  },
+  {
+    "team": "Uzbekistan",
+    "squad_size": 23,
+    "mapped": 1,
+    "pct_top5": 0.043478260869565216,
+    "avg_tier": 1.6521739130434783,
+    "squad_idx": 1.1780718336483933,
+    "ucl_count": 0,
+    "top_league": "PL",
+    "top_league_n": 1,
+    "league_dist": {
+      "PL": 1
+    }
+  },
+  {
+    "team": "Jordan",
+    "squad_size": 18,
+    "mapped": 1,
+    "pct_top5": 0.05555555555555555,
+    "avg_tier": 1.6388888888888888,
+    "squad_idx": 1.174537037037037,
+    "ucl_count": 0,
+    "top_league": "FL1",
+    "top_league_n": 1,
+    "league_dist": {
+      "FL1": 1
+    }
+  },
+  {
+    "team": "Saudi Arabia",
+    "squad_size": 19,
+    "mapped": 1,
+    "pct_top5": 0.05263157894736842,
+    "avg_tier": 1.631578947368421,
+    "squad_idx": 1.1678670360110803,
+    "ucl_count": 0,
+    "top_league": "FL1",
+    "top_league_n": 1,
+    "league_dist": {
+      "FL1": 1
+    }
+  },
+  {
+    "team": "Iraq",
+    "squad_size": 27,
+    "mapped": 1,
+    "pct_top5": 0.0,
+    "avg_tier": 1.5740740740740742,
+    "squad_idx": 1.1193415637860082,
+    "ucl_count": 0,
+    "top_league": "DED",
+    "top_league_n": 1,
+    "league_dist": {
+      "DED": 1
+    }
+  },
+  {
+    "team": "Mexico",
+    "squad_size": 12,
+    "mapped": 0,
+    "pct_top5": 0.0,
+    "avg_tier": 1.5,
+    "squad_idx": 1.0499999999999998,
+    "ucl_count": 0,
+    "top_league": "Unknown",
+    "top_league_n": 0,
+    "league_dist": {}
+  },
+  {
+    "team": "Iran",
+    "squad_size": 18,
+    "mapped": 0,
+    "pct_top5": 0.0,
+    "avg_tier": 1.5,
+    "squad_idx": 1.0499999999999998,
+    "ucl_count": 0,
+    "top_league": "Unknown",
+    "top_league_n": 0,
+    "league_dist": {}
+  },
+  {
+    "team": "Qatar",
+    "squad_size": 22,
+    "mapped": 0,
+    "pct_top5": 0.0,
+    "avg_tier": 1.5,
+    "squad_idx": 1.0499999999999998,
+    "ucl_count": 0,
+    "top_league": "Unknown",
+    "top_league_n": 0,
+    "league_dist": {}
+  }
+]

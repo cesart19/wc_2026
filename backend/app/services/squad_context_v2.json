@@ -1,0 +1,482 @@
+[
+  {
+    "team": "England",
+    "squad_context_score": 50.9,
+    "raw_score": 52.29,
+    "coverage": 0.943,
+    "total": 35,
+    "mapped": 33,
+    "confed": "UEFA",
+    "confed_default": 28.0
+  },
+  {
+    "team": "France",
+    "squad_context_score": 49.76,
+    "raw_score": 51.65,
+    "coverage": 0.92,
+    "total": 25,
+    "mapped": 23,
+    "confed": "UEFA",
+    "confed_default": 28.0
+  },
+  {
+    "team": "Spain",
+    "squad_context_score": 45.76,
+    "raw_score": 47.18,
+    "coverage": 0.926,
+    "total": 27,
+    "mapped": 25,
+    "confed": "UEFA",
+    "confed_default": 28.0
+  },
+  {
+    "team": "Netherlands",
+    "squad_context_score": 44.73,
+    "raw_score": 44.73,
+    "coverage": 1.0,
+    "total": 25,
+    "mapped": 25,
+    "confed": "UEFA",
+    "confed_default": 28.0
+  },
+  {
+    "team": "Germany",
+    "squad_context_score": 44.22,
+    "raw_score": 44.22,
+    "coverage": 1.0,
+    "total": 26,
+    "mapped": 26,
+    "confed": "UEFA",
+    "confed_default": 28.0
+  },
+  {
+    "team": "Portugal",
+    "squad_context_score": 43.06,
+    "raw_score": 45.8,
+    "coverage": 0.846,
+    "total": 26,
+    "mapped": 22,
+    "confed": "UEFA",
+    "confed_default": 28.0
+  },
+  {
+    "team": "Switzerland",
+    "squad_context_score": 40.98,
+    "raw_score": 42.68,
+    "coverage": 0.885,
+    "total": 26,
+    "mapped": 23,
+    "confed": "UEFA",
+    "confed_default": 28.0
+  },
+  {
+    "team": "Belgium",
+    "squad_context_score": 40.54,
+    "raw_score": 41.04,
+    "coverage": 0.962,
+    "total": 26,
+    "mapped": 25,
+    "confed": "UEFA",
+    "confed_default": 28.0
+  },
+  {
+    "team": "Croatia",
+    "squad_context_score": 40.21,
+    "raw_score": 43.88,
+    "coverage": 0.769,
+    "total": 26,
+    "mapped": 20,
+    "confed": "UEFA",
+    "confed_default": 28.0
+  },
+  {
+    "team": "Argentina",
+    "squad_context_score": 39.11,
+    "raw_score": 41.09,
+    "coverage": 0.897,
+    "total": 29,
+    "mapped": 26,
+    "confed": "CONMEBOL",
+    "confed_default": 22.0
+  },
+  {
+    "team": "Austria",
+    "squad_context_score": 39.07,
+    "raw_score": 43.14,
+    "coverage": 0.731,
+    "total": 26,
+    "mapped": 19,
+    "confed": "UEFA",
+    "confed_default": 28.0
+  },
+  {
+    "team": "Brazil",
+    "squad_context_score": 36.74,
+    "raw_score": 42.48,
+    "coverage": 0.72,
+    "total": 25,
+    "mapped": 18,
+    "confed": "CONMEBOL",
+    "confed_default": 22.0
+  },
+  {
+    "team": "Norway",
+    "squad_context_score": 36.54,
+    "raw_score": 40.05,
+    "coverage": 0.708,
+    "total": 24,
+    "mapped": 17,
+    "confed": "UEFA",
+    "confed_default": 28.0
+  },
+  {
+    "team": "Senegal",
+    "squad_context_score": 35.29,
+    "raw_score": 41.64,
+    "coverage": 0.786,
+    "total": 28,
+    "mapped": 22,
+    "confed": "CAF",
+    "confed_default": 12.0
+  },
+  {
+    "team": "Turkey",
+    "squad_context_score": 35.17,
+    "raw_score": 40.11,
+    "coverage": 0.593,
+    "total": 27,
+    "mapped": 16,
+    "confed": "UEFA",
+    "confed_default": 28.0
+  },
+  {
+    "team": "Scotland",
+    "squad_context_score": 34.23,
+    "raw_score": 42.72,
+    "coverage": 0.423,
+    "total": 26,
+    "mapped": 11,
+    "confed": "UEFA",
+    "confed_default": 28.0
+  },
+  {
+    "team": "Sweden",
+    "squad_context_score": 33.84,
+    "raw_score": 41.15,
+    "coverage": 0.731,
+    "total": 26,
+    "mapped": 19,
+    "confed": "AFC",
+    "confed_default": 14.0
+  },
+  {
+    "team": "Uruguay",
+    "squad_context_score": 33.72,
+    "raw_score": 40.22,
+    "coverage": 0.643,
+    "total": 28,
+    "mapped": 18,
+    "confed": "CONMEBOL",
+    "confed_default": 22.0
+  },
+  {
+    "team": "Morocco",
+    "squad_context_score": 32.3,
+    "raw_score": 41.43,
+    "coverage": 0.69,
+    "total": 29,
+    "mapped": 20,
+    "confed": "CAF",
+    "confed_default": 12.0
+  },
+  {
+    "team": "Colombia",
+    "squad_context_score": 32.03,
+    "raw_score": 36.48,
+    "coverage": 0.692,
+    "total": 26,
+    "mapped": 18,
+    "confed": "CONMEBOL",
+    "confed_default": 22.0
+  },
+  {
+    "team": "Czechia",
+    "squad_context_score": 31.5,
+    "raw_score": 32.95,
+    "coverage": 0.708,
+    "total": 24,
+    "mapped": 17,
+    "confed": "UEFA",
+    "confed_default": 28.0
+  },
+  {
+    "team": "Japan",
+    "squad_context_score": 31.14,
+    "raw_score": 37.46,
+    "coverage": 0.731,
+    "total": 26,
+    "mapped": 19,
+    "confed": "AFC",
+    "confed_default": 14.0
+  },
+  {
+    "team": "United States",
+    "squad_context_score": 30.62,
+    "raw_score": 40.71,
+    "coverage": 0.556,
+    "total": 27,
+    "mapped": 15,
+    "confed": "CONCACAF",
+    "confed_default": 18.0
+  },
+  {
+    "team": "Ivory Coast",
+    "squad_context_score": 29.55,
+    "raw_score": 38.84,
+    "coverage": 0.654,
+    "total": 26,
+    "mapped": 17,
+    "confed": "CAF",
+    "confed_default": 12.0
+  },
+  {
+    "team": "Ecuador",
+    "squad_context_score": 28.59,
+    "raw_score": 34.78,
+    "coverage": 0.516,
+    "total": 31,
+    "mapped": 16,
+    "confed": "CONMEBOL",
+    "confed_default": 22.0
+  },
+  {
+    "team": "Paraguay",
+    "squad_context_score": 28.48,
+    "raw_score": 32.52,
+    "coverage": 0.615,
+    "total": 26,
+    "mapped": 16,
+    "confed": "CONMEBOL",
+    "confed_default": 22.0
+  },
+  {
+    "team": "Ghana",
+    "squad_context_score": 26.53,
+    "raw_score": 42.1,
+    "coverage": 0.483,
+    "total": 29,
+    "mapped": 14,
+    "confed": "CAF",
+    "confed_default": 12.0
+  },
+  {
+    "team": "Algeria",
+    "squad_context_score": 25.69,
+    "raw_score": 41.88,
+    "coverage": 0.458,
+    "total": 24,
+    "mapped": 11,
+    "confed": "CAF",
+    "confed_default": 12.0
+  },
+  {
+    "team": "Congo DR",
+    "squad_context_score": 24.81,
+    "raw_score": 42.1,
+    "coverage": 0.385,
+    "total": 26,
+    "mapped": 10,
+    "confed": "AFC",
+    "confed_default": 14.0
+  },
+  {
+    "team": "Canada",
+    "squad_context_score": 21.75,
+    "raw_score": 42.35,
+    "coverage": 0.154,
+    "total": 26,
+    "mapped": 4,
+    "confed": "CONCACAF",
+    "confed_default": 18.0
+  },
+  {
+    "team": "Bosnia-Herzegovina",
+    "squad_context_score": 21.64,
+    "raw_score": 37.87,
+    "coverage": 0.32,
+    "total": 25,
+    "mapped": 8,
+    "confed": "AFC",
+    "confed_default": 14.0
+  },
+  {
+    "team": "South Korea",
+    "squad_context_score": 20.26,
+    "raw_score": 41.12,
+    "coverage": 0.231,
+    "total": 26,
+    "mapped": 6,
+    "confed": "AFC",
+    "confed_default": 14.0
+  },
+  {
+    "team": "Panama",
+    "squad_context_score": 20.25,
+    "raw_score": 35.27,
+    "coverage": 0.13,
+    "total": 23,
+    "mapped": 3,
+    "confed": "CONCACAF",
+    "confed_default": 18.0
+  },
+  {
+    "team": "Tunisia",
+    "squad_context_score": 19.94,
+    "raw_score": 38.1,
+    "coverage": 0.304,
+    "total": 23,
+    "mapped": 7,
+    "confed": "CAF",
+    "confed_default": 12.0
+  },
+  {
+    "team": "Cape Verde Islands",
+    "squad_context_score": 19.53,
+    "raw_score": 35.21,
+    "coverage": 0.261,
+    "total": 23,
+    "mapped": 6,
+    "confed": "AFC",
+    "confed_default": 14.0
+  },
+  {
+    "team": "Haiti",
+    "squad_context_score": 19.44,
+    "raw_score": 40.12,
+    "coverage": 0.208,
+    "total": 24,
+    "mapped": 5,
+    "confed": "AFC",
+    "confed_default": 14.0
+  },
+  {
+    "team": "Curaçao",
+    "squad_context_score": 19.31,
+    "raw_score": 31.25,
+    "coverage": 0.308,
+    "total": 26,
+    "mapped": 8,
+    "confed": "AFC",
+    "confed_default": 14.0
+  },
+  {
+    "team": "Egypt",
+    "squad_context_score": 19.0,
+    "raw_score": 50.51,
+    "coverage": 0.182,
+    "total": 22,
+    "mapped": 4,
+    "confed": "CAF",
+    "confed_default": 12.0
+  },
+  {
+    "team": "Australia",
+    "squad_context_score": 18.66,
+    "raw_score": 37.3,
+    "coverage": 0.2,
+    "total": 25,
+    "mapped": 5,
+    "confed": "AFC",
+    "confed_default": 14.0
+  },
+  {
+    "team": "Mexico",
+    "squad_context_score": 18.0,
+    "raw_score": 0.0,
+    "coverage": 0.0,
+    "total": 12,
+    "mapped": 0,
+    "confed": "CONCACAF",
+    "confed_default": 18.0
+  },
+  {
+    "team": "Uzbekistan",
+    "squad_context_score": 16.94,
+    "raw_score": 81.65,
+    "coverage": 0.043,
+    "total": 23,
+    "mapped": 1,
+    "confed": "AFC",
+    "confed_default": 14.0
+  },
+  {
+    "team": "New Zealand",
+    "squad_context_score": 16.09,
+    "raw_score": 40.1,
+    "coverage": 0.08,
+    "total": 25,
+    "mapped": 2,
+    "confed": "AFC",
+    "confed_default": 14.0
+  },
+  {
+    "team": "Jordan",
+    "squad_context_score": 15.27,
+    "raw_score": 36.8,
+    "coverage": 0.056,
+    "total": 18,
+    "mapped": 1,
+    "confed": "AFC",
+    "confed_default": 14.0
+  },
+  {
+    "team": "Saudi Arabia",
+    "squad_context_score": 15.2,
+    "raw_score": 36.8,
+    "coverage": 0.053,
+    "total": 19,
+    "mapped": 1,
+    "confed": "AFC",
+    "confed_default": 14.0
+  },
+  {
+    "team": "South Africa",
+    "squad_context_score": 14.64,
+    "raw_score": 41.0,
+    "coverage": 0.091,
+    "total": 22,
+    "mapped": 2,
+    "confed": "CAF",
+    "confed_default": 12.0
+  },
+  {
+    "team": "Iraq",
+    "squad_context_score": 14.64,
+    "raw_score": 31.4,
+    "coverage": 0.037,
+    "total": 27,
+    "mapped": 1,
+    "confed": "AFC",
+    "confed_default": 14.0
+  },
+  {
+    "team": "Iran",
+    "squad_context_score": 14.0,
+    "raw_score": 0.0,
+    "coverage": 0.0,
+    "total": 18,
+    "mapped": 0,
+    "confed": "AFC",
+    "confed_default": 14.0
+  },
+  {
+    "team": "Qatar",
+    "squad_context_score": 14.0,
+    "raw_score": 0.0,
+    "coverage": 0.0,
+    "total": 22,
+    "mapped": 0,
+    "confed": "AFC",
+    "confed_default": 14.0
+  }
+]

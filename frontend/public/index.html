@@ -7,23 +7,31 @@
   <link rel="stylesheet" href="/src/css/styles.css">
 </head>
 <body>
+
   <header>
-    <h1>Mundial FIFA 2026</h1>
+    <img class="logo" src="https://crests.football-data.org/wm26.png" alt="FIFA 2026">
+    <h1>FIFA World Cup 2026</h1>
+    <div class="refresh-info">Actualización en <span id="refresh-countdown">60</span>s</div>
   </header>
 
-  <main>
-    <section id="groups">
-      <h2>Grupos</h2>
-      <div id="groups-container"></div>
-    </section>
+  <nav class="tabs">
+    <button class="tab-btn active" data-tab="panel-groups">Grupos</button>
+    <button class="tab-btn" data-tab="panel-fixtures">Partidos</button>
+  </nav>
 
-    <section id="fixtures">
-      <h2>Partidos</h2>
-      <div id="fixtures-container"></div>
-    </section>
+  <main>
+    <div id="panel-groups" class="tab-panel active">
+      <div id="groups-container" class="loading">Cargando grupos...</div>
+    </div>
+
+    <div id="panel-fixtures" class="tab-panel">
+      <div id="fixtures-filters" class="fixtures-filters"></div>
+      <div id="fixtures-container" class="loading">Cargando partidos...</div>
+    </div>
   </main>
 
   <script src="/src/js/api.js"></script>
+  <script src="/src/js/third_place_lookup.js"></script>
   <script src="/src/js/app.js"></script>
 </body>
 </html>

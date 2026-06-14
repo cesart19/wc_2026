@@ -1,0 +1,4 @@
+{
+  "_comment": "Suplemento manual de squads WC 2026. Para equipos donde la API de football-data.org devuelve un squad incompleto, este archivo agrega los player_ids que ESTÁN en player_club_map.json pero no aparecen en el WC API squad. Se usa únicamente en la generación de squad_context_v3.json.",
+  "Mexico": [3293, 3305, 39635, 39330]
+}

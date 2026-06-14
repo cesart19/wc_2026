@@ -1,0 +1,4229 @@
+[
+  {
+    "score": 62.47,
+    "mapped": 1,
+    "total": 23,
+    "coverage": 0.043,
+    "top5_pct": 0.043,
+    "details": [
+      {
+        "name": "Abdukodir Khusanov",
+        "club": "Manchester City FC",
+        "league": "PL",
+        "score": 62.47
+      }
+    ],
+    "team": "Uzbekistan"
+  },
+  {
+    "score": 54.73,
+    "mapped": 23,
+    "total": 25,
+    "coverage": 0.92,
+    "top5_pct": 0.92,
+    "details": [
+      {
+        "name": "Eduardo Camavinga",
+        "club": "Real Madrid CF",
+        "league": "PD",
+        "score": 97.2
+      },
+      {
+        "name": "Aurélien Tchouameni",
+        "club": "Real Madrid CF",
+        "league": "PD",
+        "score": 97.2
+      },
+      {
+        "name": "Kylian Mbappé",
+        "club": "Real Madrid CF",
+        "league": "PD",
+        "score": 97.2
+      },
+      {
+        "name": "Michael Olise",
+        "club": "FC Bayern München",
+        "league": "BL1",
+        "score": 64.82
+      },
+      {
+        "name": "Dayot Upamecano",
+        "club": "FC Bayern München",
+        "league": "BL1",
+        "score": 64.82
+      },
+      {
+        "name": "Rayan Cherki",
+        "club": "Manchester City FC",
+        "league": "PL",
+        "score": 62.47
+      },
+      {
+        "name": "Malo Gusto",
+        "club": "Chelsea FC",
+        "league": "PL",
+        "score": 61.71
+      },
+      {
+        "name": "Maxence Lacroix",
+        "club": "Crystal Palace FC",
+        "league": "PL",
+        "score": 57.2
+      },
+      {
+        "name": "Hugo Ekitike",
+        "club": "Liverpool FC",
+        "league": "PL",
+        "score": 55.75
+      },
+      {
+        "name": "Ibrahima Konaté",
+        "club": "Liverpool FC",
+        "league": "PL",
+        "score": 55.75
+      },
+      {
+        "name": "Pierre Kalulu",
+        "club": "Juventus FC",
+        "league": "SA",
+        "score": 47.2
+      },
+      {
+        "name": "Mike Maignan",
+        "club": "AC Milan",
+        "league": "SA",
+        "score": 45.48
+      },
+      {
+        "name": "Adrien Rabiot",
+        "club": "AC Milan",
+        "league": "SA",
+        "score": 45.48
+      },
+      {
+        "name": "Marcus Thuram-Ulien",
+        "club": "FC Internazionale Milano",
+        "league": "SA",
+        "score": 43.81
+      },
+      {
+        "name": "Brice Samba",
+        "club": "Stade Rennais FC 1901",
+        "league": "FL1",
+        "score": 42.8
+      },
+      {
+        "name": "Lucas Chevalier",
+        "club": "Paris Saint-Germain FC",
+        "league": "FL1",
+        "score": 41.44
+      },
+      {
+        "name": "Warren Zaïre-Emery",
+        "club": "Paris Saint-Germain FC",
+        "league": "FL1",
+        "score": 41.44
+      },
+      {
+        "name": "Desire Doue",
+        "club": "Paris Saint-Germain FC",
+        "league": "FL1",
+        "score": 41.44
+      },
+      {
+        "name": "Ousmane Dembélé",
+        "club": "Paris Saint-Germain FC",
+        "league": "FL1",
+        "score": 41.44
+      },
+      {
+        "name": "Lucas Hernández",
+        "club": "Paris Saint-Germain FC",
+        "league": "FL1",
+        "score": 41.44
+      },
+      {
+        "name": "Lucas Digne",
+        "club": "Aston Villa FC",
+        "league": "PL",
+        "score": 41.08
+      },
+      {
+        "name": "Randal Kolo Muani",
+        "club": "Tottenham Hotspur FC",
+        "league": "PL",
+        "score": 40.0
+      },
+      {
+        "name": "Maghnes Akliouche",
+        "club": "AS Monaco FC",
+        "league": "FL1",
+        "score": 31.7
+      }
+    ],
+    "team": "France"
+  },
+  {
+    "score": 52.14,
+    "mapped": 25,
+    "total": 27,
+    "coverage": 0.926,
+    "top5_pct": 0.926,
+    "details": [
+      {
+        "name": "Dean Huijsen",
+        "club": "Real Madrid CF",
+        "league": "PD",
+        "score": 97.2
+      },
+      {
+        "name": "Joan García",
+        "club": "FC Barcelona",
+        "league": "PD",
+        "score": 65.3
+      },
+      {
+        "name": "Pau Cubarsí",
+        "club": "FC Barcelona",
+        "league": "PD",
+        "score": 65.3
+      },
+      {
+        "name": "Fermín López",
+        "club": "FC Barcelona",
+        "league": "PD",
+        "score": 65.3
+      },
+      {
+        "name": "Lamine Yamal",
+        "club": "FC Barcelona",
+        "league": "PD",
+        "score": 65.3
+      },
+      {
+        "name": "Pedri",
+        "club": "FC Barcelona",
+        "league": "PD",
+        "score": 65.3
+      },
+      {
+        "name": "Ferrán Torres",
+        "club": "FC Barcelona",
+        "league": "PD",
+        "score": 65.3
+      },
+      {
+        "name": "Dani Olmo",
+        "club": "FC Barcelona",
+        "league": "PD",
+        "score": 65.3
+      },
+      {
+        "name": "Rodri",
+        "club": "Manchester City FC",
+        "league": "PL",
+        "score": 62.47
+      },
+      {
+        "name": "Cucurella",
+        "club": "Chelsea FC",
+        "league": "PL",
+        "score": 61.71
+      },
+      {
+        "name": "Víctor Muñoz",
+        "club": "CA Osasuna",
+        "league": "PD",
+        "score": 54.0
+      },
+      {
+        "name": "Borja Iglesias",
+        "club": "RC Celta de Vigo",
+        "league": "PD",
+        "score": 54.0
+      },
+      {
+        "name": "Marcos Llorente",
+        "club": "Club Atlético de Madrid",
+        "league": "PD",
+        "score": 45.73
+      },
+      {
+        "name": "David Raya",
+        "club": "Arsenal FC",
+        "league": "PL",
+        "score": 41.91
+      },
+      {
+        "name": "Cristhian Mosquera",
+        "club": "Arsenal FC",
+        "league": "PL",
+        "score": 41.91
+      },
+      {
+        "name": "Martín Zubimendi",
+        "club": "Arsenal FC",
+        "league": "PL",
+        "score": 41.91
+      },
+      {
+        "name": "Unai Simón",
+        "club": "Athletic Club",
+        "league": "PD",
+        "score": 40.87
+      },
+      {
+        "name": "Aymeric Laporte",
+        "club": "Athletic Club",
+        "league": "PD",
+        "score": 40.87
+      },
+      {
+        "name": "Pedro Porro",
+        "club": "Tottenham Hotspur FC",
+        "league": "PL",
+        "score": 40.0
+      },
+      {
+        "name": "Pablo Fornals",
+        "club": "Real Betis Balompié",
+        "league": "PD",
+        "score": 38.1
+      },
+      {
+        "name": "Álex Remiro",
+        "club": "Real Sociedad de Fútbol",
+        "league": "PD",
+        "score": 37.75
+      },
+      {
+        "name": "Mikel Oyarzabal",
+        "club": "Real Sociedad de Fútbol",
+        "league": "PD",
+        "score": 37.75
+      },
+      {
+        "name": "Ander Barrenetxea",
+        "club": "Real Sociedad de Fútbol",
+        "league": "PD",
+        "score": 37.75
+      },
+      {
+        "name": "Carlos Soler",
+        "club": "Real Sociedad de Fútbol",
+        "league": "PD",
+        "score": 37.75
+      },
+      {
+        "name": "Alejandro Grimaldo",
+        "club": "Bayer 04 Leverkusen",
+        "league": "BL1",
+        "score": 34.78
+      }
+    ],
+    "team": "Spain"
+  },
+  {
+    "score": 50.27,
+    "mapped": 33,
+    "total": 35,
+    "coverage": 0.943,
+    "top5_pct": 0.943,
+    "details": [
+      {
+        "name": "Jude Bellingham",
+        "club": "Real Madrid CF",
+        "league": "PD",
+        "score": 97.2
+      },
+      {
+        "name": "Marcus Rashford",
+        "club": "FC Barcelona",
+        "league": "PD",
+        "score": 65.3
+      },
+      {
+        "name": "Harry Kane",
+        "club": "FC Bayern München",
+        "league": "BL1",
+        "score": 64.82
+      },
+      {
+        "name": "James Trafford",
+        "club": "Manchester City FC",
+        "league": "PL",
+        "score": 62.47
+      },
+      {
+        "name": "Nico O'Reilly",
+        "club": "Manchester City FC",
+        "league": "PL",
+        "score": 62.47
+      },
+      {
+        "name": "Phil Foden",
+        "club": "Manchester City FC",
+        "league": "PL",
+        "score": 62.47
+      },
+      {
+        "name": "John Stones",
+        "club": "Manchester City FC",
+        "league": "PL",
+        "score": 62.47
+      },
+      {
+        "name": "Marc Guéhi",
+        "club": "Manchester City FC",
+        "league": "PL",
+        "score": 62.47
+      },
+      {
+        "name": "Cole Palmer",
+        "club": "Chelsea FC",
+        "league": "PL",
+        "score": 61.71
+      },
+      {
+        "name": "Jason Steele",
+        "club": "Brighton & Hove Albion FC",
+        "league": "PL",
+        "score": 57.2
+      },
+      {
+        "name": "Dean Henderson",
+        "club": "Crystal Palace FC",
+        "league": "PL",
+        "score": 57.2
+      },
+      {
+        "name": "Dominic Calvert-Lewin",
+        "club": "Leeds United FC",
+        "league": "PL",
+        "score": 57.2
+      },
+      {
+        "name": "Jordan Henderson",
+        "club": "Brentford FC",
+        "league": "PL",
+        "score": 57.2
+      },
+      {
+        "name": "Harry Maguire",
+        "club": "Manchester United FC",
+        "league": "PL",
+        "score": 47.47
+      },
+      {
+        "name": "Kobbie Mainoo",
+        "club": "Manchester United FC",
+        "league": "PL",
+        "score": 47.47
+      },
+      {
+        "name": "Fikayo Tomori",
+        "club": "AC Milan",
+        "league": "SA",
+        "score": 45.48
+      },
+      {
+        "name": "Jarrod Bowen",
+        "club": "West Ham United FC",
+        "league": "PL",
+        "score": 42.34
+      },
+      {
+        "name": "Declan Rice",
+        "club": "Arsenal FC",
+        "league": "PL",
+        "score": 41.91
+      },
+      {
+        "name": "Ben White",
+        "club": "Arsenal FC",
+        "league": "PL",
+        "score": 41.91
+      },
+      {
+        "name": "Noni Madueke",
+        "club": "Arsenal FC",
+        "league": "PL",
+        "score": 41.91
+      },
+      {
+        "name": "Bukayo Saka",
+        "club": "Arsenal FC",
+        "league": "PL",
+        "score": 41.91
+      },
+      {
+        "name": "Ezri Konsa",
+        "club": "Aston Villa FC",
+        "league": "PL",
+        "score": 41.08
+      },
+      {
+        "name": "Morgan Rogers",
+        "club": "Aston Villa FC",
+        "league": "PL",
+        "score": 41.08
+      },
+      {
+        "name": "Jordan Pickford",
+        "club": "Everton FC",
+        "league": "PL",
+        "score": 40.26
+      },
+      {
+        "name": "James Garner",
+        "club": "Everton FC",
+        "league": "PL",
+        "score": 40.26
+      },
+      {
+        "name": "Elliot Anderson",
+        "club": "Nottingham Forest FC",
+        "league": "PL",
+        "score": 40.09
+      },
+      {
+        "name": "Dominic Solanke",
+        "club": "Tottenham Hotspur FC",
+        "league": "PL",
+        "score": 40.0
+      },
+      {
+        "name": "Djed Spence",
+        "club": "Tottenham Hotspur FC",
+        "league": "PL",
+        "score": 40.0
+      },
+      {
+        "name": "Aaron Ramsdale",
+        "club": "Newcastle United FC",
+        "league": "PL",
+        "score": 39.11
+      },
+      {
+        "name": "Harvey Barnes",
+        "club": "Newcastle United FC",
+        "league": "PL",
+        "score": 39.11
+      },
+      {
+        "name": "Anthony Gordon",
+        "club": "Newcastle United FC",
+        "league": "PL",
+        "score": 39.11
+      },
+      {
+        "name": "Dan Burn",
+        "club": "Newcastle United FC",
+        "league": "PL",
+        "score": 39.11
+      },
+      {
+        "name": "Valentino Livramento",
+        "club": "Newcastle United FC",
+        "league": "PL",
+        "score": 39.11
+      }
+    ],
+    "team": "England"
+  },
+  {
+    "score": 48.71,
+    "mapped": 26,
+    "total": 26,
+    "coverage": 1.0,
+    "top5_pct": 0.962,
+    "details": [
+      {
+        "name": "Antonio Rüdiger",
+        "club": "Real Madrid CF",
+        "league": "PD",
+        "score": 97.2
+      },
+      {
+        "name": "Manuel Neuer",
+        "club": "FC Bayern München",
+        "league": "BL1",
+        "score": 64.82
+      },
+      {
+        "name": "Lennart Karl",
+        "club": "FC Bayern München",
+        "league": "BL1",
+        "score": 64.82
+      },
+      {
+        "name": "Aleksandar Pavlović",
+        "club": "FC Bayern München",
+        "league": "BL1",
+        "score": 64.82
+      },
+      {
+        "name": "Jamal Musiala",
+        "club": "FC Bayern München",
+        "league": "BL1",
+        "score": 64.82
+      },
+      {
+        "name": "Leon Goretzka",
+        "club": "FC Bayern München",
+        "league": "BL1",
+        "score": 64.82
+      },
+      {
+        "name": "Joshua Kimmich",
+        "club": "FC Bayern München",
+        "league": "BL1",
+        "score": 64.82
+      },
+      {
+        "name": "Jonathan Tah",
+        "club": "FC Bayern München",
+        "league": "BL1",
+        "score": 64.82
+      },
+      {
+        "name": "Pascal Groß",
+        "club": "Brighton & Hove Albion FC",
+        "league": "PL",
+        "score": 57.2
+      },
+      {
+        "name": "Florian Wirtz",
+        "club": "Liverpool FC",
+        "league": "PL",
+        "score": 55.75
+      },
+      {
+        "name": "Oliver Baumann",
+        "club": "TSG 1899 Hoffenheim",
+        "league": "BL1",
+        "score": 47.8
+      },
+      {
+        "name": "Nadiem Amiri",
+        "club": "1. FSV Mainz 05",
+        "league": "BL1",
+        "score": 47.8
+      },
+      {
+        "name": "Kai Havertz",
+        "club": "Arsenal FC",
+        "league": "PL",
+        "score": 41.91
+      },
+      {
+        "name": "Nick Woltemade",
+        "club": "Newcastle United FC",
+        "league": "PL",
+        "score": 39.11
+      },
+      {
+        "name": "Malick Thiaw",
+        "club": "Newcastle United FC",
+        "league": "PL",
+        "score": 39.11
+      },
+      {
+        "name": "Maximilian Beier",
+        "club": "Borussia Dortmund",
+        "league": "BL1",
+        "score": 37.98
+      },
+      {
+        "name": "Felix Kalu Nmecha",
+        "club": "Borussia Dortmund",
+        "league": "BL1",
+        "score": 37.98
+      },
+      {
+        "name": "Nico Schlotterbeck",
+        "club": "Borussia Dortmund",
+        "league": "BL1",
+        "score": 37.98
+      },
+      {
+        "name": "Waldemar Anton",
+        "club": "Borussia Dortmund",
+        "league": "BL1",
+        "score": 37.98
+      },
+      {
+        "name": "Nathaniel Brown",
+        "club": "Eintracht Frankfurt",
+        "league": "BL1",
+        "score": 37.08
+      },
+      {
+        "name": "Alexander Nübel",
+        "club": "VfB Stuttgart",
+        "league": "BL1",
+        "score": 33.83
+      },
+      {
+        "name": "Angelo Stiller",
+        "club": "VfB Stuttgart",
+        "league": "BL1",
+        "score": 33.83
+      },
+      {
+        "name": "Jamie Leweling",
+        "club": "VfB Stuttgart",
+        "league": "BL1",
+        "score": 33.83
+      },
+      {
+        "name": "Deniz Undav",
+        "club": "VfB Stuttgart",
+        "league": "BL1",
+        "score": 33.83
+      },
+      {
+        "name": "David Raum",
+        "club": "RB Leipzig",
+        "league": "BL1",
+        "score": 33.46
+      },
+      {
+        "name": "Leroy Sané",
+        "club": "Galatasaray SK",
+        "league": "CL",
+        "score": 29.1
+      }
+    ],
+    "team": "Germany"
+  },
+  {
+    "score": 48.2,
+    "mapped": 2,
+    "total": 22,
+    "coverage": 0.091,
+    "top5_pct": 0.045,
+    "details": [
+      {
+        "name": "Lyle Foster",
+        "club": "Burnley FC",
+        "league": "PL",
+        "score": 57.2
+      },
+      {
+        "name": "Sphephelo Sithole",
+        "club": "CD Tondela",
+        "league": "PPL",
+        "score": 39.2
+      }
+    ],
+    "team": "South Africa"
+  },
+  {
+    "score": 47.44,
+    "mapped": 4,
+    "total": 22,
+    "coverage": 0.182,
+    "top5_pct": 0.182,
+    "details": [
+      {
+        "name": "Omar Marmoush",
+        "club": "Manchester City FC",
+        "league": "PL",
+        "score": 62.47
+      },
+      {
+        "name": "Haissem Hassan",
+        "club": "Real Oviedo",
+        "league": "PD",
+        "score": 54.0
+      },
+      {
+        "name": "Mostafa Mohamed",
+        "club": "FC Nantes",
+        "league": "FL1",
+        "score": 42.8
+      },
+      {
+        "name": "Mohamed Abdelmonem",
+        "club": "OGC Nice",
+        "league": "FL1",
+        "score": 30.47
+      }
+    ],
+    "team": "Egypt"
+  },
+  {
+    "score": 45.9,
+    "mapped": 22,
+    "total": 26,
+    "coverage": 0.846,
+    "top5_pct": 0.654,
+    "details": [
+      {
+        "name": "João Cancelo",
+        "club": "FC Barcelona",
+        "league": "PD",
+        "score": 65.3
+      },
+      {
+        "name": "Matheus Nunes",
+        "club": "Manchester City FC",
+        "league": "PL",
+        "score": 62.47
+      },
+      {
+        "name": "Rúben Dias",
+        "club": "Manchester City FC",
+        "league": "PL",
+        "score": 62.47
+      },
+      {
+        "name": "Bernardo Silva",
+        "club": "Manchester City FC",
+        "league": "PL",
+        "score": 62.47
+      },
+      {
+        "name": "Pedro Neto",
+        "club": "Chelsea FC",
+        "league": "PL",
+        "score": 61.71
+      },
+      {
+        "name": "Samuel Almeida Costa",
+        "club": "RCD Mallorca",
+        "league": "PD",
+        "score": 54.0
+      },
+      {
+        "name": "Diogo Dalot",
+        "club": "Manchester United FC",
+        "league": "PL",
+        "score": 47.47
+      },
+      {
+        "name": "Bruno Fernandes",
+        "club": "Manchester United FC",
+        "league": "PL",
+        "score": 47.47
+      },
+      {
+        "name": "Francisco Conceição",
+        "club": "Juventus FC",
+        "league": "SA",
+        "score": 47.2
+      },
+      {
+        "name": "Rafael Leão",
+        "club": "AC Milan",
+        "league": "SA",
+        "score": 45.48
+      },
+      {
+        "name": "Joao Neves",
+        "club": "Paris Saint-Germain FC",
+        "league": "FL1",
+        "score": 41.44
+      },
+      {
+        "name": "Vitinha",
+        "club": "Paris Saint-Germain FC",
+        "league": "FL1",
+        "score": 41.44
+      },
+      {
+        "name": "Nuno Mendes",
+        "club": "Paris Saint-Germain FC",
+        "league": "FL1",
+        "score": 41.44
+      },
+      {
+        "name": "Gonçalo Ramos",
+        "club": "Paris Saint-Germain FC",
+        "league": "FL1",
+        "score": 41.44
+      },
+      {
+        "name": "Renato Veiga",
+        "club": "Villarreal CF",
+        "league": "PD",
+        "score": 40.87
+      },
+      {
+        "name": "Tomas Araujo",
+        "club": "Sport Lisboa e Benfica",
+        "league": "CL",
+        "score": 39.69
+      },
+      {
+        "name": "José Sá",
+        "club": "Wolverhampton Wanderers FC",
+        "league": "PL",
+        "score": 38.79
+      },
+      {
+        "name": "Gonçalo Guedes",
+        "club": "Real Sociedad de Fútbol",
+        "league": "PD",
+        "score": 37.75
+      },
+      {
+        "name": "Diogo Costa",
+        "club": "FC Porto",
+        "league": "PPL",
+        "score": 36.18
+      },
+      {
+        "name": "Rui Silva",
+        "club": "Sporting Clube de Portugal",
+        "league": "CL",
+        "score": 31.57
+      },
+      {
+        "name": "Gonçalo Inácio",
+        "club": "Sporting Clube de Portugal",
+        "league": "CL",
+        "score": 31.57
+      },
+      {
+        "name": "Trincão",
+        "club": "Sporting Clube de Portugal",
+        "league": "CL",
+        "score": 31.57
+      }
+    ],
+    "team": "Portugal"
+  },
+  {
+    "score": 45.54,
+    "mapped": 18,
+    "total": 25,
+    "coverage": 0.72,
+    "top5_pct": 0.48,
+    "details": [
+      {
+        "name": "Vinicius Junior",
+        "club": "Real Madrid CF",
+        "league": "PD",
+        "score": 97.2
+      },
+      {
+        "name": "Raphinha",
+        "club": "FC Barcelona",
+        "league": "PD",
+        "score": 65.3
+      },
+      {
+        "name": "Rayan",
+        "club": "AFC Bournemouth",
+        "league": "PL",
+        "score": 57.2
+      },
+      {
+        "name": "Alisson Becker",
+        "club": "Liverpool FC",
+        "league": "PL",
+        "score": 55.75
+      },
+      {
+        "name": "Matheus Cunha",
+        "club": "Manchester United FC",
+        "league": "PL",
+        "score": 47.47
+      },
+      {
+        "name": "Casemiro",
+        "club": "Manchester United FC",
+        "league": "PL",
+        "score": 47.47
+      },
+      {
+        "name": "Bremer",
+        "club": "Juventus FC",
+        "league": "SA",
+        "score": 47.2
+      },
+      {
+        "name": "Gabriel Magalhães",
+        "club": "Arsenal FC",
+        "league": "PL",
+        "score": 41.91
+      },
+      {
+        "name": "Martinelli",
+        "club": "Arsenal FC",
+        "league": "PL",
+        "score": 41.91
+      },
+      {
+        "name": "Marquinhos",
+        "club": "Paris Saint-Germain FC",
+        "league": "FL1",
+        "score": 41.44
+      },
+      {
+        "name": "Bruno Guimarães",
+        "club": "Newcastle United FC",
+        "league": "PL",
+        "score": 39.11
+      },
+      {
+        "name": "Weverton",
+        "club": "SE Palmeiras",
+        "league": "BSA",
+        "score": 36.98
+      },
+      {
+        "name": "Danilo Luiz da Silva",
+        "club": "CR Flamengo",
+        "league": "BSA",
+        "score": 35.98
+      },
+      {
+        "name": "Léo Pereira",
+        "club": "CR Flamengo",
+        "league": "BSA",
+        "score": 35.98
+      },
+      {
+        "name": "Alex Sandro",
+        "club": "CR Flamengo",
+        "league": "BSA",
+        "score": 35.98
+      },
+      {
+        "name": "Danilo dos Santos de Oliveira",
+        "club": "Botafogo FR",
+        "league": "BSA",
+        "score": 33.8
+      },
+      {
+        "name": "Endrick",
+        "club": "Olympique Lyonnais",
+        "league": "FL1",
+        "score": 31.11
+      },
+      {
+        "name": "Neymar",
+        "club": "Santos FC",
+        "league": "BSA",
+        "score": 27.93
+      }
+    ],
+    "team": "Brazil"
+  },
+  {
+    "score": 45.42,
+    "mapped": 20,
+    "total": 29,
+    "coverage": 0.69,
+    "top5_pct": 0.483,
+    "details": [
+      {
+        "name": "Brahim Diaz",
+        "club": "Real Madrid CF",
+        "league": "PD",
+        "score": 97.2
+      },
+      {
+        "name": "Chadi Riad",
+        "club": "Crystal Palace FC",
+        "league": "PL",
+        "score": 57.2
+      },
+      {
+        "name": "Amine Adli",
+        "club": "AFC Bournemouth",
+        "league": "PL",
+        "score": 57.2
+      },
+      {
+        "name": "Issa Diop",
+        "club": "Fulham FC",
+        "league": "PL",
+        "score": 57.2
+      },
+      {
+        "name": "Azzedine Ounahi",
+        "club": "Girona FC",
+        "league": "PD",
+        "score": 54.0
+      },
+      {
+        "name": "Noussair Mazraoui",
+        "club": "Manchester United FC",
+        "league": "PL",
+        "score": 47.47
+      },
+      {
+        "name": "Yassir Zabiri",
+        "club": "Stade Rennais FC 1901",
+        "league": "FL1",
+        "score": 42.8
+      },
+      {
+        "name": "Abdelhamid Ait Boudlal",
+        "club": "Stade Rennais FC 1901",
+        "league": "FL1",
+        "score": 42.8
+      },
+      {
+        "name": "Gessime Yassine",
+        "club": "RC Strasbourg Alsace",
+        "league": "FL1",
+        "score": 42.8
+      },
+      {
+        "name": "Samir El Mourabet",
+        "club": "RC Strasbourg Alsace",
+        "league": "FL1",
+        "score": 42.8
+      },
+      {
+        "name": "Ayoub El Kaabi",
+        "club": "PAE Olympiakos SFP",
+        "league": "CL",
+        "score": 42.0
+      },
+      {
+        "name": "Achraf Hakimi",
+        "club": "Paris Saint-Germain FC",
+        "league": "FL1",
+        "score": 41.44
+      },
+      {
+        "name": "Rayane Bounida",
+        "club": "AFC Ajax",
+        "league": "CL",
+        "score": 41.24
+      },
+      {
+        "name": "Chemsdine Talbi",
+        "club": "Sunderland AFC",
+        "league": "PL",
+        "score": 39.11
+      },
+      {
+        "name": "Souffian El Karouani",
+        "club": "FC Utrecht",
+        "league": "DED",
+        "score": 36.8
+      },
+      {
+        "name": "Neil El Aynaoui",
+        "club": "AS Roma",
+        "league": "SA",
+        "score": 34.0
+      },
+      {
+        "name": "Bilal El Khannouss",
+        "club": "VfB Stuttgart",
+        "league": "BL1",
+        "score": 33.83
+      },
+      {
+        "name": "Oussama Targhalline",
+        "club": "Feyenoord Rotterdam",
+        "league": "DED",
+        "score": 33.74
+      },
+      {
+        "name": "Anass Salah-Eddine",
+        "club": "PSV",
+        "league": "CL",
+        "score": 32.4
+      },
+      {
+        "name": "Ismael Saibari",
+        "club": "PSV",
+        "league": "CL",
+        "score": 32.4
+      }
+    ],
+    "team": "Morocco"
+  },
+  {
+    "score": 45.1,
+    "mapped": 25,
+    "total": 25,
+    "coverage": 1.0,
+    "top5_pct": 0.8,
+    "details": [
+      {
+        "name": "Nathan Aké",
+        "club": "Manchester City FC",
+        "league": "PL",
+        "score": 62.47
+      },
+      {
+        "name": "Tijjani Reijnders",
+        "club": "Manchester City FC",
+        "league": "PL",
+        "score": 62.47
+      },
+      {
+        "name": "Jorrel Hato",
+        "club": "Chelsea FC",
+        "league": "PL",
+        "score": 61.71
+      },
+      {
+        "name": "Bart Verbruggen",
+        "club": "Brighton & Hove Albion FC",
+        "league": "PL",
+        "score": 57.2
+      },
+      {
+        "name": "Jan Paul van Hecke",
+        "club": "Brighton & Hove Albion FC",
+        "league": "PL",
+        "score": 57.2
+      },
+      {
+        "name": "Jeremie Frimpong",
+        "club": "Liverpool FC",
+        "league": "PL",
+        "score": 55.75
+      },
+      {
+        "name": "Ryan Gravenberch",
+        "club": "Liverpool FC",
+        "league": "PL",
+        "score": 55.75
+      },
+      {
+        "name": "Virgil van Dijk",
+        "club": "Liverpool FC",
+        "league": "PL",
+        "score": 55.75
+      },
+      {
+        "name": "Cody Gakpo",
+        "club": "Liverpool FC",
+        "league": "PL",
+        "score": 55.75
+      },
+      {
+        "name": "Teun Koopmeiners",
+        "club": "Juventus FC",
+        "league": "SA",
+        "score": 47.2
+      },
+      {
+        "name": "Justin Bijlow",
+        "club": "Genoa CFC",
+        "league": "SA",
+        "score": 45.6
+      },
+      {
+        "name": "Denzel Dumfries",
+        "club": "FC Internazionale Milano",
+        "league": "SA",
+        "score": 43.81
+      },
+      {
+        "name": "Stefan de Vrij",
+        "club": "FC Internazionale Milano",
+        "league": "SA",
+        "score": 43.81
+      },
+      {
+        "name": "Wout Weghorst",
+        "club": "AFC Ajax",
+        "league": "CL",
+        "score": 41.24
+      },
+      {
+        "name": "Xavi Simons",
+        "club": "Tottenham Hotspur FC",
+        "league": "PL",
+        "score": 40.0
+      },
+      {
+        "name": "Mickey van de Ven",
+        "club": "Tottenham Hotspur FC",
+        "league": "PL",
+        "score": 40.0
+      },
+      {
+        "name": "Brian Brobbey",
+        "club": "Sunderland AFC",
+        "league": "PL",
+        "score": 39.11
+      },
+      {
+        "name": "Lutsharel Geertruida",
+        "club": "Sunderland AFC",
+        "league": "PL",
+        "score": 39.11
+      },
+      {
+        "name": "Mark Flekken",
+        "club": "Bayer 04 Leverkusen",
+        "league": "BL1",
+        "score": 34.78
+      },
+      {
+        "name": "Donyell Malen",
+        "club": "AS Roma",
+        "league": "SA",
+        "score": 34.0
+      },
+      {
+        "name": "Luciano Valente",
+        "club": "Feyenoord Rotterdam",
+        "league": "DED",
+        "score": 33.74
+      },
+      {
+        "name": "Quinten Timber",
+        "club": "Olympique de Marseille",
+        "league": "FL1",
+        "score": 32.7
+      },
+      {
+        "name": "Jerdy Schouten",
+        "club": "PSV",
+        "league": "CL",
+        "score": 32.4
+      },
+      {
+        "name": "Noa Lang",
+        "club": "Galatasaray SK",
+        "league": "CL",
+        "score": 29.1
+      },
+      {
+        "name": "Kees Smit",
+        "club": "AZ",
+        "league": "DED",
+        "score": 26.74
+      }
+    ],
+    "team": "Netherlands"
+  },
+  {
+    "score": 44.36,
+    "mapped": 26,
+    "total": 29,
+    "coverage": 0.897,
+    "top5_pct": 0.621,
+    "details": [
+      {
+        "name": "Franco Mastantuono",
+        "club": "Real Madrid CF",
+        "league": "PD",
+        "score": 97.2
+      },
+      {
+        "name": "Enzo Fernández",
+        "club": "Chelsea FC",
+        "league": "PL",
+        "score": 61.71
+      },
+      {
+        "name": "Marcos Senesi",
+        "club": "AFC Bournemouth",
+        "league": "PL",
+        "score": 57.2
+      },
+      {
+        "name": "Alexis Mac Allister",
+        "club": "Liverpool FC",
+        "league": "PL",
+        "score": 55.75
+      },
+      {
+        "name": "Juan Musso",
+        "club": "Club Atlético de Madrid",
+        "league": "PD",
+        "score": 45.73
+      },
+      {
+        "name": "Giuliano Simeone",
+        "club": "Club Atlético de Madrid",
+        "league": "PD",
+        "score": 45.73
+      },
+      {
+        "name": "Julián Álvarez",
+        "club": "Club Atlético de Madrid",
+        "league": "PD",
+        "score": 45.73
+      },
+      {
+        "name": "Thiago Almada",
+        "club": "Club Atlético de Madrid",
+        "league": "PD",
+        "score": 45.73
+      },
+      {
+        "name": "Nahuel Molina",
+        "club": "Club Atlético de Madrid",
+        "league": "PD",
+        "score": 45.73
+      },
+      {
+        "name": "Nicolás González",
+        "club": "Club Atlético de Madrid",
+        "league": "PD",
+        "score": 45.73
+      },
+      {
+        "name": "Nico Paz",
+        "club": "Como 1907",
+        "league": "SA",
+        "score": 45.6
+      },
+      {
+        "name": "Maximo Perrone",
+        "club": "Como 1907",
+        "league": "SA",
+        "score": 45.6
+      },
+      {
+        "name": "Valentin Barco",
+        "club": "RC Strasbourg Alsace",
+        "league": "FL1",
+        "score": 42.8
+      },
+      {
+        "name": "Emiliano Martínez",
+        "club": "Aston Villa FC",
+        "league": "PL",
+        "score": 41.08
+      },
+      {
+        "name": "Christian Romero",
+        "club": "Tottenham Hotspur FC",
+        "league": "PL",
+        "score": 40.0
+      },
+      {
+        "name": "Gianluca Prestianni",
+        "club": "Sport Lisboa e Benfica",
+        "league": "CL",
+        "score": 39.69
+      },
+      {
+        "name": "Nicolás Otamendi",
+        "club": "Sport Lisboa e Benfica",
+        "league": "CL",
+        "score": 39.69
+      },
+      {
+        "name": "Agustin Giay",
+        "club": "SE Palmeiras",
+        "league": "BSA",
+        "score": 36.98
+      },
+      {
+        "name": "José Manuel López",
+        "club": "SE Palmeiras",
+        "league": "BSA",
+        "score": 36.98
+      },
+      {
+        "name": "Lucas Martínez Quarta",
+        "club": "CA River Plate",
+        "league": "CLI",
+        "score": 35.41
+      },
+      {
+        "name": "Marcos Acuña",
+        "club": "CA River Plate",
+        "league": "CLI",
+        "score": 35.41
+      },
+      {
+        "name": "Gabriel Rojas",
+        "club": "Racing Club",
+        "league": "CLI",
+        "score": 34.8
+      },
+      {
+        "name": "Exequiel Palacios",
+        "club": "Bayer 04 Leverkusen",
+        "league": "BL1",
+        "score": 34.78
+      },
+      {
+        "name": "Leandro Paredes",
+        "club": "CA Boca Juniors",
+        "league": "CLI",
+        "score": 34.47
+      },
+      {
+        "name": "Géronimo Rulli",
+        "club": "Olympique de Marseille",
+        "league": "FL1",
+        "score": 32.7
+      },
+      {
+        "name": "Nicolás Tagliafico",
+        "club": "Olympique Lyonnais",
+        "league": "FL1",
+        "score": 31.11
+      }
+    ],
+    "team": "Argentina"
+  },
+  {
+    "score": 43.86,
+    "mapped": 19,
+    "total": 26,
+    "coverage": 0.731,
+    "top5_pct": 0.654,
+    "details": [
+      {
+        "name": "David Alaba",
+        "club": "Real Madrid CF",
+        "league": "PD",
+        "score": 97.2
+      },
+      {
+        "name": "Konrad Laimer",
+        "club": "FC Bayern München",
+        "league": "BL1",
+        "score": 64.82
+      },
+      {
+        "name": "David Affengruber",
+        "club": "Elche CF",
+        "league": "PD",
+        "score": 54.0
+      },
+      {
+        "name": "Alexander Prass",
+        "club": "TSG 1899 Hoffenheim",
+        "league": "BL1",
+        "score": 47.8
+      },
+      {
+        "name": "Philipp Lienhart",
+        "club": "SC Freiburg",
+        "league": "BL1",
+        "score": 47.8
+      },
+      {
+        "name": "Michael Gregoritsch",
+        "club": "FC Augsburg",
+        "league": "BL1",
+        "score": 47.8
+      },
+      {
+        "name": "Philipp Mwene",
+        "club": "1. FSV Mainz 05",
+        "league": "BL1",
+        "score": 47.8
+      },
+      {
+        "name": "Stefan Posch",
+        "club": "1. FSV Mainz 05",
+        "league": "BL1",
+        "score": 47.8
+      },
+      {
+        "name": "Kevin Danso",
+        "club": "Tottenham Hotspur FC",
+        "league": "PL",
+        "score": 40.0
+      },
+      {
+        "name": "Carney Chukwuemeka",
+        "club": "Borussia Dortmund",
+        "league": "BL1",
+        "score": 37.98
+      },
+      {
+        "name": "Marcel Sabitzer",
+        "club": "Borussia Dortmund",
+        "league": "BL1",
+        "score": 37.98
+      },
+      {
+        "name": "Romano Schmid",
+        "club": "SV Werder Bremen",
+        "league": "BL1",
+        "score": 34.35
+      },
+      {
+        "name": "Marco Friedl",
+        "club": "SV Werder Bremen",
+        "league": "BL1",
+        "score": 34.35
+      },
+      {
+        "name": "Nicolas  Seiwald",
+        "club": "RB Leipzig",
+        "league": "BL1",
+        "score": 33.46
+      },
+      {
+        "name": "Christoph Baumgartner",
+        "club": "RB Leipzig",
+        "league": "BL1",
+        "score": 33.46
+      },
+      {
+        "name": "Xaver Schlager",
+        "club": "RB Leipzig",
+        "league": "BL1",
+        "score": 33.46
+      },
+      {
+        "name": "Patrick Wimmer",
+        "club": "VfL Wolfsburg",
+        "league": "BL1",
+        "score": 33.33
+      },
+      {
+        "name": "Paul Wanner",
+        "club": "PSV",
+        "league": "CL",
+        "score": 32.4
+      },
+      {
+        "name": "Florian Grillitsch",
+        "club": "Sporting Clube de Braga",
+        "league": "PPL",
+        "score": 27.58
+      }
+    ],
+    "team": "Austria"
+  },
+  {
+    "score": 43.78,
+    "mapped": 25,
+    "total": 26,
+    "coverage": 0.962,
+    "top5_pct": 0.769,
+    "details": [
+      {
+        "name": "Thibaut Courtois",
+        "club": "Real Madrid CF",
+        "league": "PD",
+        "score": 97.2
+      },
+      {
+        "name": "Jeremy Doku",
+        "club": "Manchester City FC",
+        "league": "PL",
+        "score": 62.47
+      },
+      {
+        "name": "Maxim De Cuyper",
+        "club": "Brighton & Hove Albion FC",
+        "league": "PL",
+        "score": 57.2
+      },
+      {
+        "name": "Timothy Castagne",
+        "club": "Fulham FC",
+        "league": "PL",
+        "score": 57.2
+      },
+      {
+        "name": "Axel Witsel",
+        "club": "Girona FC",
+        "league": "PD",
+        "score": 54.0
+      },
+      {
+        "name": "Senne Lammens",
+        "club": "Manchester United FC",
+        "league": "PL",
+        "score": 47.47
+      },
+      {
+        "name": "Koni De Winter",
+        "club": "AC Milan",
+        "league": "SA",
+        "score": 45.48
+      },
+      {
+        "name": "Alexis Saelemaekers",
+        "club": "AC Milan",
+        "league": "SA",
+        "score": 45.48
+      },
+      {
+        "name": "Mike Penders",
+        "club": "RC Strasbourg Alsace",
+        "league": "FL1",
+        "score": 42.8
+      },
+      {
+        "name": "Nathan Ngoy",
+        "club": "Lille OSC",
+        "league": "FL1",
+        "score": 42.8
+      },
+      {
+        "name": "Matias Fernandez-Pardo",
+        "club": "Lille OSC",
+        "league": "FL1",
+        "score": 42.8
+      },
+      {
+        "name": "Diego Moreira",
+        "club": "RC Strasbourg Alsace",
+        "league": "FL1",
+        "score": 42.8
+      },
+      {
+        "name": "Thomas Meunier",
+        "club": "Lille OSC",
+        "league": "FL1",
+        "score": 42.8
+      },
+      {
+        "name": "Leandro Trossard",
+        "club": "Arsenal FC",
+        "league": "PL",
+        "score": 41.91
+      },
+      {
+        "name": "Amadou Onana",
+        "club": "Aston Villa FC",
+        "league": "PL",
+        "score": 41.08
+      },
+      {
+        "name": "Youri Tielemans",
+        "club": "Aston Villa FC",
+        "league": "PL",
+        "score": 41.08
+      },
+      {
+        "name": "Dodi Lukebakio",
+        "club": "Sport Lisboa e Benfica",
+        "league": "CL",
+        "score": 39.69
+      },
+      {
+        "name": "Arthur Theate",
+        "club": "Eintracht Frankfurt",
+        "league": "BL1",
+        "score": 37.08
+      },
+      {
+        "name": "Charles De Ketelaere",
+        "club": "Atalanta BC",
+        "league": "SA",
+        "score": 34.94
+      },
+      {
+        "name": "Romelu Lukaku",
+        "club": "SSC Napoli",
+        "league": "SA",
+        "score": 33.75
+      },
+      {
+        "name": "Kevin De Bruyne",
+        "club": "SSC Napoli",
+        "league": "SA",
+        "score": 33.75
+      },
+      {
+        "name": "Zeno Debast",
+        "club": "Sporting Clube de Portugal",
+        "league": "CL",
+        "score": 31.57
+      },
+      {
+        "name": "Brandon Mechele",
+        "club": "Club Brugge KV",
+        "league": "CL",
+        "score": 26.4
+      },
+      {
+        "name": "Hans Vanaken",
+        "club": "Club Brugge KV",
+        "league": "CL",
+        "score": 26.4
+      },
+      {
+        "name": "Joaquin Seys",
+        "club": "Club Brugge KV",
+        "league": "CL",
+        "score": 26.4
+      }
+    ],
+    "team": "Belgium"
+  },
+  {
+    "score": 43.75,
+    "mapped": 11,
+    "total": 26,
+    "coverage": 0.423,
+    "top5_pct": 0.423,
+    "details": [
+      {
+        "name": "Ben Doak",
+        "club": "AFC Bournemouth",
+        "league": "PL",
+        "score": 57.2
+      },
+      {
+        "name": "Aaron Hickey",
+        "club": "Brentford FC",
+        "league": "PL",
+        "score": 57.2
+      },
+      {
+        "name": "Ryan Christie",
+        "club": "AFC Bournemouth",
+        "league": "PL",
+        "score": 57.2
+      },
+      {
+        "name": "Andrew Robertson",
+        "club": "Liverpool FC",
+        "league": "PL",
+        "score": 55.75
+      },
+      {
+        "name": "John McGinn",
+        "club": "Aston Villa FC",
+        "league": "PL",
+        "score": 41.08
+      },
+      {
+        "name": "Nathan Patterson",
+        "club": "Everton FC",
+        "league": "PL",
+        "score": 40.26
+      },
+      {
+        "name": "Angus Gunn",
+        "club": "Nottingham Forest FC",
+        "league": "PL",
+        "score": 40.09
+      },
+      {
+        "name": "Billy Gilmour",
+        "club": "SSC Napoli",
+        "league": "SA",
+        "score": 33.75
+      },
+      {
+        "name": "Scott McTominay",
+        "club": "SSC Napoli",
+        "league": "SA",
+        "score": 33.75
+      },
+      {
+        "name": "Che Adams",
+        "club": "Torino FC",
+        "league": "SA",
+        "score": 32.71
+      },
+      {
+        "name": "Lewis Ferguson",
+        "club": "Bologna FC 1909",
+        "league": "SA",
+        "score": 32.31
+      }
+    ],
+    "team": "Scotland"
+  },
+  {
+    "score": 43.69,
+    "mapped": 20,
+    "total": 26,
+    "coverage": 0.769,
+    "top5_pct": 0.654,
+    "details": [
+      {
+        "name": "Josip Stanišić",
+        "club": "FC Bayern München",
+        "league": "BL1",
+        "score": 64.82
+      },
+      {
+        "name": "Joško Gvardiol",
+        "club": "Manchester City FC",
+        "league": "PL",
+        "score": 62.47
+      },
+      {
+        "name": "Mateo Kovačić",
+        "club": "Manchester City FC",
+        "league": "PL",
+        "score": 62.47
+      },
+      {
+        "name": "Ante Budimir",
+        "club": "CA Osasuna",
+        "league": "PD",
+        "score": 54.0
+      },
+      {
+        "name": "Igor Matanovic",
+        "club": "SC Freiburg",
+        "league": "BL1",
+        "score": 47.8
+      },
+      {
+        "name": "Kristijan Jakić",
+        "club": "FC Augsburg",
+        "league": "BL1",
+        "score": 47.8
+      },
+      {
+        "name": "Andrej Kramarić",
+        "club": "TSG 1899 Hoffenheim",
+        "league": "BL1",
+        "score": 47.8
+      },
+      {
+        "name": "Martin Baturina",
+        "club": "Como 1907",
+        "league": "SA",
+        "score": 45.6
+      },
+      {
+        "name": "Marin Pongračić",
+        "club": "ACF Fiorentina",
+        "league": "SA",
+        "score": 45.6
+      },
+      {
+        "name": "Luka Modrić",
+        "club": "AC Milan",
+        "league": "SA",
+        "score": 45.48
+      },
+      {
+        "name": "Petar Sucic",
+        "club": "FC Internazionale Milano",
+        "league": "SA",
+        "score": 43.81
+      },
+      {
+        "name": "Josip Šutalo",
+        "club": "AFC Ajax",
+        "league": "CL",
+        "score": 41.24
+      },
+      {
+        "name": "Luka Sučić",
+        "club": "Real Sociedad de Fútbol",
+        "league": "PD",
+        "score": 37.75
+      },
+      {
+        "name": "Duje Ćaleta-Car",
+        "club": "Real Sociedad de Fútbol",
+        "league": "PD",
+        "score": 37.75
+      },
+      {
+        "name": "Mario Pašalić",
+        "club": "Atalanta BC",
+        "league": "SA",
+        "score": 34.94
+      },
+      {
+        "name": "Luka Vušković",
+        "club": "Hamburger SV",
+        "league": "BL1",
+        "score": 34.88
+      },
+      {
+        "name": "Nikola Vlašić",
+        "club": "Torino FC",
+        "league": "SA",
+        "score": 32.71
+      },
+      {
+        "name": "Ivan Perišić",
+        "club": "PSV",
+        "league": "CL",
+        "score": 32.4
+      },
+      {
+        "name": "Nikola Moro",
+        "club": "Bologna FC 1909",
+        "league": "SA",
+        "score": 32.31
+      },
+      {
+        "name": "Dominik Kotarski",
+        "club": "FC København",
+        "league": "CL",
+        "score": 22.17
+      }
+    ],
+    "team": "Croatia"
+  },
+  {
+    "score": 43.59,
+    "mapped": 5,
+    "total": 25,
+    "coverage": 0.2,
+    "top5_pct": 0.12,
+    "details": [
+      {
+        "name": "Maty Ryan",
+        "club": "Levante UD",
+        "league": "PD",
+        "score": 54.0
+      },
+      {
+        "name": "Connor Metcalfe",
+        "club": "FC St. Pauli 1910",
+        "league": "BL1",
+        "score": 47.8
+      },
+      {
+        "name": "Alessandro Circati",
+        "club": "Parma Calcio 1913",
+        "league": "SA",
+        "score": 45.6
+      },
+      {
+        "name": "Ajdin Hrustic",
+        "club": "Heracles Almelo",
+        "league": "DED",
+        "score": 36.8
+      },
+      {
+        "name": "Jordan Bos",
+        "club": "Feyenoord Rotterdam",
+        "league": "DED",
+        "score": 33.74
+      }
+    ],
+    "team": "Australia"
+  },
+  {
+    "score": 43.59,
+    "mapped": 19,
+    "total": 26,
+    "coverage": 0.731,
+    "top5_pct": 0.577,
+    "details": [
+      {
+        "name": "Yasin Ayari",
+        "club": "Brighton & Hove Albion FC",
+        "league": "PL",
+        "score": 57.2
+      },
+      {
+        "name": "Hjalmar Ekdal",
+        "club": "Burnley FC",
+        "league": "PL",
+        "score": 57.2
+      },
+      {
+        "name": "Gabriel Gudmundsson",
+        "club": "Leeds United FC",
+        "league": "PL",
+        "score": 57.2
+      },
+      {
+        "name": "Alexander Isak",
+        "club": "Liverpool FC",
+        "league": "PL",
+        "score": 55.75
+      },
+      {
+        "name": "Carl Starfelt",
+        "club": "RC Celta de Vigo",
+        "league": "PD",
+        "score": 54.0
+      },
+      {
+        "name": "Eric Smith",
+        "club": "FC St. Pauli 1910",
+        "league": "BL1",
+        "score": 47.8
+      },
+      {
+        "name": "Emil Holm",
+        "club": "Juventus FC",
+        "league": "SA",
+        "score": 47.2
+      },
+      {
+        "name": "Jesper Karlström",
+        "club": "Udinese Calcio",
+        "league": "SA",
+        "score": 45.6
+      },
+      {
+        "name": "Besfort Zeneli",
+        "club": "Royale Union Saint-Gilloise",
+        "league": "CL",
+        "score": 42.0
+      },
+      {
+        "name": "Ken Sema",
+        "club": "Paphos FC",
+        "league": "CL",
+        "score": 42.0
+      },
+      {
+        "name": "Viktor Gyökeres",
+        "club": "Arsenal FC",
+        "league": "PL",
+        "score": 41.91
+      },
+      {
+        "name": "Victor Nilsson-Lindelöf",
+        "club": "Aston Villa FC",
+        "league": "PL",
+        "score": 41.08
+      },
+      {
+        "name": "Lucas Bergvall",
+        "club": "Tottenham Hotspur FC",
+        "league": "PL",
+        "score": 40.0
+      },
+      {
+        "name": "Anthony Elanga",
+        "club": "Newcastle United FC",
+        "league": "PL",
+        "score": 39.11
+      },
+      {
+        "name": "Daniel Svensson",
+        "club": "Borussia Dortmund",
+        "league": "BL1",
+        "score": 37.98
+      },
+      {
+        "name": "Isak Hien",
+        "club": "Atalanta BC",
+        "league": "SA",
+        "score": 34.94
+      },
+      {
+        "name": "Mattias Svanberg",
+        "club": "VfL Wolfsburg",
+        "league": "BL1",
+        "score": 33.33
+      },
+      {
+        "name": "Gustaf Lagerbielke",
+        "club": "Sporting Clube de Braga",
+        "league": "PPL",
+        "score": 27.58
+      },
+      {
+        "name": "Gustaf Nilsson",
+        "club": "Club Brugge KV",
+        "league": "CL",
+        "score": 26.4
+      }
+    ],
+    "team": "Sweden"
+  },
+  {
+    "score": 43.51,
+    "mapped": 6,
+    "total": 26,
+    "coverage": 0.231,
+    "top5_pct": 0.192,
+    "details": [
+      {
+        "name": "Min-Jae Kim",
+        "club": "FC Bayern München",
+        "league": "BL1",
+        "score": 64.82
+      },
+      {
+        "name": "Jae-sung Lee",
+        "club": "1. FSV Mainz 05",
+        "league": "BL1",
+        "score": 47.8
+      },
+      {
+        "name": "Kang-in Lee",
+        "club": "Paris Saint-Germain FC",
+        "league": "FL1",
+        "score": 41.44
+      },
+      {
+        "name": "Hwang Heechan",
+        "club": "Wolverhampton Wanderers FC",
+        "league": "PL",
+        "score": 38.79
+      },
+      {
+        "name": "Jens Castrop",
+        "club": "Borussia Mönchengladbach",
+        "league": "BL1",
+        "score": 34.47
+      },
+      {
+        "name": "In-beom Hwang",
+        "club": "Feyenoord Rotterdam",
+        "league": "DED",
+        "score": 33.74
+      }
+    ],
+    "team": "South Korea"
+  },
+  {
+    "score": 43.03,
+    "mapped": 23,
+    "total": 26,
+    "coverage": 0.885,
+    "top5_pct": 0.885,
+    "details": [
+      {
+        "name": "Zeki Amdouni",
+        "club": "Burnley FC",
+        "league": "PL",
+        "score": 57.2
+      },
+      {
+        "name": "Noah Okafor",
+        "club": "Leeds United FC",
+        "league": "PL",
+        "score": 57.2
+      },
+      {
+        "name": "Eray Cömert",
+        "club": "Valencia CF",
+        "league": "PD",
+        "score": 54.0
+      },
+      {
+        "name": "Ruben Vargas",
+        "club": "Sevilla FC",
+        "league": "PD",
+        "score": 48.89
+      },
+      {
+        "name": "Djibril Sow",
+        "club": "Sevilla FC",
+        "league": "PD",
+        "score": 48.89
+      },
+      {
+        "name": "Johan Manzambi",
+        "club": "SC Freiburg",
+        "league": "BL1",
+        "score": 47.8
+      },
+      {
+        "name": "Fabian Rieder",
+        "club": "FC Augsburg",
+        "league": "BL1",
+        "score": 47.8
+      },
+      {
+        "name": "Silvan Widmer",
+        "club": "1. FSV Mainz 05",
+        "league": "BL1",
+        "score": 47.8
+      },
+      {
+        "name": "Michel Aebischer",
+        "club": "AC Pisa 1909",
+        "league": "SA",
+        "score": 45.6
+      },
+      {
+        "name": "Ardon Jasari",
+        "club": "AC Milan",
+        "league": "SA",
+        "score": 45.48
+      },
+      {
+        "name": "Manuel Akanji",
+        "club": "FC Internazionale Milano",
+        "league": "SA",
+        "score": 43.81
+      },
+      {
+        "name": "Yvon Mvogo",
+        "club": "FC Lorient",
+        "league": "FL1",
+        "score": 42.8
+      },
+      {
+        "name": "Breel Embolo",
+        "club": "Stade Rennais FC 1901",
+        "league": "FL1",
+        "score": 42.8
+      },
+      {
+        "name": "Dan Ndoye",
+        "club": "Nottingham Forest FC",
+        "league": "PL",
+        "score": 40.09
+      },
+      {
+        "name": "Granit Xhaka",
+        "club": "Sunderland AFC",
+        "league": "PL",
+        "score": 39.11
+      },
+      {
+        "name": "Ricardo Rodriguez",
+        "club": "Real Betis Balompié",
+        "league": "PD",
+        "score": 38.1
+      },
+      {
+        "name": "Gregor Kobel",
+        "club": "Borussia Dortmund",
+        "league": "BL1",
+        "score": 37.98
+      },
+      {
+        "name": "Aurele Amenda",
+        "club": "Eintracht Frankfurt",
+        "league": "BL1",
+        "score": 37.08
+      },
+      {
+        "name": "Miro Muheim",
+        "club": "Hamburger SV",
+        "league": "BL1",
+        "score": 34.88
+      },
+      {
+        "name": "Nico Elvedi",
+        "club": "Borussia Mönchengladbach",
+        "league": "BL1",
+        "score": 34.47
+      },
+      {
+        "name": "Luca Jaquez",
+        "club": "VfB Stuttgart",
+        "league": "BL1",
+        "score": 33.83
+      },
+      {
+        "name": "Remo Freuler",
+        "club": "Bologna FC 1909",
+        "league": "SA",
+        "score": 32.31
+      },
+      {
+        "name": "Denis Zakaria",
+        "club": "AS Monaco FC",
+        "league": "FL1",
+        "score": 31.7
+      }
+    ],
+    "team": "Switzerland"
+  },
+  {
+    "score": 42.94,
+    "mapped": 4,
+    "total": 26,
+    "coverage": 0.154,
+    "top5_pct": 0.154,
+    "details": [
+      {
+        "name": "Jonathan David",
+        "club": "Juventus FC",
+        "league": "SA",
+        "score": 47.2
+      },
+      {
+        "name": "Jacen Russell-Rowe",
+        "club": "Toulouse FC",
+        "league": "FL1",
+        "score": 42.8
+      },
+      {
+        "name": "Tani Oluwaseyi",
+        "club": "Villarreal CF",
+        "league": "PD",
+        "score": 40.87
+      },
+      {
+        "name": "Tajon Buchanan",
+        "club": "Villarreal CF",
+        "league": "PD",
+        "score": 40.87
+      }
+    ],
+    "team": "Canada"
+  },
+  {
+    "score": 42.88,
+    "mapped": 18,
+    "total": 28,
+    "coverage": 0.643,
+    "top5_pct": 0.25,
+    "details": [
+      {
+        "name": "Federico Valverde",
+        "club": "Real Madrid CF",
+        "league": "PD",
+        "score": 97.2
+      },
+      {
+        "name": "Ronald Araújo",
+        "club": "FC Barcelona",
+        "league": "PD",
+        "score": 65.3
+      },
+      {
+        "name": "Federico Viñas",
+        "club": "Real Oviedo",
+        "league": "PD",
+        "score": 54.0
+      },
+      {
+        "name": "Nicolas Fonseca",
+        "club": "Real Oviedo",
+        "league": "PD",
+        "score": 54.0
+      },
+      {
+        "name": "Manuel Ugarte",
+        "club": "Manchester United FC",
+        "league": "PL",
+        "score": 47.47
+      },
+      {
+        "name": "Santiago Bueno",
+        "club": "Wolverhampton Wanderers FC",
+        "league": "PL",
+        "score": 38.79
+      },
+      {
+        "name": "Joaquín Piquerez",
+        "club": "SE Palmeiras",
+        "league": "BSA",
+        "score": 36.98
+      },
+      {
+        "name": "Emiliano Martínez",
+        "club": "SE Palmeiras",
+        "league": "BSA",
+        "score": 36.98
+      },
+      {
+        "name": "Facundo Torres Pérez",
+        "club": "SE Palmeiras",
+        "league": "BSA",
+        "score": 36.98
+      },
+      {
+        "name": "Guillermo Varela",
+        "club": "CR Flamengo",
+        "league": "BSA",
+        "score": 35.98
+      },
+      {
+        "name": "Matías Viña",
+        "club": "CR Flamengo",
+        "league": "BSA",
+        "score": 35.98
+      },
+      {
+        "name": "Giorgian De Arrascaeta",
+        "club": "CR Flamengo",
+        "league": "BSA",
+        "score": 35.98
+      },
+      {
+        "name": "Nicolas de la Cruz",
+        "club": "CR Flamengo",
+        "league": "BSA",
+        "score": 35.98
+      },
+      {
+        "name": "Fernando Muslera",
+        "club": "Estudiantes de La Plata",
+        "league": "CLI",
+        "score": 34.8
+      },
+      {
+        "name": "Agustín Canobbio",
+        "club": "Fluminense FC",
+        "league": "BSA",
+        "score": 33.8
+      },
+      {
+        "name": "Mathías Olivera",
+        "club": "SSC Napoli",
+        "league": "SA",
+        "score": 33.75
+      },
+      {
+        "name": "Maximiliano Araújo",
+        "club": "Sporting Clube de Portugal",
+        "league": "CL",
+        "score": 31.57
+      },
+      {
+        "name": "Sergio Rochet",
+        "club": "SC Internacional",
+        "league": "BSA",
+        "score": 26.39
+      }
+    ],
+    "team": "Uruguay"
+  },
+  {
+    "score": 42.8,
+    "mapped": 19,
+    "total": 26,
+    "coverage": 0.731,
+    "top5_pct": 0.5,
+    "details": [
+      {
+        "name": "Hiroki Ito",
+        "club": "FC Bayern München",
+        "league": "BL1",
+        "score": 64.82
+      },
+      {
+        "name": "Ao Tanaka",
+        "club": "Leeds United FC",
+        "league": "PL",
+        "score": 57.2
+      },
+      {
+        "name": "Daichi Kamada",
+        "club": "Crystal Palace FC",
+        "league": "PL",
+        "score": 57.2
+      },
+      {
+        "name": "Wataru Endō",
+        "club": "Liverpool FC",
+        "league": "PL",
+        "score": 55.75
+      },
+      {
+        "name": "Kaishu Sano",
+        "club": "1. FSV Mainz 05",
+        "league": "BL1",
+        "score": 47.8
+      },
+      {
+        "name": "Yuito Suzuki",
+        "club": "SC Freiburg",
+        "league": "BL1",
+        "score": 47.8
+      },
+      {
+        "name": "Zion Suzuki",
+        "club": "Parma Calcio 1913",
+        "league": "SA",
+        "score": 45.6
+      },
+      {
+        "name": "Ayumu Seko",
+        "club": "Le Havre AC",
+        "league": "FL1",
+        "score": 42.8
+      },
+      {
+        "name": "Keito Nakamura",
+        "club": "Stade Rennais FC 1901",
+        "league": "FL1",
+        "score": 42.8
+      },
+      {
+        "name": "Ko Itakura",
+        "club": "AFC Ajax",
+        "league": "CL",
+        "score": 41.24
+      },
+      {
+        "name": "Takehiro Tomiyasu",
+        "club": "AFC Ajax",
+        "league": "CL",
+        "score": 41.24
+      },
+      {
+        "name": "Takefusa Kubo",
+        "club": "Real Sociedad de Fútbol",
+        "league": "PD",
+        "score": 37.75
+      },
+      {
+        "name": "Ritsu Doan",
+        "club": "Eintracht Frankfurt",
+        "league": "BL1",
+        "score": 37.08
+      },
+      {
+        "name": "Koki Ogawa",
+        "club": "NEC",
+        "league": "DED",
+        "score": 36.8
+      },
+      {
+        "name": "Yukinari Sugawara",
+        "club": "SV Werder Bremen",
+        "league": "BL1",
+        "score": 34.35
+      },
+      {
+        "name": "Tsuyoshi Watanabe",
+        "club": "Feyenoord Rotterdam",
+        "league": "DED",
+        "score": 33.74
+      },
+      {
+        "name": "Ayase Ueda",
+        "club": "Feyenoord Rotterdam",
+        "league": "DED",
+        "score": 33.74
+      },
+      {
+        "name": "Kento Shiogai",
+        "club": "VfL Wolfsburg",
+        "league": "BL1",
+        "score": 33.33
+      },
+      {
+        "name": "Junnosuke Suzuki",
+        "club": "FC København",
+        "league": "CL",
+        "score": 22.17
+      }
+    ],
+    "team": "Japan"
+  },
+  {
+    "score": 42.8,
+    "mapped": 10,
+    "total": 26,
+    "coverage": 0.385,
+    "top5_pct": 0.385,
+    "details": [
+      {
+        "name": "Axel Tuanzebe",
+        "club": "Burnley FC",
+        "league": "PL",
+        "score": 57.2
+      },
+      {
+        "name": "Charles Pickel",
+        "club": "RCD Espanyol de Barcelona",
+        "league": "PD",
+        "score": 54.0
+      },
+      {
+        "name": "Lionel Mpasi",
+        "club": "Le Havre AC",
+        "league": "FL1",
+        "score": 42.8
+      },
+      {
+        "name": "Ngal'ayel Mukau",
+        "club": "Lille OSC",
+        "league": "FL1",
+        "score": 42.8
+      },
+      {
+        "name": "Chancel Mbemba",
+        "club": "Lille OSC",
+        "league": "FL1",
+        "score": 42.8
+      },
+      {
+        "name": "Aaron Wan-Bissaka",
+        "club": "West Ham United FC",
+        "league": "PL",
+        "score": 42.34
+      },
+      {
+        "name": "Noah Sadiki",
+        "club": "Sunderland AFC",
+        "league": "PL",
+        "score": 39.11
+      },
+      {
+        "name": "Yoane Wissa",
+        "club": "Newcastle United FC",
+        "league": "PL",
+        "score": 39.11
+      },
+      {
+        "name": "Cédric Bakambu",
+        "club": "Real Betis Balompié",
+        "league": "PD",
+        "score": 38.1
+      },
+      {
+        "name": "Arthur Masuaku",
+        "club": "Racing Club de Lens",
+        "league": "FL1",
+        "score": 29.76
+      }
+    ],
+    "team": "Congo DR"
+  },
+  {
+    "score": 42.8,
+    "mapped": 1,
+    "total": 18,
+    "coverage": 0.056,
+    "top5_pct": 0.056,
+    "details": [
+      {
+        "name": "Musa Al Taamari",
+        "club": "Stade Rennais FC 1901",
+        "league": "FL1",
+        "score": 42.8
+      }
+    ],
+    "team": "Jordan"
+  },
+  {
+    "score": 41.69,
+    "mapped": 15,
+    "total": 27,
+    "coverage": 0.556,
+    "top5_pct": 0.519,
+    "details": [
+      {
+        "name": "Brenden Aaronson",
+        "club": "Leeds United FC",
+        "league": "PL",
+        "score": 57.2
+      },
+      {
+        "name": "Chris Richards",
+        "club": "Crystal Palace FC",
+        "league": "PL",
+        "score": 57.2
+      },
+      {
+        "name": "Antonee Robinson",
+        "club": "Fulham FC",
+        "league": "PL",
+        "score": 57.2
+      },
+      {
+        "name": "Weston McKennie",
+        "club": "Juventus FC",
+        "league": "SA",
+        "score": 47.2
+      },
+      {
+        "name": "Johnny",
+        "club": "Club Atlético de Madrid",
+        "league": "PD",
+        "score": 45.73
+      },
+      {
+        "name": "Christian Pulisic",
+        "club": "AC Milan",
+        "league": "SA",
+        "score": 45.48
+      },
+      {
+        "name": "Mark McKenzie",
+        "club": "Toulouse FC",
+        "league": "FL1",
+        "score": 42.8
+      },
+      {
+        "name": "Alex Freeman",
+        "club": "Villarreal CF",
+        "league": "PD",
+        "score": 40.87
+      },
+      {
+        "name": "Malik Tillman",
+        "club": "Bayer 04 Leverkusen",
+        "league": "BL1",
+        "score": 34.78
+      },
+      {
+        "name": "Gio Reyna",
+        "club": "Borussia Mönchengladbach",
+        "league": "BL1",
+        "score": 34.47
+      },
+      {
+        "name": "Joseph Scally",
+        "club": "Borussia Mönchengladbach",
+        "league": "BL1",
+        "score": 34.47
+      },
+      {
+        "name": "Tim Weah",
+        "club": "Olympique de Marseille",
+        "league": "FL1",
+        "score": 32.7
+      },
+      {
+        "name": "Ricardo Pepi",
+        "club": "PSV",
+        "league": "CL",
+        "score": 32.4
+      },
+      {
+        "name": "Folarin Balogun",
+        "club": "AS Monaco FC",
+        "league": "FL1",
+        "score": 31.7
+      },
+      {
+        "name": "Tanner Tessmann",
+        "club": "Olympique Lyonnais",
+        "league": "FL1",
+        "score": 31.11
+      }
+    ],
+    "team": "United States"
+  },
+  {
+    "score": 41.31,
+    "mapped": 22,
+    "total": 28,
+    "coverage": 0.786,
+    "top5_pct": 0.714,
+    "details": [
+      {
+        "name": "Nicolas Jackson",
+        "club": "FC Bayern München",
+        "league": "BL1",
+        "score": 64.82
+      },
+      {
+        "name": "Mamadou Sarr",
+        "club": "Chelsea FC",
+        "league": "PL",
+        "score": 61.71
+      },
+      {
+        "name": "Ismaïla Sarr",
+        "club": "Crystal Palace FC",
+        "league": "PL",
+        "score": 57.2
+      },
+      {
+        "name": "Nobel Mendy",
+        "club": "Rayo Vallecano de Madrid",
+        "league": "PD",
+        "score": 54.0
+      },
+      {
+        "name": "Pathé Ciss",
+        "club": "Rayo Vallecano de Madrid",
+        "league": "PD",
+        "score": 54.0
+      },
+      {
+        "name": "Assane Diao",
+        "club": "Como 1907",
+        "league": "SA",
+        "score": 45.6
+      },
+      {
+        "name": "Mory Diaw",
+        "club": "Le Havre AC",
+        "league": "FL1",
+        "score": 42.8
+      },
+      {
+        "name": "Habib Diallo",
+        "club": "FC Metz",
+        "league": "FL1",
+        "score": 42.8
+      },
+      {
+        "name": "Ibrahim M'Baye",
+        "club": "Paris Saint-Germain FC",
+        "league": "FL1",
+        "score": 41.44
+      },
+      {
+        "name": "Pape Gueye",
+        "club": "Villarreal CF",
+        "league": "PD",
+        "score": 40.87
+      },
+      {
+        "name": "Iliman Ndiaye",
+        "club": "Everton FC",
+        "league": "PL",
+        "score": 40.26
+      },
+      {
+        "name": "Idrissa Gana Guèye",
+        "club": "Everton FC",
+        "league": "PL",
+        "score": 40.26
+      },
+      {
+        "name": "Pape Sarr",
+        "club": "Tottenham Hotspur FC",
+        "league": "PL",
+        "score": 40.0
+      },
+      {
+        "name": "Habib Diarra",
+        "club": "Sunderland AFC",
+        "league": "PL",
+        "score": 39.11
+      },
+      {
+        "name": "Boulaye Dia",
+        "club": "SS Lazio",
+        "league": "SA",
+        "score": 32.95
+      },
+      {
+        "name": "Lamine Camara",
+        "club": "AS Monaco FC",
+        "league": "FL1",
+        "score": 31.7
+      },
+      {
+        "name": "Krépin Diatta",
+        "club": "AS Monaco FC",
+        "league": "FL1",
+        "score": 31.7
+      },
+      {
+        "name": "Moussa Niakhaté",
+        "club": "Olympique Lyonnais",
+        "league": "FL1",
+        "score": 31.11
+      },
+      {
+        "name": "Yehvann Diouf",
+        "club": "OGC Nice",
+        "league": "FL1",
+        "score": 30.47
+      },
+      {
+        "name": "Antoine Mendy",
+        "club": "OGC Nice",
+        "league": "FL1",
+        "score": 30.47
+      },
+      {
+        "name": "Ismail Jakobs",
+        "club": "Galatasaray SK",
+        "league": "CL",
+        "score": 29.1
+      },
+      {
+        "name": "Mamadou Diakhon",
+        "club": "Club Brugge KV",
+        "league": "CL",
+        "score": 26.4
+      }
+    ],
+    "team": "Senegal"
+  },
+  {
+    "score": 41.08,
+    "mapped": 16,
+    "total": 27,
+    "coverage": 0.593,
+    "top5_pct": 0.333,
+    "details": [
+      {
+        "name": "Arda Guler",
+        "club": "Real Madrid CF",
+        "league": "PD",
+        "score": 97.2
+      },
+      {
+        "name": "Ferdi Kadıoğlu",
+        "club": "Brighton & Hove Albion FC",
+        "league": "PL",
+        "score": 57.2
+      },
+      {
+        "name": "Ozan Kabak",
+        "club": "TSG 1899 Hoffenheim",
+        "league": "BL1",
+        "score": 47.8
+      },
+      {
+        "name": "Altay Bayındır",
+        "club": "Manchester United FC",
+        "league": "PL",
+        "score": 47.47
+      },
+      {
+        "name": "Kenan Yıldız",
+        "club": "Juventus FC",
+        "league": "SA",
+        "score": 47.2
+      },
+      {
+        "name": "Hakan Çalhanoğlu",
+        "club": "FC Internazionale Milano",
+        "league": "SA",
+        "score": 43.81
+      },
+      {
+        "name": "Salih Özcan",
+        "club": "Borussia Dortmund",
+        "league": "BL1",
+        "score": 37.98
+      },
+      {
+        "name": "Deniz Gul",
+        "club": "FC Porto",
+        "league": "PPL",
+        "score": 36.18
+      },
+      {
+        "name": "Zeki Çelik",
+        "club": "AS Roma",
+        "league": "SA",
+        "score": 34.0
+      },
+      {
+        "name": "Atakan Karazor",
+        "club": "VfB Stuttgart",
+        "league": "BL1",
+        "score": 33.83
+      },
+      {
+        "name": "Uğurcan Çakır",
+        "club": "Galatasaray SK",
+        "league": "CL",
+        "score": 29.1
+      },
+      {
+        "name": "Abdülkerim Bardakcı",
+        "club": "Galatasaray SK",
+        "league": "CL",
+        "score": 29.1
+      },
+      {
+        "name": "Evren Eren Elmalı",
+        "club": "Galatasaray SK",
+        "league": "CL",
+        "score": 29.1
+      },
+      {
+        "name": "Kaan Ayhan",
+        "club": "Galatasaray SK",
+        "league": "CL",
+        "score": 29.1
+      },
+      {
+        "name": "Baris Yilmaz",
+        "club": "Galatasaray SK",
+        "league": "CL",
+        "score": 29.1
+      },
+      {
+        "name": "Yunus Akgün",
+        "club": "Galatasaray SK",
+        "league": "CL",
+        "score": 29.1
+      }
+    ],
+    "team": "Turkey"
+  },
+  {
+    "score": 40.87,
+    "mapped": 3,
+    "total": 23,
+    "coverage": 0.13,
+    "top5_pct": 0.043,
+    "details": [
+      {
+        "name": "Martín Krug",
+        "club": "Levante UD",
+        "league": "PD",
+        "score": 54.0
+      },
+      {
+        "name": "Luis Mejía",
+        "club": "Club Nacional de Football",
+        "league": "CLI",
+        "score": 34.8
+      },
+      {
+        "name": "Kadir Barría",
+        "club": "Botafogo FR",
+        "league": "BSA",
+        "score": 33.8
+      }
+    ],
+    "team": "Panama"
+  },
+  {
+    "score": 40.81,
+    "mapped": 17,
+    "total": 24,
+    "coverage": 0.708,
+    "top5_pct": 0.542,
+    "details": [
+      {
+        "name": "Erling Haaland",
+        "club": "Manchester City FC",
+        "league": "PL",
+        "score": 62.47
+      },
+      {
+        "name": "Oscar Bobb",
+        "club": "Fulham FC",
+        "league": "PL",
+        "score": 57.2
+      },
+      {
+        "name": "Kristoffer Ajer",
+        "club": "Brentford FC",
+        "league": "PL",
+        "score": 57.2
+      },
+      {
+        "name": "Sander Berge",
+        "club": "Fulham FC",
+        "league": "PL",
+        "score": 57.2
+      },
+      {
+        "name": "Ørjan Nyland",
+        "club": "Sevilla FC",
+        "league": "PD",
+        "score": 48.89
+      },
+      {
+        "name": "Alexander Sørloth",
+        "club": "Club Atlético de Madrid",
+        "league": "PD",
+        "score": 45.73
+      },
+      {
+        "name": "Kristian Thorstvedt",
+        "club": "US Sassuolo Calcio",
+        "league": "SA",
+        "score": 45.6
+      },
+      {
+        "name": "Leo Østigård",
+        "club": "Genoa CFC",
+        "league": "SA",
+        "score": 45.6
+      },
+      {
+        "name": "Morten Thorsby",
+        "club": "US Cremonese",
+        "league": "SA",
+        "score": 45.6
+      },
+      {
+        "name": "Andreas Schjelderup",
+        "club": "Sport Lisboa e Benfica",
+        "league": "CL",
+        "score": 39.69
+      },
+      {
+        "name": "Julian Ryerson",
+        "club": "Borussia Dortmund",
+        "league": "BL1",
+        "score": 37.98
+      },
+      {
+        "name": "Antonio Nusa",
+        "club": "RB Leipzig",
+        "league": "BL1",
+        "score": 33.46
+      },
+      {
+        "name": "Marcus Pedersen",
+        "club": "Torino FC",
+        "league": "SA",
+        "score": 32.71
+      },
+      {
+        "name": "Torbjørn Heggem",
+        "club": "Bologna FC 1909",
+        "league": "SA",
+        "score": 32.31
+      },
+      {
+        "name": "Patrick Berg",
+        "club": "FK Bodø/Glimt",
+        "league": "CL",
+        "score": 17.35
+      },
+      {
+        "name": "Odin Lurås Bjørtuft",
+        "club": "FK Bodø/Glimt",
+        "league": "CL",
+        "score": 17.35
+      },
+      {
+        "name": "Jens Hauge",
+        "club": "FK Bodø/Glimt",
+        "league": "CL",
+        "score": 17.35
+      }
+    ],
+    "team": "Norway"
+  },
+  {
+    "score": 40.76,
+    "mapped": 7,
+    "total": 23,
+    "coverage": 0.304,
+    "top5_pct": 0.261,
+    "details": [
+      {
+        "name": "Hannibal Mejbri",
+        "club": "Burnley FC",
+        "league": "PL",
+        "score": 57.2
+      },
+      {
+        "name": "Ismaël Gharbi",
+        "club": "FC Augsburg",
+        "league": "BL1",
+        "score": 47.8
+      },
+      {
+        "name": "Rani Khedira",
+        "club": "1. FC Union Berlin",
+        "league": "BL1",
+        "score": 47.8
+      },
+      {
+        "name": "Montassar Talbi",
+        "club": "FC Lorient",
+        "league": "FL1",
+        "score": 42.8
+      },
+      {
+        "name": "Ellyes Skhiri",
+        "club": "Eintracht Frankfurt",
+        "league": "BL1",
+        "score": 37.08
+      },
+      {
+        "name": "Ali El Abdi",
+        "club": "OGC Nice",
+        "league": "FL1",
+        "score": 30.47
+      },
+      {
+        "name": "Elias Achouri",
+        "club": "FC København",
+        "league": "CL",
+        "score": 22.17
+      }
+    ],
+    "team": "Tunisia"
+  },
+  {
+    "score": 40.14,
+    "mapped": 18,
+    "total": 26,
+    "coverage": 0.692,
+    "top5_pct": 0.308,
+    "details": [
+      {
+        "name": "Luis Díaz",
+        "club": "FC Bayern München",
+        "league": "BL1",
+        "score": 64.82
+      },
+      {
+        "name": "Daniel Muñoz",
+        "club": "Crystal Palace FC",
+        "league": "PL",
+        "score": 57.2
+      },
+      {
+        "name": "Jefferson Lerma",
+        "club": "Crystal Palace FC",
+        "league": "PL",
+        "score": 57.2
+      },
+      {
+        "name": "Johan Mojica",
+        "club": "RCD Mallorca",
+        "league": "PD",
+        "score": 54.0
+      },
+      {
+        "name": "Juan Cabal",
+        "club": "Juventus FC",
+        "league": "SA",
+        "score": 47.2
+      },
+      {
+        "name": "Deiver Machado",
+        "club": "FC Nantes",
+        "league": "FL1",
+        "score": 42.8
+      },
+      {
+        "name": "Richard Rios",
+        "club": "Sport Lisboa e Benfica",
+        "league": "CL",
+        "score": 39.69
+      },
+      {
+        "name": "Yerson Mosquera",
+        "club": "Wolverhampton Wanderers FC",
+        "league": "PL",
+        "score": 38.79
+      },
+      {
+        "name": "Jorge Carrascal",
+        "club": "CR Flamengo",
+        "league": "BSA",
+        "score": 35.98
+      },
+      {
+        "name": "Kevin Castaño",
+        "club": "CA River Plate",
+        "league": "CLI",
+        "score": 35.41
+      },
+      {
+        "name": "David Ospina",
+        "club": "CDC Atlético Nacional",
+        "league": "CLI",
+        "score": 34.8
+      },
+      {
+        "name": "Álvaro Montero",
+        "club": "CA Vélez Sarsfield",
+        "league": "CLI",
+        "score": 34.8
+      },
+      {
+        "name": "Santiago Arias",
+        "club": "EC Bahia",
+        "league": "CLI",
+        "score": 34.8
+      },
+      {
+        "name": "Jhon Lucumí",
+        "club": "Bologna FC 1909",
+        "league": "SA",
+        "score": 32.31
+      },
+      {
+        "name": "Luis Suárez",
+        "club": "Sporting Clube de Portugal",
+        "league": "CL",
+        "score": 31.57
+      },
+      {
+        "name": "Davinson Sánchez",
+        "club": "Galatasaray SK",
+        "league": "CL",
+        "score": 29.1
+      },
+      {
+        "name": "Rafael Borré",
+        "club": "SC Internacional",
+        "league": "BSA",
+        "score": 26.39
+      },
+      {
+        "name": "Johan Carbonero",
+        "club": "SC Internacional",
+        "league": "CLI",
+        "score": 25.59
+      }
+    ],
+    "team": "Colombia"
+  },
+  {
+    "score": 39.71,
+    "mapped": 11,
+    "total": 24,
+    "coverage": 0.458,
+    "top5_pct": 0.417,
+    "details": [
+      {
+        "name": "Rayan Aït Nouri",
+        "club": "Manchester City FC",
+        "league": "PL",
+        "score": 62.47
+      },
+      {
+        "name": "Rafik Belghali",
+        "club": "Hellas Verona FC",
+        "league": "SA",
+        "score": 45.6
+      },
+      {
+        "name": "Kilian Belazzoug",
+        "club": "Stade Rennais FC 1901",
+        "league": "FL1",
+        "score": 42.8
+      },
+      {
+        "name": "Aïssa Mandi",
+        "club": "Lille OSC",
+        "league": "FL1",
+        "score": 42.8
+      },
+      {
+        "name": "Ramy Bensebaini",
+        "club": "Borussia Dortmund",
+        "league": "BL1",
+        "score": 37.98
+      },
+      {
+        "name": "Fares Chaïbi",
+        "club": "Eintracht Frankfurt",
+        "league": "BL1",
+        "score": 37.08
+      },
+      {
+        "name": "Ramiz Zerrouki",
+        "club": "FC Twente '65",
+        "league": "DED",
+        "score": 36.8
+      },
+      {
+        "name": "Ibrahim Maza",
+        "club": "Bayer 04 Leverkusen",
+        "league": "BL1",
+        "score": 34.78
+      },
+      {
+        "name": "Mohammed Amoura",
+        "club": "VfL Wolfsburg",
+        "league": "BL1",
+        "score": 33.33
+      },
+      {
+        "name": "Amine Gouiri",
+        "club": "Olympique de Marseille",
+        "league": "FL1",
+        "score": 32.7
+      },
+      {
+        "name": "Hicham Boudaoui",
+        "club": "OGC Nice",
+        "league": "FL1",
+        "score": 30.47
+      }
+    ],
+    "team": "Algeria"
+  },
+  {
+    "score": 39.31,
+    "mapped": 14,
+    "total": 29,
+    "coverage": 0.483,
+    "top5_pct": 0.414,
+    "details": [
+      {
+        "name": "Antoine Semenyo",
+        "club": "Manchester City FC",
+        "league": "PL",
+        "score": 62.47
+      },
+      {
+        "name": "Kwasi Sibo",
+        "club": "Real Oviedo",
+        "league": "PD",
+        "score": 54.0
+      },
+      {
+        "name": "Derrick Köhn",
+        "club": "1. FC Union Berlin",
+        "league": "BL1",
+        "score": 47.8
+      },
+      {
+        "name": "Ibrahim Sulemana",
+        "club": "Cagliari Calcio",
+        "league": "SA",
+        "score": 45.6
+      },
+      {
+        "name": "Derrick Luckassen",
+        "club": "Paphos FC",
+        "league": "CL",
+        "score": 42.0
+      },
+      {
+        "name": "Thomas Partey",
+        "club": "Villarreal CF",
+        "league": "PD",
+        "score": 40.87
+      },
+      {
+        "name": "Kamal Deen Sulemana",
+        "club": "Atalanta BC",
+        "league": "SA",
+        "score": 34.94
+      },
+      {
+        "name": "Ransford Königsdörffer",
+        "club": "Hamburger SV",
+        "league": "BL1",
+        "score": 34.88
+      },
+      {
+        "name": "Francis Amuzu",
+        "club": "Grêmio FBPA",
+        "league": "BSA",
+        "score": 33.8
+      },
+      {
+        "name": "Jonas Adjei Adjetey",
+        "club": "VfL Wolfsburg",
+        "league": "BL1",
+        "score": 33.33
+      },
+      {
+        "name": "Kojo Peprah Oppong",
+        "club": "OGC Nice",
+        "league": "FL1",
+        "score": 30.47
+      },
+      {
+        "name": "Marvin Senaya",
+        "club": "AJ Auxerre",
+        "league": "FL1",
+        "score": 30.07
+      },
+      {
+        "name": "Gideon Mensah",
+        "club": "AJ Auxerre",
+        "league": "FL1",
+        "score": 30.07
+      },
+      {
+        "name": "Elisha Owusu",
+        "club": "AJ Auxerre",
+        "league": "FL1",
+        "score": 30.07
+      }
+    ],
+    "team": "Ghana"
+  },
+  {
+    "score": 39.16,
+    "mapped": 6,
+    "total": 23,
+    "coverage": 0.261,
+    "top5_pct": 0.043,
+    "details": [
+      {
+        "name": "Logan Costa",
+        "club": "Villarreal CF",
+        "league": "PD",
+        "score": 40.87
+      },
+      {
+        "name": "Sidny Lopes Cabral",
+        "club": "Sport Lisboa e Benfica",
+        "league": "CL",
+        "score": 39.69
+      },
+      {
+        "name": "Jovane Cabral",
+        "club": "CF Estrela da Amadora",
+        "league": "PPL",
+        "score": 39.2
+      },
+      {
+        "name": "Dailon Rocha Livramento",
+        "club": "Casa Pia AC",
+        "league": "PPL",
+        "score": 39.2
+      },
+      {
+        "name": "Telmo Arcanjo",
+        "club": "Vitória SC",
+        "league": "PPL",
+        "score": 39.2
+      },
+      {
+        "name": "Jamiro Monteiro",
+        "club": "PEC Zwolle",
+        "league": "DED",
+        "score": 36.8
+      }
+    ],
+    "team": "Cape Verde Islands"
+  },
+  {
+    "score": 38.45,
+    "mapped": 2,
+    "total": 25,
+    "coverage": 0.08,
+    "top5_pct": 0.04,
+    "details": [
+      {
+        "name": "Chris Wood",
+        "club": "Nottingham Forest FC",
+        "league": "PL",
+        "score": 40.09
+      },
+      {
+        "name": "Ryan Thomas",
+        "club": "PEC Zwolle",
+        "league": "DED",
+        "score": 36.8
+      }
+    ],
+    "team": "New Zealand"
+  },
+  {
+    "score": 38.28,
+    "mapped": 17,
+    "total": 26,
+    "coverage": 0.654,
+    "top5_pct": 0.5,
+    "details": [
+      {
+        "name": "Evann Guessand",
+        "club": "Crystal Palace FC",
+        "league": "PL",
+        "score": 57.2
+      },
+      {
+        "name": "Bazoumana Touré",
+        "club": "TSG 1899 Hoffenheim",
+        "league": "BL1",
+        "score": 47.8
+      },
+      {
+        "name": "Amad Diallo",
+        "club": "Manchester United FC",
+        "league": "PL",
+        "score": 47.47
+      },
+      {
+        "name": "Ange-Yoan Bonny",
+        "club": "FC Internazionale Milano",
+        "league": "SA",
+        "score": 43.81
+      },
+      {
+        "name": "Guela Doué",
+        "club": "RC Strasbourg Alsace",
+        "league": "FL1",
+        "score": 42.8
+      },
+      {
+        "name": "Nicolas Pépé",
+        "club": "Villarreal CF",
+        "league": "PD",
+        "score": 40.87
+      },
+      {
+        "name": "Ibrahim Sangaré",
+        "club": "Nottingham Forest FC",
+        "league": "PL",
+        "score": 40.09
+      },
+      {
+        "name": "Ghislain Konan",
+        "club": "Gil Vicente FC",
+        "league": "PPL",
+        "score": 39.2
+      },
+      {
+        "name": "Seko Fofana",
+        "club": "FC Porto",
+        "league": "PPL",
+        "score": 36.18
+      },
+      {
+        "name": "Odilon Kossounou",
+        "club": "Atalanta BC",
+        "league": "SA",
+        "score": 34.94
+      },
+      {
+        "name": "Evan N'Dicka",
+        "club": "AS Roma",
+        "league": "SA",
+        "score": 34.0
+      },
+      {
+        "name": "Yan Diomandé",
+        "club": "RB Leipzig",
+        "league": "BL1",
+        "score": 33.46
+      },
+      {
+        "name": "Simon Adingra",
+        "club": "AS Monaco FC",
+        "league": "FL1",
+        "score": 31.7
+      },
+      {
+        "name": "Ousmane Diomande",
+        "club": "Sporting Clube de Portugal",
+        "league": "CL",
+        "score": 31.57
+      },
+      {
+        "name": "Sepe Elye Wahi",
+        "club": "OGC Nice",
+        "league": "FL1",
+        "score": 30.47
+      },
+      {
+        "name": "Clement Akpa",
+        "club": "AJ Auxerre",
+        "league": "FL1",
+        "score": 30.07
+      },
+      {
+        "name": "Wilfried Singo",
+        "club": "Galatasaray SK",
+        "league": "CL",
+        "score": 29.1
+      }
+    ],
+    "team": "Ivory Coast"
+  },
+  {
+    "score": 38.08,
+    "mapped": 16,
+    "total": 31,
+    "coverage": 0.516,
+    "top5_pct": 0.194,
+    "details": [
+      {
+        "name": "Moisés Caicedo",
+        "club": "Chelsea FC",
+        "league": "PL",
+        "score": 61.71
+      },
+      {
+        "name": "Pervis Estupiñán",
+        "club": "AC Milan",
+        "league": "SA",
+        "score": 45.48
+      },
+      {
+        "name": "Elias Legendre Quiñonez",
+        "club": "Stade Rennais FC 1901",
+        "league": "FL1",
+        "score": 42.8
+      },
+      {
+        "name": "Piero Hincapié",
+        "club": "Arsenal FC",
+        "league": "PL",
+        "score": 41.91
+      },
+      {
+        "name": "William Pacho",
+        "club": "Paris Saint-Germain FC",
+        "league": "FL1",
+        "score": 41.44
+      },
+      {
+        "name": "Leonardo Realpe",
+        "club": "FC Famalicão",
+        "league": "PPL",
+        "score": 39.2
+      },
+      {
+        "name": "Gonzalo Plata",
+        "club": "CR Flamengo",
+        "league": "BSA",
+        "score": 35.98
+      },
+      {
+        "name": "David Cabezas",
+        "club": "CSCyD El Nacional",
+        "league": "CLI",
+        "score": 34.8
+      },
+      {
+        "name": "Bryan Ramírez",
+        "club": "LDU de Quito",
+        "league": "CLI",
+        "score": 34.8
+      },
+      {
+        "name": "Janner Corozo",
+        "club": "Barcelona SC",
+        "league": "CLI",
+        "score": 34.8
+      },
+      {
+        "name": "Jordy Alcívar",
+        "club": "CAR Independiente del Valle",
+        "league": "CLI",
+        "score": 34.8
+      },
+      {
+        "name": "Jeremy",
+        "club": "VfB Stuttgart",
+        "league": "BL1",
+        "score": 33.83
+      },
+      {
+        "name": "Félix Torres",
+        "club": "SC Corinthians Paulista",
+        "league": "BSA",
+        "score": 33.8
+      },
+      {
+        "name": "José Hurtado",
+        "club": "RB Bragantino",
+        "league": "BSA",
+        "score": 33.8
+      },
+      {
+        "name": "Alan Franco",
+        "club": "CA Mineiro",
+        "league": "BSA",
+        "score": 33.8
+      },
+      {
+        "name": "Joel Ordoñez",
+        "club": "Club Brugge KV",
+        "league": "CL",
+        "score": 26.4
+      }
+    ],
+    "team": "Ecuador"
+  },
+  {
+    "score": 37.31,
+    "mapped": 8,
+    "total": 25,
+    "coverage": 0.32,
+    "top5_pct": 0.24,
+    "details": [
+      {
+        "name": "Nikola Vasilj",
+        "club": "FC St. Pauli 1910",
+        "league": "BL1",
+        "score": 47.8
+      },
+      {
+        "name": "Tarik Muharemović",
+        "club": "US Sassuolo Calcio",
+        "league": "SA",
+        "score": 45.6
+      },
+      {
+        "name": "Amar Dedić",
+        "club": "Sport Lisboa e Benfica",
+        "league": "CL",
+        "score": 39.69
+      },
+      {
+        "name": "Sead Kolašinac",
+        "club": "Atalanta BC",
+        "league": "SA",
+        "score": 34.94
+      },
+      {
+        "name": "Haris Tabaković",
+        "club": "Borussia Mönchengladbach",
+        "league": "BL1",
+        "score": 34.47
+      },
+      {
+        "name": "Ermedin Demirovic",
+        "club": "VfB Stuttgart",
+        "league": "BL1",
+        "score": 33.83
+      },
+      {
+        "name": "Esmir Bajraktarevic",
+        "club": "PSV",
+        "league": "CL",
+        "score": 32.4
+      },
+      {
+        "name": "Nidal Čelik",
+        "club": "Racing Club de Lens",
+        "league": "FL1",
+        "score": 29.76
+      }
+    ],
+    "team": "Bosnia-Herzegovina"
+  },
+  {
+    "score": 37.11,
+    "mapped": 5,
+    "total": 24,
+    "coverage": 0.208,
+    "top5_pct": 0.167,
+    "details": [
+      {
+        "name": "Carlens Arcus",
+        "club": "Angers SCO",
+        "league": "FL1",
+        "score": 42.8
+      },
+      {
+        "name": "Wilson Isidor",
+        "club": "Sunderland AFC",
+        "league": "PL",
+        "score": 39.11
+      },
+      {
+        "name": "Jean-Ricner Bellegarde",
+        "club": "Wolverhampton Wanderers FC",
+        "league": "PL",
+        "score": 38.79
+      },
+      {
+        "name": "Ricardo Adé",
+        "club": "LDU de Quito",
+        "league": "CLI",
+        "score": 34.8
+      },
+      {
+        "name": "Josué Casimir",
+        "club": "AJ Auxerre",
+        "league": "FL1",
+        "score": 30.07
+      }
+    ],
+    "team": "Haiti"
+  },
+  {
+    "score": 36.8,
+    "mapped": 1,
+    "total": 27,
+    "coverage": 0.037,
+    "top5_pct": 0.0,
+    "details": [
+      {
+        "name": "Zidane Iqbal",
+        "club": "FC Utrecht",
+        "league": "DED",
+        "score": 36.8
+      }
+    ],
+    "team": "Iraq"
+  },
+  {
+    "score": 36.67,
+    "mapped": 16,
+    "total": 26,
+    "coverage": 0.615,
+    "top5_pct": 0.154,
+    "details": [
+      {
+        "name": "Diego Gómez",
+        "club": "Brighton & Hove Albion FC",
+        "league": "PL",
+        "score": 57.2
+      },
+      {
+        "name": "Antonio Sanabria",
+        "club": "US Cremonese",
+        "league": "SA",
+        "score": 45.6
+      },
+      {
+        "name": "Julio Enciso",
+        "club": "RC Strasbourg Alsace",
+        "league": "FL1",
+        "score": 42.8
+      },
+      {
+        "name": "Omar Alderete",
+        "club": "Sunderland AFC",
+        "league": "PL",
+        "score": 39.11
+      },
+      {
+        "name": "Gustavo Gómez",
+        "club": "SE Palmeiras",
+        "league": "BSA",
+        "score": 36.98
+      },
+      {
+        "name": "Mauricio",
+        "club": "SE Palmeiras",
+        "league": "BSA",
+        "score": 36.98
+      },
+      {
+        "name": "Ramón Sosa",
+        "club": "SE Palmeiras",
+        "league": "BSA",
+        "score": 36.98
+      },
+      {
+        "name": "Matías Galarza",
+        "club": "CA River Plate",
+        "league": "CLI",
+        "score": 35.41
+      },
+      {
+        "name": "Gastón Olveira",
+        "club": "Olimpia Asuncion",
+        "league": "CLI",
+        "score": 34.8
+      },
+      {
+        "name": "Roberto Fernández",
+        "club": "Club Cerro Porteño",
+        "league": "CLI",
+        "score": 34.8
+      },
+      {
+        "name": "Gustavo Velázquez",
+        "club": "Club Cerro Porteño",
+        "league": "CLI",
+        "score": 34.8
+      },
+      {
+        "name": "Fabián Balbuena",
+        "club": "Grêmio FBPA",
+        "league": "BSA",
+        "score": 33.8
+      },
+      {
+        "name": "Júnior Alonso",
+        "club": "CA Mineiro",
+        "league": "BSA",
+        "score": 33.8
+      },
+      {
+        "name": "Damian Bobadilla",
+        "club": "São Paulo FC",
+        "league": "BSA",
+        "score": 29.3
+      },
+      {
+        "name": "Gustavo Caballero",
+        "club": "Santos FC",
+        "league": "BSA",
+        "score": 27.93
+      },
+      {
+        "name": "Alan Benitez",
+        "club": "SC Internacional",
+        "league": "BSA",
+        "score": 26.39
+      }
+    ],
+    "team": "Paraguay"
+  },
+  {
+    "score": 36.25,
+    "mapped": 8,
+    "total": 26,
+    "coverage": 0.308,
+    "top5_pct": 0.0,
+    "details": [
+      {
+        "name": "Tyrick Bodak",
+        "club": "Telstar 1963",
+        "league": "DED",
+        "score": 36.8
+      },
+      {
+        "name": "Juninho Bacuna",
+        "club": "FC Volendam",
+        "league": "DED",
+        "score": 36.8
+      },
+      {
+        "name": "Deveron Fonville",
+        "club": "NEC",
+        "league": "DED",
+        "score": 36.8
+      },
+      {
+        "name": "Tyrese Noslin",
+        "club": "Telstar 1963",
+        "league": "DED",
+        "score": 36.8
+      },
+      {
+        "name": "Brandley Kuwas",
+        "club": "FC Volendam",
+        "league": "DED",
+        "score": 36.8
+      },
+      {
+        "name": "Shurandy Sambo",
+        "club": "Sparta Rotterdam",
+        "league": "DED",
+        "score": 36.8
+      },
+      {
+        "name": "Sheral Floranus",
+        "club": "PEC Zwolle",
+        "league": "DED",
+        "score": 36.8
+      },
+      {
+        "name": "Armando Obispo",
+        "club": "PSV",
+        "league": "CL",
+        "score": 32.4
+      }
+    ],
+    "team": "Curaçao"
+  },
+  {
+    "score": 31.54,
+    "mapped": 17,
+    "total": 24,
+    "coverage": 0.708,
+    "top5_pct": 0.333,
+    "details": [
+      {
+        "name": "Robin Hranac",
+        "club": "TSG 1899 Hoffenheim",
+        "league": "BL1",
+        "score": 47.8
+      },
+      {
+        "name": "Vladimir Coufal",
+        "club": "TSG 1899 Hoffenheim",
+        "league": "BL1",
+        "score": 47.8
+      },
+      {
+        "name": "Tomáš Souček",
+        "club": "West Ham United FC",
+        "league": "PL",
+        "score": 42.34
+      },
+      {
+        "name": "Ladislav Krejčí",
+        "club": "Wolverhampton Wanderers FC",
+        "league": "PL",
+        "score": 38.79
+      },
+      {
+        "name": "Patrik Schick",
+        "club": "Bayer 04 Leverkusen",
+        "league": "BL1",
+        "score": 34.78
+      },
+      {
+        "name": "Matej Kovar",
+        "club": "PSV",
+        "league": "CL",
+        "score": 32.4
+      },
+      {
+        "name": "Martin Vitík",
+        "club": "Bologna FC 1909",
+        "league": "SA",
+        "score": 32.31
+      },
+      {
+        "name": "Pavel Šulc",
+        "club": "Olympique Lyonnais",
+        "league": "FL1",
+        "score": 31.11
+      },
+      {
+        "name": "Adam Karabec",
+        "club": "Olympique Lyonnais",
+        "league": "FL1",
+        "score": 31.11
+      },
+      {
+        "name": "Lukáš Horníček",
+        "club": "Sporting Clube de Braga",
+        "league": "PPL",
+        "score": 27.58
+      },
+      {
+        "name": "Tomáš Holeš",
+        "club": "SK Slavia Praha",
+        "league": "CL",
+        "score": 24.32
+      },
+      {
+        "name": "Štěpán Chaloupek",
+        "club": "SK Slavia Praha",
+        "league": "CL",
+        "score": 24.32
+      },
+      {
+        "name": "Lukáš Provod",
+        "club": "SK Slavia Praha",
+        "league": "CL",
+        "score": 24.32
+      },
+      {
+        "name": "Tomáš Chorý",
+        "club": "SK Slavia Praha",
+        "league": "CL",
+        "score": 24.32
+      },
+      {
+        "name": "Mojmír Chytil",
+        "club": "SK Slavia Praha",
+        "league": "CL",
+        "score": 24.32
+      },
+      {
+        "name": "David Jurásek",
+        "club": "SK Slavia Praha",
+        "league": "CL",
+        "score": 24.32
+      },
+      {
+        "name": "Michal Sadílek",
+        "club": "SK Slavia Praha",
+        "league": "CL",
+        "score": 24.32
+      }
+    ],
+    "team": "Czechia"
+  },
+  {
+    "score": 29.76,
+    "mapped": 1,
+    "total": 19,
+    "coverage": 0.053,
+    "top5_pct": 0.053,
+    "details": [
+      {
+        "name": "Saud Abdulhamid",
+        "club": "Racing Club de Lens",
+        "league": "FL1",
+        "score": 29.76
+      }
+    ],
+    "team": "Saudi Arabia"
+  },
+  {
+    "score": 0.0,
+    "mapped": 0,
+    "total": 12,
+    "coverage": 0.0,
+    "top5_pct": 0.0,
+    "details": [],
+    "team": "Mexico"
+  },
+  {
+    "score": 0.0,
+    "mapped": 0,
+    "total": 18,
+    "coverage": 0.0,
+    "top5_pct": 0.0,
+    "details": [],
+    "team": "Iran"
+  },
+  {
+    "score": 0.0,
+    "mapped": 0,
+    "total": 22,
+    "coverage": 0.0,
+    "top5_pct": 0.0,
+    "details": [],
+    "team": "Qatar"
+  }
+]

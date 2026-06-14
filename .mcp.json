@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "wc2026": {
+      "command": "/Users/cesartorres/Library/CloudStorage/OneDrive-Personal/Antigravity WS/wc_2026/backend/venv/bin/python",
+      "args": [
+        "/Users/cesartorres/Library/CloudStorage/OneDrive-Personal/Antigravity WS/wc_2026/backend/mcp_server.py"
+      ]
+    }
+  }
+}

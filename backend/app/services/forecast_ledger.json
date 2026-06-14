@@ -1,0 +1,508 @@
+{
+  "Canada|Bosnia-Herzegovina": {
+    "home": "Canada",
+    "away": "Bosnia-Herzegovina",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-12T04:48:07+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.6125,
+            "draw": 0.1407,
+            "awayWin": 0.2468
+          },
+          "market": {
+            "homeWin": 0.52,
+            "draw": 0.2733,
+            "awayWin": 0.2067
+          },
+          "blended": {
+            "homeWin": 0.5663,
+            "draw": 0.207,
+            "awayWin": 0.2268
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 9.99,
+            "away": 4.28
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-12T04:49:54+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.6079,
+            "draw": 0.1426,
+            "awayWin": 0.2495
+          },
+          "market": {
+            "homeWin": 0.52,
+            "draw": 0.2733,
+            "awayWin": 0.2066
+          },
+          "blended": {
+            "homeWin": 0.564,
+            "draw": 0.208,
+            "awayWin": 0.2281
+          }
+        },
+        "extras": {
+          "method": "prematch_xi_extended",
+          "affinity": {
+            "Canada": 39.15,
+            "Bosnia-Herzegovina": 48.75
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-12T04:51:48+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.6073,
+            "draw": 0.1428,
+            "awayWin": 0.2499
+          },
+          "market": {
+            "homeWin": 0.5199,
+            "draw": 0.2734,
+            "awayWin": 0.2067
+          },
+          "blended": {
+            "homeWin": 0.5636,
+            "draw": 0.2081,
+            "awayWin": 0.2283
+          }
+        },
+        "extras": {
+          "method": "prematch_xi_extended",
+          "affinity": {
+            "Canada": 37.04,
+            "Bosnia-Herzegovina": 48.75
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-12T05:06:00+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.6074,
+            "draw": 0.1428,
+            "awayWin": 0.2498
+          },
+          "market": {
+            "homeWin": 0.5194,
+            "draw": 0.2733,
+            "awayWin": 0.2074
+          },
+          "blended": {
+            "homeWin": 0.5634,
+            "draw": 0.208,
+            "awayWin": 0.2286
+          }
+        },
+        "extras": {
+          "method": "prematch_xi_extended",
+          "affinity": {
+            "Canada": 37.61,
+            "Bosnia-Herzegovina": 48.75
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-12T05:14:43+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.6121,
+            "draw": 0.1409,
+            "awayWin": 0.247
+          },
+          "market": {
+            "homeWin": 0.5196,
+            "draw": 0.2732,
+            "awayWin": 0.2072
+          },
+          "blended": {
+            "homeWin": 0.5658,
+            "draw": 0.2071,
+            "awayWin": 0.2271
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 6.59,
+            "away": 2.03
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-12T18:10:50+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.607,
+            "draw": 0.143,
+            "awayWin": 0.2501
+          },
+          "market": {
+            "homeWin": 0.5238,
+            "draw": 0.2737,
+            "awayWin": 0.2025
+          },
+          "blended": {
+            "homeWin": 0.5654,
+            "draw": 0.2083,
+            "awayWin": 0.2263
+          }
+        },
+        "extras": {
+          "method": "confirmed_xi",
+          "affinity": {
+            "Canada": 30.47,
+            "Bosnia-Herzegovina": 43.18
+          }
+        }
+      }
+    ],
+    "venue": "BMO Field · Toronto"
+  },
+  "Mexico|South Korea": {
+    "home": "Mexico",
+    "away": "South Korea",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-12T04:52:12+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.5091,
+            "draw": 0.1842,
+            "awayWin": 0.3067
+          },
+          "market": null,
+          "blended": null
+        },
+        "extras": {
+          "affinity": {
+            "home": 14.68,
+            "away": 7.83
+          }
+        }
+      }
+    ],
+    "venue": "Estadio Akron · Guadalajara"
+  },
+  "United States|Paraguay": {
+    "home": "United States",
+    "away": "Paraguay",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-12T22:26:45+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.4512,
+            "draw": 0.2101,
+            "awayWin": 0.3387
+          },
+          "market": {
+            "homeWin": 0.4596,
+            "draw": 0.2983,
+            "awayWin": 0.2421
+          },
+          "blended": {
+            "homeWin": 0.4475,
+            "draw": 0.2671,
+            "awayWin": 0.2854
+          }
+        },
+        "extras": {
+          "method": "prematch_xi_extended",
+          "affinity": {
+            "United States": 35.68,
+            "Paraguay": 43.08
+          }
+        }
+      }
+    ],
+    "venue": "SoFi Stadium · Los Angeles"
+  },
+  "Mexico|South Africa": {
+    "home": "Mexico",
+    "away": "South Africa",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-11T18:00:00+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.7524,
+            "draw": 0.0864,
+            "awayWin": 0.1611
+          },
+          "market": null,
+          "blended": null
+        },
+        "extras": {
+          "method": "prematch_xi_extended_backfill",
+          "affinity": {
+            "Mexico": 47.93,
+            "South Africa": 48.96
+          },
+          "note": "retro-backfill: current model, no live market"
+        }
+      }
+    ],
+    "venue": "Estadio Azteca · Ciudad de México"
+  },
+  "South Korea|Czechia": {
+    "home": "South Korea",
+    "away": "Czechia",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-12T01:00:00+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.5626,
+            "draw": 0.1613,
+            "awayWin": 0.2761
+          },
+          "market": null,
+          "blended": null
+        },
+        "extras": {
+          "method": "prematch_xi_extended_backfill",
+          "affinity": {
+            "South Korea": 35.54,
+            "Czechia": 52.48
+          },
+          "note": "retro-backfill: current model, no live market"
+        }
+      }
+    ],
+    "venue": "Estadio Akron · Guadalajara"
+  },
+  "Qatar|Switzerland": {
+    "home": "Qatar",
+    "away": "Switzerland",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-13T03:47:50+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.1978,
+            "draw": 0.1087,
+            "awayWin": 0.6935
+          },
+          "market": {
+            "homeWin": 0.0668,
+            "draw": 0.1459,
+            "awayWin": 0.7874
+          },
+          "blended": {
+            "homeWin": 0.1313,
+            "draw": 0.1338,
+            "awayWin": 0.7349
+          }
+        },
+        "extras": {
+          "method": "prematch_xi_extended",
+          "affinity": {
+            "Qatar": 34.93,
+            "Switzerland": 54.35
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-13T04:06:50+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.1985,
+            "draw": 0.1092,
+            "awayWin": 0.6923
+          },
+          "market": {
+            "homeWin": 0.0666,
+            "draw": 0.1453,
+            "awayWin": 0.7881
+          },
+          "blended": {
+            "homeWin": 0.1316,
+            "draw": 0.1335,
+            "awayWin": 0.7349
+          }
+        },
+        "extras": {
+          "method": "prematch_xi_extended",
+          "affinity": {
+            "Qatar": 56.68,
+            "Switzerland": 54.35
+          }
+        }
+      }
+    ],
+    "venue": "Levi's Stadium · San Francisco"
+  },
+  "Brazil|Morocco": {
+    "home": "Brazil",
+    "away": "Morocco",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-13T04:13:46+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.6421,
+            "draw": 0.1288,
+            "awayWin": 0.229
+          },
+          "market": {
+            "homeWin": 0.5756,
+            "draw": 0.2504,
+            "awayWin": 0.174
+          },
+          "blended": {
+            "homeWin": 0.5944,
+            "draw": 0.2089,
+            "awayWin": 0.1967
+          }
+        },
+        "extras": {
+          "method": "prematch_xi_extended",
+          "affinity": {
+            "Brazil": 39.48,
+            "Morocco": 44.85
+          }
+        }
+      }
+    ],
+    "venue": "MetLife Stadium · New York/New Jersey"
+  },
+  "Haiti|Scotland": {
+    "home": "Haiti",
+    "away": "Scotland",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-13T04:22:55+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.2497,
+            "draw": 0.1427,
+            "awayWin": 0.6077
+          },
+          "market": {
+            "homeWin": 0.1611,
+            "draw": 0.2248,
+            "awayWin": 0.6141
+          },
+          "blended": {
+            "homeWin": 0.2021,
+            "draw": 0.1969,
+            "awayWin": 0.601
+          }
+        },
+        "extras": {
+          "method": "prematch_xi_extended",
+          "affinity": {
+            "Haiti": 40.44,
+            "Scotland": 40.29
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-14T00:54:27+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.2377,
+            "draw": 0.1836,
+            "awayWin": 0.5786
+          },
+          "market": {
+            "homeWin": 0.169,
+            "draw": 0.2176,
+            "awayWin": 0.6134
+          },
+          "blended": {
+            "homeWin": 0.202,
+            "draw": 0.206,
+            "awayWin": 0.592
+          }
+        },
+        "extras": {
+          "method": "prematch_xi_extended",
+          "affinity": {
+            "Haiti": 40.44,
+            "Scotland": 40.29
+          }
+        }
+      }
+    ],
+    "venue": "Gillette Stadium · Boston"
+  },
+  "Australia|Turkey": {
+    "home": "Australia",
+    "away": "Turkey",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-13T04:39:00+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.3451,
+            "draw": 0.2155,
+            "awayWin": 0.4394
+          },
+          "market": {
+            "homeWin": 0.1859,
+            "draw": 0.2537,
+            "awayWin": 0.5603
+          },
+          "blended": {
+            "homeWin": 0.2635,
+            "draw": 0.2404,
+            "awayWin": 0.4961
+          }
+        },
+        "extras": {
+          "method": "prematch_xi_extended",
+          "affinity": {
+            "Australia": 33.86,
+            "Turkey": 30.91
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-13T04:48:28+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.3445,
+            "draw": 0.2151,
+            "awayWin": 0.4404
+          },
+          "market": {
+            "homeWin": 0.1858,
+            "draw": 0.2539,
+            "awayWin": 0.5603
+          },
+          "blended": {
+            "homeWin": 0.2631,
+            "draw": 0.2404,
+            "awayWin": 0.4965
+          }
+        },
+        "extras": {
+          "method": "prematch_xi_extended",
+          "affinity": {
+            "Australia": 33.86,
+            "Turkey": 38.57
+          }
+        }
+      }
+    ],
+    "venue": "BC Place · Vancouver"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "_comment": "Etiquetado manual del origen de cada gol del WC 2026. API-Football no distingue jugada armada de balón parado (solo penal/autogol), así que el origen se etiqueta a mano viendo los partidos. Valores de 'origin': open_play | set_piece_corner | set_piece_freekick | set_piece_throwin | penalty | own_goal | counter | unknown. Con ~50+ goles etiquetados se calibra la división de lambda en jugada/balón parado por equipo (idea de César, 2026-06-12). 'apifFixture' = id del fixture en API-Football.",
+  "1489369": {
+    "match": "Mexico 2-0 South Africa",
+    "date": "2026-06-11",
+    "goals": [
+      {
+        "minute": 9,
+        "team": "Mexico",
+        "scorer": "Julián Quiñones",
+        "assist": "Erik Lira",
+        "origin": "unknown"
+      },
+      {
+        "minute": 67,
+        "team": "Mexico",
+        "scorer": "Raúl Jiménez",
+        "assist": "Roberto Alvarado",
+        "origin": "unknown"
+      }
+    ]
+  },
+  "1538999": {
+    "match": "South Korea 2-1 Czechia",
+    "date": "2026-06-12",
+    "goals": [
+      {
+        "minute": 59,
+        "team": "Czechia",
+        "scorer": "Ladislav Krejčí",
+        "assist": "Vladimír Coufal",
+        "origin": "set_piece_corner",
+        "note": "Par de máxima afinidad extendida CZE (4/5 juntos); única vía ofensiva checa del partido (confirmado por César en vivo)"
+      },
+      {
+        "minute": 67,
+        "team": "South Korea",
+        "scorer": "Hwang In-Beom",
+        "assist": "Lee Kang-In",
+        "origin": "open_play",
+        "note": "3 min después del triple cambio checo; par con MENOR rodaje conjunto del XI coreano"
+      },
+      {
+        "minute": 80,
+        "team": "South Korea",
+        "scorer": "Oh Hyeon-Gyu",
+        "assist": "Hwang In-Beom",
+        "origin": "open_play",
+        "note": "Gol de suplente (entró por Son al 69')"
+      }
+    ]
+  },
+  "1489373": {
+    "match": "Qatar 1-1 Switzerland",
+    "date": "2026-06-13",
+    "goals": [
+      {
+        "minute": 17,
+        "team": "Switzerland",
+        "scorer": "Breel Embolo",
+        "assist": null,
+        "origin": "penalty",
+        "note": "Penal (API-Football detail=Penalty); Suiza 1-0"
+      },
+      {
+        "minute": 90,
+        "team": "Qatar",
+        "scorer": "Miro Muheim",
+        "assist": null,
+        "origin": "own_goal",
+        "note": "Autogol de Muheim (defensa suizo) en el 90'+4; empate fortuito en el descuento, NO jugada ofensiva de Qatar — invalida la hipótesis de afinidad catarí para este partido"
+      }
+    ]
+  },
+  "1489371": {
+    "match": "Brazil 1-1 Morocco",
+    "date": "2026-06-13",
+    "goals": [
+      {
+        "minute": 21,
+        "team": "Morocco",
+        "scorer": "Ismael Saibari",
+        "assist": "Brahim Díaz",
+        "origin": "open_play",
+        "note": "Origen open_play INFERIDO (API detail=Normal Goal + asistencia con nombre); confirmar en vivo. Marruecos se adelanta 0-1"
+      },
+      {
+        "minute": 32,
+        "team": "Brazil",
+        "scorer": "Vinícius Júnior",
+        "assist": "Bruno Guimarães",
+        "origin": "open_play",
+        "note": "Origen open_play INFERIDO (API detail=Normal Goal + asistencia con nombre); confirmar en vivo. Brasil empata 1-1"
+      }
+    ]
+  }
+}

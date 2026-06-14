@@ -1,0 +1,482 @@
+[
+  {
+    "team": "France",
+    "squad_context_score": 52.8,
+    "raw_score": 54.7,
+    "coverage": 0.92,
+    "top5_pct": 0.92,
+    "mapped": 23,
+    "total": 25,
+    "confed_default": 30
+  },
+  {
+    "team": "Spain",
+    "squad_context_score": 50.5,
+    "raw_score": 52.1,
+    "coverage": 0.926,
+    "top5_pct": 0.926,
+    "mapped": 25,
+    "total": 27,
+    "confed_default": 30
+  },
+  {
+    "team": "England",
+    "squad_context_score": 49.1,
+    "raw_score": 50.3,
+    "coverage": 0.943,
+    "top5_pct": 0.943,
+    "mapped": 33,
+    "total": 35,
+    "confed_default": 30
+  },
+  {
+    "team": "Germany",
+    "squad_context_score": 48.7,
+    "raw_score": 48.7,
+    "coverage": 1.0,
+    "top5_pct": 0.962,
+    "mapped": 26,
+    "total": 26,
+    "confed_default": 30
+  },
+  {
+    "team": "Netherlands",
+    "squad_context_score": 45.1,
+    "raw_score": 45.1,
+    "coverage": 1.0,
+    "top5_pct": 0.8,
+    "mapped": 25,
+    "total": 25,
+    "confed_default": 26
+  },
+  {
+    "team": "Belgium",
+    "squad_context_score": 43.0,
+    "raw_score": 43.8,
+    "coverage": 0.962,
+    "top5_pct": 0.769,
+    "mapped": 25,
+    "total": 26,
+    "confed_default": 24
+  },
+  {
+    "team": "Portugal",
+    "squad_context_score": 42.8,
+    "raw_score": 45.9,
+    "coverage": 0.846,
+    "top5_pct": 0.654,
+    "mapped": 22,
+    "total": 26,
+    "confed_default": 26
+  },
+  {
+    "team": "Argentina",
+    "squad_context_score": 42.3,
+    "raw_score": 44.4,
+    "coverage": 0.897,
+    "top5_pct": 0.621,
+    "mapped": 26,
+    "total": 29,
+    "confed_default": 24
+  },
+  {
+    "team": "Switzerland",
+    "squad_context_score": 40.8,
+    "raw_score": 43.0,
+    "coverage": 0.885,
+    "top5_pct": 0.885,
+    "mapped": 23,
+    "total": 26,
+    "confed_default": 24
+  },
+  {
+    "team": "Brazil",
+    "squad_context_score": 39.8,
+    "raw_score": 45.5,
+    "coverage": 0.72,
+    "top5_pct": 0.48,
+    "mapped": 18,
+    "total": 25,
+    "confed_default": 25
+  },
+  {
+    "team": "Croatia",
+    "squad_context_score": 38.7,
+    "raw_score": 43.7,
+    "coverage": 0.769,
+    "top5_pct": 0.654,
+    "mapped": 20,
+    "total": 26,
+    "confed_default": 22
+  },
+  {
+    "team": "Austria",
+    "squad_context_score": 38.0,
+    "raw_score": 43.9,
+    "coverage": 0.731,
+    "top5_pct": 0.654,
+    "mapped": 19,
+    "total": 26,
+    "confed_default": 22
+  },
+  {
+    "team": "Sweden",
+    "squad_context_score": 37.8,
+    "raw_score": 43.6,
+    "coverage": 0.731,
+    "top5_pct": 0.577,
+    "mapped": 19,
+    "total": 26,
+    "confed_default": 22
+  },
+  {
+    "team": "Morocco",
+    "squad_context_score": 36.3,
+    "raw_score": 45.4,
+    "coverage": 0.69,
+    "top5_pct": 0.483,
+    "mapped": 20,
+    "total": 29,
+    "confed_default": 16
+  },
+  {
+    "team": "Japan",
+    "squad_context_score": 36.1,
+    "raw_score": 42.8,
+    "coverage": 0.731,
+    "top5_pct": 0.5,
+    "mapped": 19,
+    "total": 26,
+    "confed_default": 18
+  },
+  {
+    "team": "Senegal",
+    "squad_context_score": 35.9,
+    "raw_score": 41.3,
+    "coverage": 0.786,
+    "top5_pct": 0.714,
+    "mapped": 22,
+    "total": 28,
+    "confed_default": 16
+  },
+  {
+    "team": "Uruguay",
+    "squad_context_score": 35.4,
+    "raw_score": 42.9,
+    "coverage": 0.643,
+    "top5_pct": 0.25,
+    "mapped": 18,
+    "total": 28,
+    "confed_default": 22
+  },
+  {
+    "team": "Norway",
+    "squad_context_score": 34.1,
+    "raw_score": 40.8,
+    "coverage": 0.708,
+    "top5_pct": 0.542,
+    "mapped": 17,
+    "total": 24,
+    "confed_default": 18
+  },
+  {
+    "team": "Colombia",
+    "squad_context_score": 33.9,
+    "raw_score": 40.1,
+    "coverage": 0.692,
+    "top5_pct": 0.308,
+    "mapped": 18,
+    "total": 26,
+    "confed_default": 20
+  },
+  {
+    "team": "Turkey",
+    "squad_context_score": 32.5,
+    "raw_score": 41.1,
+    "coverage": 0.593,
+    "top5_pct": 0.333,
+    "mapped": 16,
+    "total": 27,
+    "confed_default": 20
+  },
+  {
+    "team": "United States",
+    "squad_context_score": 32.1,
+    "raw_score": 41.7,
+    "coverage": 0.556,
+    "top5_pct": 0.519,
+    "mapped": 15,
+    "total": 27,
+    "confed_default": 20
+  },
+  {
+    "team": "Ivory Coast",
+    "squad_context_score": 30.2,
+    "raw_score": 38.3,
+    "coverage": 0.654,
+    "top5_pct": 0.5,
+    "mapped": 17,
+    "total": 26,
+    "confed_default": 15
+  },
+  {
+    "team": "Paraguay",
+    "squad_context_score": 29.1,
+    "raw_score": 36.7,
+    "coverage": 0.615,
+    "top5_pct": 0.154,
+    "mapped": 16,
+    "total": 26,
+    "confed_default": 17
+  },
+  {
+    "team": "Scotland",
+    "squad_context_score": 28.9,
+    "raw_score": 43.8,
+    "coverage": 0.423,
+    "top5_pct": 0.423,
+    "mapped": 11,
+    "total": 26,
+    "confed_default": 18
+  },
+  {
+    "team": "Czechia",
+    "squad_context_score": 28.8,
+    "raw_score": 31.5,
+    "coverage": 0.708,
+    "top5_pct": 0.333,
+    "mapped": 17,
+    "total": 24,
+    "confed_default": 22
+  },
+  {
+    "team": "Ecuador",
+    "squad_context_score": 28.4,
+    "raw_score": 38.1,
+    "coverage": 0.516,
+    "top5_pct": 0.194,
+    "mapped": 16,
+    "total": 31,
+    "confed_default": 18
+  },
+  {
+    "team": "Ghana",
+    "squad_context_score": 26.7,
+    "raw_score": 39.3,
+    "coverage": 0.483,
+    "top5_pct": 0.414,
+    "mapped": 14,
+    "total": 29,
+    "confed_default": 15
+  },
+  {
+    "team": "Algeria",
+    "squad_context_score": 26.3,
+    "raw_score": 39.7,
+    "coverage": 0.458,
+    "top5_pct": 0.417,
+    "mapped": 11,
+    "total": 24,
+    "confed_default": 15
+  },
+  {
+    "team": "Congo DR",
+    "squad_context_score": 24.5,
+    "raw_score": 42.8,
+    "coverage": 0.385,
+    "top5_pct": 0.385,
+    "mapped": 10,
+    "total": 26,
+    "confed_default": 13
+  },
+  {
+    "team": "Bosnia-Herzegovina",
+    "squad_context_score": 24.2,
+    "raw_score": 37.3,
+    "coverage": 0.32,
+    "top5_pct": 0.24,
+    "mapped": 8,
+    "total": 25,
+    "confed_default": 18
+  },
+  {
+    "team": "South Korea",
+    "squad_context_score": 23.9,
+    "raw_score": 43.5,
+    "coverage": 0.231,
+    "top5_pct": 0.192,
+    "mapped": 6,
+    "total": 26,
+    "confed_default": 18
+  },
+  {
+    "team": "Canada",
+    "squad_context_score": 23.5,
+    "raw_score": 42.9,
+    "coverage": 0.154,
+    "top5_pct": 0.154,
+    "mapped": 4,
+    "total": 26,
+    "confed_default": 20
+  },
+  {
+    "team": "Australia",
+    "squad_context_score": 23.1,
+    "raw_score": 43.6,
+    "coverage": 0.2,
+    "top5_pct": 0.12,
+    "mapped": 5,
+    "total": 25,
+    "confed_default": 18
+  },
+  {
+    "team": "Curaçao",
+    "squad_context_score": 22.2,
+    "raw_score": 36.2,
+    "coverage": 0.308,
+    "top5_pct": 0.0,
+    "mapped": 8,
+    "total": 26,
+    "confed_default": 16
+  },
+  {
+    "team": "Tunisia",
+    "squad_context_score": 22.1,
+    "raw_score": 40.8,
+    "coverage": 0.304,
+    "top5_pct": 0.261,
+    "mapped": 7,
+    "total": 23,
+    "confed_default": 14
+  },
+  {
+    "team": "Egypt",
+    "squad_context_score": 20.1,
+    "raw_score": 47.4,
+    "coverage": 0.182,
+    "top5_pct": 0.182,
+    "mapped": 4,
+    "total": 22,
+    "confed_default": 14
+  },
+  {
+    "team": "Mexico",
+    "squad_context_score": 20.0,
+    "raw_score": 0.0,
+    "coverage": 0.0,
+    "top5_pct": 0.0,
+    "mapped": 0,
+    "total": 12,
+    "confed_default": 20
+  },
+  {
+    "team": "Cape Verde Islands",
+    "squad_context_score": 19.8,
+    "raw_score": 39.2,
+    "coverage": 0.261,
+    "top5_pct": 0.043,
+    "mapped": 6,
+    "total": 23,
+    "confed_default": 13
+  },
+  {
+    "team": "Panama",
+    "squad_context_score": 18.4,
+    "raw_score": 40.9,
+    "coverage": 0.13,
+    "top5_pct": 0.043,
+    "mapped": 3,
+    "total": 23,
+    "confed_default": 15
+  },
+  {
+    "team": "Haiti",
+    "squad_context_score": 18.0,
+    "raw_score": 37.1,
+    "coverage": 0.208,
+    "top5_pct": 0.167,
+    "mapped": 5,
+    "total": 24,
+    "confed_default": 13
+  },
+  {
+    "team": "Saudi Arabia",
+    "squad_context_score": 16.7,
+    "raw_score": 29.8,
+    "coverage": 0.053,
+    "top5_pct": 0.053,
+    "mapped": 1,
+    "total": 19,
+    "confed_default": 16
+  },
+  {
+    "team": "South Africa",
+    "squad_context_score": 16.2,
+    "raw_score": 48.2,
+    "coverage": 0.091,
+    "top5_pct": 0.045,
+    "mapped": 2,
+    "total": 22,
+    "confed_default": 13
+  },
+  {
+    "team": "Uzbekistan",
+    "squad_context_score": 14.2,
+    "raw_score": 62.5,
+    "coverage": 0.043,
+    "top5_pct": 0.043,
+    "mapped": 1,
+    "total": 23,
+    "confed_default": 12
+  },
+  {
+    "team": "New Zealand",
+    "squad_context_score": 14.1,
+    "raw_score": 38.5,
+    "coverage": 0.08,
+    "top5_pct": 0.04,
+    "mapped": 2,
+    "total": 25,
+    "confed_default": 12
+  },
+  {
+    "team": "Iran",
+    "squad_context_score": 14.0,
+    "raw_score": 0.0,
+    "coverage": 0.0,
+    "top5_pct": 0.0,
+    "mapped": 0,
+    "total": 18,
+    "confed_default": 14
+  },
+  {
+    "team": "Jordan",
+    "squad_context_score": 13.7,
+    "raw_score": 42.8,
+    "coverage": 0.056,
+    "top5_pct": 0.056,
+    "mapped": 1,
+    "total": 18,
+    "confed_default": 12
+  },
+  {
+    "team": "Iraq",
+    "squad_context_score": 12.9,
+    "raw_score": 36.8,
+    "coverage": 0.037,
+    "top5_pct": 0.0,
+    "mapped": 1,
+    "total": 27,
+    "confed_default": 12
+  },
+  {
+    "team": "Qatar",
+    "squad_context_score": 11.0,
+    "raw_score": 0.0,
+    "coverage": 0.0,
+    "top5_pct": 0.0,
+    "mapped": 0,
+    "total": 22,
+    "confed_default": 11
+  }
+]

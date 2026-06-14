@@ -13,3 +13,12 @@ npm-debug.log
 # OS
 .DS_Store
 Thumbs.db
+
+# Claude Code local settings (contains machine paths + secrets — never commit)
+.claude/settings.local.json
+
+# Regenerable API-Football data cache (~51MB; rebuild via enrich_apif.py)
+backend/apif_cache/
+
+# Backup artifacts
+*.bak
