@@ -42,6 +42,12 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument("--stage", default="GROUP_STAGE")
     parser.add_argument("--venue", default=None)
+    parser.add_argument(
+        "--stakes",
+        action="store_true",
+        help="Añade las motivaciones de avance (top-2 o mejor-tercero) de "
+        "cada equipo; corre un Monte-Carlo extra del torneo.",
+    )
     return parser.parse_args()
 
 
@@ -58,47 +64,103 @@ def render(report: dict) -> None:
             if friendly_pct == 1.0
             else ""
         )
-        log.info("\n— %s (afinidad extendida %.1f)%s",
-                 name, t["extendedAffinity"], warn)
+        log.info(
+            "\n— %s (afinidad extendida %.1f)%s",
+            name,
+            t["extendedAffinity"],
+            warn,
+        )
         coverage = t.get("ratingCoverage", {})
         if not coverage.get("rated", True):
-            log.info("  ⚠ RATING INCOMPLETO — usa valores por defecto en %s "
-                     "(pronóstico poco fiable)",
-                     ", ".join(coverage["missingSources"]))
+            log.info(
+                "  ⚠ RATING INCOMPLETO — usa valores por defecto en %s "
+                "(pronóstico poco fiable)",
+                ", ".join(coverage["missingSources"]),
+            )
         for m in t["last5"]:
             tag = " [amistoso]" if m["friendly"] else ""
-            log.info("    %s  %s vs %s%s",
-                     m["date"], m["score"], m["opponent"], tag)
+            log.info(
+                "    %s  %s vs %s%s", m["date"], m["score"], m["opponent"], tag
+            )
         log.info("  XI probable:")
         for p in t["probableXI"]:
             club = p["club"] or "?? sin mapear"
-            log.info("    %-26s %d/5  %s [%s]",
-                     p["name"], p["starts"], club, p["league_code"] or "—")
+            log.info(
+                "    %-26s %d/5  %s [%s]",
+                p["name"],
+                p["starts"],
+                club,
+                p["league_code"] or "—",
+            )
 
     probs = report["probs"]
-    log.info("\nModelo : %s %.1f%% | X %.1f%% | %s %.1f%%",
-             home, probs["model"]["homeWin"] * 100,
-             probs["model"]["draw"] * 100,
-             away, probs["model"]["awayWin"] * 100)
+    log.info(
+        "\nModelo : %s %.1f%% | X %.1f%% | %s %.1f%%",
+        home,
+        probs["model"]["homeWin"] * 100,
+        probs["model"]["draw"] * 100,
+        away,
+        probs["model"]["awayWin"] * 100,
+    )
     if probs["market"]:
         mk = report["market"]
-        log.info("Mercado: %s %.1f%% | X %.1f%% | %s %.1f%%  (%d casas)",
-                 home, probs["market"]["homeWin"] * 100,
-                 probs["market"]["draw"] * 100,
-                 away, probs["market"]["awayWin"] * 100,
-                 mk["bookmakerCount"])
-    log.info("FINAL  : %s %.1f%% | X %.1f%% | %s %.1f%%",
-             home, probs["blended"]["homeWin"] * 100,
-             probs["blended"]["draw"] * 100,
-             away, probs["blended"]["awayWin"] * 100)
+        log.info(
+            "Mercado: %s %.1f%% | X %.1f%% | %s %.1f%%  (%d casas)",
+            home,
+            probs["market"]["homeWin"] * 100,
+            probs["market"]["draw"] * 100,
+            away,
+            probs["market"]["awayWin"] * 100,
+            mk["bookmakerCount"],
+        )
+    log.info(
+        "FINAL  : %s %.1f%% | X %.1f%% | %s %.1f%%",
+        home,
+        probs["blended"]["homeWin"] * 100,
+        probs["blended"]["draw"] * 100,
+        away,
+        probs["blended"]["awayWin"] * 100,
+    )
 
     sc = report["scorelines"]
-    log.info("\nλ %s %.2f | %s %.2f  ·  over 2.5: %.1f%%  ·  ambos anotan: %.1f%%",
-             home, sc["lambdas"]["home"], away, sc["lambdas"]["away"],
-             sc["over25"] * 100, sc["btts"] * 100)
-    log.info("Marcadores: %s",
-             " | ".join(f"{s['score']} {s['prob']:.1%}"
-                        for s in sc["topScorelines"]))
+    log.info(
+        "\nλ %s %.2f | %s %.2f  ·  over 2.5: %.1f%%  ·  ambos anotan: %.1f%%",
+        home,
+        sc["lambdas"]["home"],
+        away,
+        sc["lambdas"]["away"],
+        sc["over25"] * 100,
+        sc["btts"] * 100,
+    )
+    log.info(
+        "Marcadores: %s",
+        " | ".join(
+            f"{s['score']} {s['prob']:.1%}" for s in sc["topScorelines"]
+        ),
+    )
+
+    stakes = report.get("stakes")
+    if stakes:
+        log.info("\nMotivaciones (avance = top-2 o mejor-tercero):")
+        for name in (home, away):
+            s = stakes.get(name)
+            if not s:
+                continue
+            p_adv = (
+                f"{s['pAdvance'] * 100:.0f}%"
+                if s.get("pAdvance") is not None
+                else "—"
+            )
+            sw = s.get("swingAdvance")
+            sw_txt = f"{sw:+.2f}" if sw is not None else "—"
+            log.info(
+                "  %-16s %-8s  P(avanza)=%s  swingAvance=%s",
+                name,
+                s.get("advanceLabel", "—"),
+                p_adv,
+                sw_txt,
+            )
+
     log.info("\nSnapshot registrado en el forecast ledger.")
 
 
@@ -115,6 +177,7 @@ def main() -> None:
                 match_date=args.date,
                 stage=args.stage,
                 venue=args.venue,
+                with_stakes=args.stakes,
             )
         )
     except (LookupError, RuntimeError) as err:

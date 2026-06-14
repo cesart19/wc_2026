@@ -21,6 +21,11 @@
             "homeWin": 0.5663,
             "draw": 0.207,
             "awayWin": 0.2268
+          },
+          "calibrated": {
+            "homeWin": 0.5617,
+            "draw": 0.2102,
+            "awayWin": 0.2282
           }
         },
         "extras": {
@@ -47,6 +52,11 @@
             "homeWin": 0.564,
             "draw": 0.208,
             "awayWin": 0.2281
+          },
+          "calibrated": {
+            "homeWin": 0.5601,
+            "draw": 0.2108,
+            "awayWin": 0.2293
           }
         },
         "extras": {
@@ -74,6 +84,11 @@
             "homeWin": 0.5636,
             "draw": 0.2081,
             "awayWin": 0.2283
+          },
+          "calibrated": {
+            "homeWin": 0.5598,
+            "draw": 0.2108,
+            "awayWin": 0.2294
           }
         },
         "extras": {
@@ -101,6 +116,11 @@
             "homeWin": 0.5634,
             "draw": 0.208,
             "awayWin": 0.2286
+          },
+          "calibrated": {
+            "homeWin": 0.5596,
+            "draw": 0.2106,
+            "awayWin": 0.2297
           }
         },
         "extras": {
@@ -128,6 +148,11 @@
             "homeWin": 0.5658,
             "draw": 0.2071,
             "awayWin": 0.2271
+          },
+          "calibrated": {
+            "homeWin": 0.5613,
+            "draw": 0.2102,
+            "awayWin": 0.2284
           }
         },
         "extras": {
@@ -154,6 +179,11 @@
             "homeWin": 0.5654,
             "draw": 0.2083,
             "awayWin": 0.2263
+          },
+          "calibrated": {
+            "homeWin": 0.561,
+            "draw": 0.2113,
+            "awayWin": 0.2276
           }
         },
         "extras": {
@@ -181,7 +211,12 @@
             "awayWin": 0.3067
           },
           "market": null,
-          "blended": null
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.5091,
+            "draw": 0.1842,
+            "awayWin": 0.3067
+          }
         },
         "extras": {
           "affinity": {
@@ -215,6 +250,11 @@
             "homeWin": 0.4475,
             "draw": 0.2671,
             "awayWin": 0.2854
+          },
+          "calibrated": {
+            "homeWin": 0.4475,
+            "draw": 0.2671,
+            "awayWin": 0.2854
           }
         },
         "extras": {
@@ -242,7 +282,12 @@
             "awayWin": 0.1611
           },
           "market": null,
-          "blended": null
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.6763,
+            "draw": 0.1397,
+            "awayWin": 0.1839
+          }
         },
         "extras": {
           "method": "prematch_xi_extended_backfill",
@@ -270,7 +315,12 @@
             "awayWin": 0.2761
           },
           "market": null,
-          "blended": null
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.5591,
+            "draw": 0.1638,
+            "awayWin": 0.2772
+          }
         },
         "extras": {
           "method": "prematch_xi_extended_backfill",
@@ -306,6 +356,11 @@
             "homeWin": 0.1313,
             "draw": 0.1338,
             "awayWin": 0.7349
+          },
+          "calibrated": {
+            "homeWin": 0.1517,
+            "draw": 0.1814,
+            "awayWin": 0.667
           }
         },
         "extras": {
@@ -333,6 +388,11 @@
             "homeWin": 0.1316,
             "draw": 0.1335,
             "awayWin": 0.7349
+          },
+          "calibrated": {
+            "homeWin": 0.152,
+            "draw": 0.1811,
+            "awayWin": 0.667
           }
         },
         "extras": {
@@ -368,6 +428,11 @@
             "homeWin": 0.5944,
             "draw": 0.2089,
             "awayWin": 0.1967
+          },
+          "calibrated": {
+            "homeWin": 0.5812,
+            "draw": 0.2181,
+            "awayWin": 0.2007
           }
         },
         "extras": {
@@ -403,6 +468,11 @@
             "homeWin": 0.2021,
             "draw": 0.1969,
             "awayWin": 0.601
+          },
+          "calibrated": {
+            "homeWin": 0.2067,
+            "draw": 0.2076,
+            "awayWin": 0.5857
           }
         },
         "extras": {
@@ -430,6 +500,11 @@
             "homeWin": 0.202,
             "draw": 0.206,
             "awayWin": 0.592
+          },
+          "calibrated": {
+            "homeWin": 0.2057,
+            "draw": 0.2147,
+            "awayWin": 0.5796
           }
         },
         "extras": {
@@ -465,6 +540,11 @@
             "homeWin": 0.2635,
             "draw": 0.2404,
             "awayWin": 0.4961
+          },
+          "calibrated": {
+            "homeWin": 0.2635,
+            "draw": 0.2404,
+            "awayWin": 0.4961
           }
         },
         "extras": {
@@ -492,6 +572,11 @@
             "homeWin": 0.2631,
             "draw": 0.2404,
             "awayWin": 0.4965
+          },
+          "calibrated": {
+            "homeWin": 0.2631,
+            "draw": 0.2404,
+            "awayWin": 0.4965
           }
         },
         "extras": {
@@ -501,8 +586,737 @@
             "Turkey": 38.57
           }
         }
+      },
+      {
+        "recordedAtUtc": "2026-06-14T01:18:50+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.3393,
+            "draw": 0.2271,
+            "awayWin": 0.4337
+          },
+          "market": {
+            "homeWin": 0.1802,
+            "draw": 0.252,
+            "awayWin": 0.5677
+          },
+          "blended": {
+            "homeWin": 0.2585,
+            "draw": 0.2433,
+            "awayWin": 0.4982
+          },
+          "calibrated": {
+            "homeWin": 0.2585,
+            "draw": 0.2433,
+            "awayWin": 0.4982
+          }
+        },
+        "extras": {
+          "method": "prematch_xi_extended",
+          "affinity": {
+            "Australia": 33.86,
+            "Turkey": 38.57
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-14T03:32:16+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.3382,
+            "draw": 0.2266,
+            "awayWin": 0.4352
+          },
+          "market": {
+            "homeWin": 0.1795,
+            "draw": 0.2574,
+            "awayWin": 0.5631
+          },
+          "blended": {
+            "homeWin": 0.2573,
+            "draw": 0.2466,
+            "awayWin": 0.4961
+          },
+          "calibrated": {
+            "homeWin": 0.2573,
+            "draw": 0.2466,
+            "awayWin": 0.4961
+          }
+        },
+        "extras": {
+          "method": "prematch_confirmed_xi",
+          "affinity": {
+            "Australia": 12.24,
+            "Turkey": 31.28
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-14T03:39:47+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.3375,
+            "draw": 0.2262,
+            "awayWin": 0.4363
+          },
+          "market": {
+            "homeWin": 0.178,
+            "draw": 0.2568,
+            "awayWin": 0.5652
+          },
+          "blended": {
+            "homeWin": 0.2562,
+            "draw": 0.2461,
+            "awayWin": 0.4977
+          },
+          "calibrated": {
+            "homeWin": 0.2562,
+            "draw": 0.2461,
+            "awayWin": 0.4977
+          }
+        },
+        "extras": {
+          "method": "prematch_confirmed_xi_v2",
+          "affinity": {
+            "Australia": 12.24,
+            "Turkey": 40.78
+          }
+        }
       }
     ],
     "venue": "BC Place · Vancouver"
+  },
+  "United States|Australia": {
+    "home": "United States",
+    "away": "Australia",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-14T01:27:05+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.6028,
+            "draw": 0.1767,
+            "awayWin": 0.2205
+          },
+          "market": {
+            "homeWin": 0.6237,
+            "draw": 0.2158,
+            "awayWin": 0.1605
+          },
+          "blended": {
+            "homeWin": 0.6085,
+            "draw": 0.2025,
+            "awayWin": 0.189
+          },
+          "calibrated": {
+            "homeWin": 0.5907,
+            "draw": 0.215,
+            "awayWin": 0.1943
+          }
+        },
+        "extras": {
+          "method": "prematch_xi_extended",
+          "affinity": {
+            "United States": 37.46,
+            "Australia": 33.86
+          }
+        }
+      }
+    ],
+    "venue": "Lumen Field · Seattle"
+  },
+  "Turkey|Paraguay": {
+    "home": "Turkey",
+    "away": "Paraguay",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-14T01:27:06+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.56,
+            "draw": 0.189,
+            "awayWin": 0.251
+          },
+          "market": {
+            "homeWin": 0.4716,
+            "draw": 0.2902,
+            "awayWin": 0.2382
+          },
+          "blended": {
+            "homeWin": 0.5056,
+            "draw": 0.2547,
+            "awayWin": 0.2397
+          },
+          "calibrated": {
+            "homeWin": 0.5056,
+            "draw": 0.2547,
+            "awayWin": 0.2397
+          }
+        },
+        "extras": {
+          "method": "prematch_xi_extended",
+          "affinity": {
+            "Turkey": 38.57,
+            "Paraguay": 46.88
+          }
+        }
+      }
+    ],
+    "venue": "Levi's Stadium · San Francisco"
+  },
+  "Turkey|United States": {
+    "home": "Turkey",
+    "away": "United States",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-14T01:27:07+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.2572,
+            "draw": 0.1915,
+            "awayWin": 0.5513
+          },
+          "market": {
+            "homeWin": 0.3495,
+            "draw": 0.2661,
+            "awayWin": 0.3844
+          },
+          "blended": {
+            "homeWin": 0.2989,
+            "draw": 0.2401,
+            "awayWin": 0.461
+          },
+          "calibrated": {
+            "homeWin": 0.2989,
+            "draw": 0.2401,
+            "awayWin": 0.461
+          }
+        },
+        "extras": {
+          "method": "prematch_xi_extended",
+          "affinity": {
+            "Turkey": 38.57,
+            "United States": 37.46
+          }
+        }
+      }
+    ],
+    "venue": "SoFi Stadium · Los Angeles"
+  },
+  "Paraguay|Australia": {
+    "home": "Paraguay",
+    "away": "Australia",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-14T01:27:07+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.2892,
+            "draw": 0.2049,
+            "awayWin": 0.5059
+          },
+          "market": {
+            "homeWin": 0.444,
+            "draw": 0.2924,
+            "awayWin": 0.2636
+          },
+          "blended": {
+            "homeWin": 0.3603,
+            "draw": 0.2616,
+            "awayWin": 0.3781
+          },
+          "calibrated": {
+            "homeWin": 0.3603,
+            "draw": 0.2616,
+            "awayWin": 0.3781
+          }
+        },
+        "extras": {
+          "method": "prematch_xi_extended",
+          "affinity": {
+            "Paraguay": 46.88,
+            "Australia": 33.86
+          }
+        }
+      }
+    ],
+    "venue": "Levi's Stadium · San Francisco"
+  },
+  "Germany|Curaçao": {
+    "home": "Germany",
+    "away": "Curaçao",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-14T03:45:57+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.7706,
+            "draw": 0.1312,
+            "awayWin": 0.0981
+          },
+          "market": {
+            "homeWin": 0.925,
+            "draw": 0.0515,
+            "awayWin": 0.0235
+          },
+          "blended": {
+            "homeWin": 0.8616,
+            "draw": 0.0766,
+            "awayWin": 0.0618
+          },
+          "calibrated": {
+            "homeWin": 0.7582,
+            "draw": 0.149,
+            "awayWin": 0.0928
+          }
+        },
+        "extras": {
+          "method": "prematch_xi_extended",
+          "affinity": {
+            "Germany": 62.35,
+            "Curaçao": 49.74
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-14T07:00:54+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.7706,
+            "draw": 0.1312,
+            "awayWin": 0.0981
+          },
+          "market": {
+            "homeWin": 0.9271,
+            "draw": 0.0499,
+            "awayWin": 0.0229
+          },
+          "blended": {
+            "homeWin": 0.863,
+            "draw": 0.0755,
+            "awayWin": 0.0615
+          },
+          "calibrated": {
+            "homeWin": 0.7594,
+            "draw": 0.148,
+            "awayWin": 0.0926
+          }
+        },
+        "extras": {
+          "method": "prematch_xi_extended",
+          "affinity": {
+            "Germany": 62.35,
+            "Curaçao": 49.74
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-14T16:29:43+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.7706,
+            "draw": 0.1312,
+            "awayWin": 0.0981
+          },
+          "market": {
+            "homeWin": 0.9312,
+            "draw": 0.0463,
+            "awayWin": 0.0225
+          },
+          "blended": {
+            "homeWin": 0.8656,
+            "draw": 0.073,
+            "awayWin": 0.0614
+          },
+          "calibrated": {
+            "homeWin": 0.7617,
+            "draw": 0.1457,
+            "awayWin": 0.0926
+          }
+        },
+        "extras": {
+          "method": "prematch_xi_extended",
+          "affinity": {
+            "Germany": 62.35,
+            "Curaçao": 49.74
+          },
+          "interpretiveNote": {
+            "author": "César (expert prior, pre-kickoff)",
+            "type": "game-state-coasting-asymmetric",
+            "wdlImpact": "none — el ganador (blended 86.6/7.3/6.1) no se mueve",
+            "read": "Alemania, a diferencia de potencias tipo Brasil, no se distrae: puede aflojar OFENSIVAMENTE al llegar a un marcador cómodo, pero defensivamente es altamente profesional y un lapsus es poco probable.",
+            "implications": {
+              "highGoalTail": "sobreestimada — 5-0 (8.4%) y 6-0 (5.1%) inflados; el Poisson estático no afloja, Alemania sí",
+              "btts_curacaoScores": "sobreestimada — modelo 37.3%; realista ~20-25% (portería a cero esperable, sin lapsus)",
+              "modalScoreline": "3-0/4-0 se firma; la cola de goleada se comprime"
+            },
+            "caveat": "Jornada-1: la diferencia de goles es desempate vivo (top-2 y mejor-tercero), así que el aflojo ofensivo llega TARDE (banquean GD temprano, aflojan en el tramo final), no temprano.",
+            "scope": "Prior experto manual sobre la capa de marcadores (no minado de datos → esquiva ADR-MODEL-001). Descriptivo: evaluate() no puntúa marcadores, así que NO se registra como capa puntuable."
+          },
+          "liveObservations": [
+            {
+              "recordedAtUtc": "2026-06-14T17:16:20+00:00",
+              "scoring": "POST-KICKOFF — NO puntuable; no afecta model/market/blended ni evaluate()",
+              "approxScore": "1-0 Germany (1T; API free-tier con retraso marcaba 0-0)",
+              "author": "César (observación en vivo)",
+              "observations": [
+                "Alemania no cede y sigue atacando (no afloja a 1-0)",
+                "Curazao sin delanteros veloces: detenidos pasando media cancha",
+                "Zaga alemana recupera muy rápido, más veloz que el ataque de Curazao",
+                "Curazao sin espíritu de ataque, no presiona, deja a Alemania hacer juego"
+              ],
+              "priorReadback": {
+                "defensiveHalf": "CONFIRMADA — transición de Curazao anulada; BTTS revisado de ~20-25% a ~10-15%; portería a cero = base fuerte",
+                "offensiveHalf": "EN DUDA — \"sigue atacando a 1-0\" valida el caveat de GD (banquean temprano, aflojo tarde); la cola alta 5-0/6-0 que descontamos se rehabilita si no levantan el pie"
+              },
+              "watchToScoreNote": [
+                "Portería a cero? -> test del prior defensivo",
+                "Se queda en 3-0/4-0 o escala a 5-0/6-0? -> test del aflojo ofensivo vs caveat de GD"
+              ]
+            },
+            {
+              "recordedAtUtc": "2026-06-14T17:27:00+00:00",
+              "scoring": "POST-KICKOFF — NO puntuable",
+              "approxScore": "1-1 (Curazao empató; API free-tier marcaba 1-0)",
+              "author": "César (observación en vivo)",
+              "event": "Curazao anota el empate — escenario portería-a-cero ROTO",
+              "priorReadback": {
+                "defensiveHalf": "CONTRADICHA — la mitad que subimos a base-fuerte (BTTS ~10-15%, clean sheet) falló: Curazao anotó. El \"lapsus poco probable\" ocurrió.",
+                "calibrationNote": "El modelo daba BTTS ~37%; que ocurra NO rompe calibración (pasa ~1 de 3). Lo que falló fue la REVISIÓN por eye-test a la baja: la dominancia territorial nos hizo descontar la varianza de balón parado/error."
+              },
+              "pendingDiagnostic": "mecanismo del gol (balón parado / error individual / contragolpe) — define si la tesis de profesionalismo en juego abierto sobrevive"
+            },
+            {
+              "recordedAtUtc": "2026-06-14T17:30:18+00:00",
+              "scoring": "POST-KICKOFF — NO puntuable",
+              "approxScore": "1-1",
+              "author": "César (mecanismo del gol)",
+              "goalMechanism": "contragolpe + rebote (rechace que cae a un atacante)",
+              "verdict": {
+                "transitionDeadRead": "CONTRADICHA — sí hubo un contragolpe que llegó y terminó en gol; no los detuvieron en media cancha esta vez",
+                "varianceAsterisk": "el REBOTE es componente de azar (rechace afortunado), no prueba de que el ataque de Curazao supere sistemáticamente a la zaga alemana — una transición + suerte, no patrón",
+                "modelVsEyeTest": "el modelo (BTTS ~37%) priceaba esta varianza de transición/rebote; nuestra revisión por eye-test a 10-15% fue el error. El modelo crudo ganó a la corrección informada.",
+                "professionalismThesis": "matizada — concedieron en transición (no es lockdown), pero vía rebote = no necesariamente lapsus de concentración tipo Brasil"
+              },
+              "lesson": "No sobrescribir la tasa base del modelo con eye-test de dominancia territorial: subestima los canales discretos de gol del underdog (balón parado, contragolpe, rebote)."
+            }
+          ]
+        }
+      }
+    ],
+    "venue": "NRG Stadium · Houston"
+  },
+  "Netherlands|Japan": {
+    "home": "Netherlands",
+    "away": "Japan",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-14T07:07:34+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.5331,
+            "draw": 0.1968,
+            "awayWin": 0.27
+          },
+          "market": {
+            "homeWin": 0.4728,
+            "draw": 0.2693,
+            "awayWin": 0.2579
+          },
+          "blended": {
+            "homeWin": 0.4958,
+            "draw": 0.244,
+            "awayWin": 0.2602
+          },
+          "calibrated": {
+            "homeWin": 0.4958,
+            "draw": 0.244,
+            "awayWin": 0.2602
+          }
+        },
+        "extras": {
+          "method": "prematch_xi_extended",
+          "affinity": {
+            "Netherlands": 62.24,
+            "Japan": 26.71
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-14T07:08:31+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.5331,
+            "draw": 0.1968,
+            "awayWin": 0.27
+          },
+          "market": {
+            "homeWin": 0.4728,
+            "draw": 0.2693,
+            "awayWin": 0.2579
+          },
+          "blended": {
+            "homeWin": 0.4958,
+            "draw": 0.244,
+            "awayWin": 0.2602
+          },
+          "calibrated": {
+            "homeWin": 0.4958,
+            "draw": 0.244,
+            "awayWin": 0.2602
+          }
+        },
+        "extras": {
+          "method": "prematch_xi_extended",
+          "affinity": {
+            "Netherlands": 62.24,
+            "Japan": 26.71
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-14T07:23:39+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.5331,
+            "draw": 0.1968,
+            "awayWin": 0.27
+          },
+          "market": {
+            "homeWin": 0.4728,
+            "draw": 0.2693,
+            "awayWin": 0.2579
+          },
+          "blended": {
+            "homeWin": 0.4958,
+            "draw": 0.244,
+            "awayWin": 0.2602
+          },
+          "maturity": {
+            "homeWin": 0.4358,
+            "draw": 0.273,
+            "awayWin": 0.2912
+          },
+          "calibrated": {
+            "homeWin": 0.4958,
+            "draw": 0.244,
+            "awayWin": 0.2602
+          }
+        },
+        "extras": {
+          "method": "maturity_overlay",
+          "tier": "Alta",
+          "deltaPts": 6,
+          "underdog": "Japan",
+          "split": "proporcional draw:awayWin",
+          "rationale": "underdog-vs-power maturity: JPN venció GER y ESP 2022; 1-0 a ENG y SCO 2026"
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-14T18:58:59+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.5331,
+            "draw": 0.1968,
+            "awayWin": 0.27
+          },
+          "market": {
+            "homeWin": 0.4562,
+            "draw": 0.2807,
+            "awayWin": 0.263
+          },
+          "blended": {
+            "homeWin": 0.4865,
+            "draw": 0.2513,
+            "awayWin": 0.2621
+          },
+          "calibrated": {
+            "homeWin": 0.4865,
+            "draw": 0.2513,
+            "awayWin": 0.2621
+          },
+          "maturity": {
+            "homeWin": 0.4265,
+            "draw": 0.2807,
+            "awayWin": 0.2927
+          }
+        },
+        "extras": {
+          "method": "prematch_xi_extended",
+          "affinity": {
+            "Netherlands": 62.24,
+            "Japan": 26.71
+          },
+          "maturity": {
+            "tier": "Alta",
+            "deltaPts": 6,
+            "underdog": "Japan",
+            "split": "proporcional-a-masa-actual",
+            "rationale": "Japon underdog maduro: 5 victorias seguidas con porteria a cero, batio a Inglaterra y Escocia en amistosos; el modelo subvalua su solidez. Tier decidido ex-ante (manana 2026-06-14), re-aplicado al snapshot fresco pre-kickoff."
+          },
+          "liveObservations": [
+            {
+              "recordedAtUtc": "2026-06-14T20:16:15+00:00",
+              "scoring": "POST-KICKOFF — NO puntuable",
+              "approxState": "primer tramo; equilibrado, sin marcador reportado",
+              "author": "César (observación en vivo)",
+              "observations": [
+                "NL no es ampliamente dominante",
+                "Japón NO está con el bus atrás: tiene estructura y ataca con orden",
+                "Ambos parejos / equilibrados"
+              ],
+              "readback": {
+                "forecast": "CONFIRMADO en la vía buena — el modelo PREDIJO coin-flip; el eye-test confirma balance (≠ Germany-Curaçao, donde el eye-test de dominancia fue lo que engañó)",
+                "maturityPremise": "VALIDADA en vivo — \"Japón maduro, estructurado, no bus-parker\" es literalmente la tesis que codificó el Alta +6",
+                "tiltCorroboration": "el balance encaja mejor con el maturity (NL 42.6/28.1/29.3) que con el blended crudo que aún leaneaba NL (48.6)"
+              },
+              "caveat": "confirmación DISTRIBUCIONAL (partido tight, empate vivo, modal 1-1/1-0), NO predicción de ganador — puede resolverse a cualquier lado"
+            },
+            {
+              "recordedAtUtc": "2026-06-14T23:16:44+00:00",
+              "scoring": "POST-FINAL — cierre del hilo (no puntuable; el scoring real lo da evaluate sobre el snapshot pre-kickoff)",
+              "finalScore": "Netherlands 2-2 Japan (empate; Japón remontó 2 veces, Kamada 89')",
+              "author": "César (resultado) + readback",
+              "verdict": {
+                "forecast": "ACIERTO en la vía buena: coin-flip predicho → cayó en el empate que el modelo marcó vivo; tu lectura en vivo (equilibrado) se confirmó",
+                "maturityScored": "maturity (Alta +6) fue la MEJOR de las 5 capas: RPS 0.1338 vs mercado 0.1387 vs blended 0.1527 vs modelo 0.1786; mejor Brier (0.785). Primer caso puntuado del overlay = GANA",
+                "mechanism": "premisa validada por el mecanismo, no solo la probabilidad: Japón remontó 2 veces (no aparcó el bus) — estructura + ataque con orden, justo lo que codificó el tier",
+                "calibratedNoop": "la capa calibrated se quedó fuera (no-op, NL<0.55) y dejó actuar al maturity — división de trabajo correcta",
+                "scoreline": "2-2: empate OK, BTTS OK, over 2.5 OK; el modelo subestimó goles (modal 1-1) — consistente con ambos atacando con orden",
+                "drawUnderpricing": "4º empate de la jornada; modelo crudo le daba 19.7% — el infrapago de empates se reconfirma"
+              },
+              "caveat": "maturity n=1: victoria limpia y por el mecanismo correcto, pero no prueba superioridad sistemática sobre el mercado"
+            }
+          ]
+        }
+      }
+    ],
+    "venue": "AT&T Stadium · Dallas"
+  },
+  "Ivory Coast|Ecuador": {
+    "home": "Ivory Coast",
+    "away": "Ecuador",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-14T20:44:35+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.2954,
+            "draw": 0.2076,
+            "awayWin": 0.497
+          },
+          "market": null,
+          "blended": {
+            "homeWin": 0.2954,
+            "draw": 0.2076,
+            "awayWin": 0.497
+          },
+          "calibrated": {
+            "homeWin": 0.2954,
+            "draw": 0.2076,
+            "awayWin": 0.497
+          }
+        },
+        "extras": {
+          "method": "prematch_xi_extended",
+          "affinity": {
+            "Ivory Coast": 29.76,
+            "Ecuador": 35.15
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-14T20:47:48+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.2954,
+            "draw": 0.2076,
+            "awayWin": 0.497
+          },
+          "market": null,
+          "blended": {
+            "homeWin": 0.2954,
+            "draw": 0.2076,
+            "awayWin": 0.497
+          },
+          "calibrated": {
+            "homeWin": 0.2954,
+            "draw": 0.2076,
+            "awayWin": 0.497
+          }
+        },
+        "extras": {
+          "method": "prematch_xi_extended",
+          "affinity": {
+            "Ivory Coast": 29.76,
+            "Ecuador": 35.15
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-14T22:27:31+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.2954,
+            "draw": 0.2076,
+            "awayWin": 0.497
+          },
+          "market": null,
+          "blended": {
+            "homeWin": 0.2954,
+            "draw": 0.2076,
+            "awayWin": 0.497
+          },
+          "calibrated": {
+            "homeWin": 0.2954,
+            "draw": 0.2076,
+            "awayWin": 0.497
+          }
+        },
+        "extras": {
+          "method": "prematch_xi_extended",
+          "affinity": {
+            "Ivory Coast": 33.13,
+            "Ecuador": 35.15
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-14T22:41:12+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.2954,
+            "draw": 0.2076,
+            "awayWin": 0.497
+          },
+          "market": null,
+          "blended": {
+            "homeWin": 0.2954,
+            "draw": 0.2076,
+            "awayWin": 0.497
+          },
+          "calibrated": {
+            "homeWin": 0.2954,
+            "draw": 0.2076,
+            "awayWin": 0.497
+          }
+        },
+        "extras": {
+          "method": "prematch_xi_extended",
+          "affinity": {
+            "Ivory Coast": 33.13,
+            "Ecuador": 36.42
+          }
+        }
+      }
+    ],
+    "venue": "Lincoln Financial Field · Philadelphia"
   }
 }

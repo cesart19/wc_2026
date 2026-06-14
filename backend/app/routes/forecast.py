@@ -5,18 +5,30 @@ from app.services.forecasting import run_forecast, _get_affinity, _build_groups
 from app.services.match_predictor import (
     predictor,
     apply_coast_damp,
+    apply_favorite_shrink,
     _BLEND_ALPHA,
     _STAKES_COAST_DAMP,
 )
-from app.services.stakes import coast_for_match
-from app.services.team_data import get_team_data, get_crowd_support, get_trend_data
+from app.services.stakes import coast_for_match, group_stakes_report
+from app.services.team_data import (
+    get_team_data,
+    get_crowd_support,
+    get_trend_data,
+)
 from app.services.venues import get_venue, get_host_country
 from app.services.odds_api import get_match_odds
 from app.services.team_data import TEAM_DATA
 
 router = APIRouter()
 
-_KNOCKOUT_STAGES = {"LAST_32", "LAST_16", "QUARTER_FINALS", "SEMI_FINALS", "THIRD_PLACE", "FINAL"}
+_KNOCKOUT_STAGES = {
+    "LAST_32",
+    "LAST_16",
+    "QUARTER_FINALS",
+    "SEMI_FINALS",
+    "THIRD_PLACE",
+    "FINAL",
+}
 
 
 @router.get("/forecast")
@@ -42,7 +54,7 @@ async def match_forecast(
     venue: str = Query(
         None,
         description="Venue string, e.g. 'Estadio Azteca · Ciudad de México'. "
-                    "Auto-detected from group-stage fixture table if omitted.",
+        "Auto-detected from group-stage fixture table if omitted.",
     ),
     use_market: bool = Query(
         True,
@@ -56,7 +68,9 @@ async def match_forecast(
         td_away = get_trend_data(away)
 
         # Auto-detect venue for group stage if not provided
-        resolved_venue = venue or (get_venue(home, away) if stage == "GROUP_STAGE" else None)
+        resolved_venue = venue or (
+            get_venue(home, away) if stage == "GROUP_STAGE" else None
+        )
         host = get_host_country(resolved_venue) if resolved_venue else None
         crowd_home = get_crowd_support(home, host)
         crowd_away = get_crowd_support(away, host)
@@ -68,12 +82,20 @@ async def match_forecast(
 
         is_knockout = stage in _KNOCKOUT_STAGES
         result = predictor.predict_both(
-            home, away, stage=stage, venue=resolved_venue,
-            affinity_a=aff_home, affinity_b=aff_away,
+            home,
+            away,
+            stage=stage,
+            venue=resolved_venue,
+            affinity_a=aff_home,
+            affinity_b=aff_away,
         )
         feats = predictor.build_features(
-            home, away, stage=stage, venue=resolved_venue,
-            affinity_a=aff_home, affinity_b=aff_away,
+            home,
+            away,
+            stage=stage,
+            venue=resolved_venue,
+            affinity_a=aff_home,
+            affinity_b=aff_away,
         )
 
         # ── Damp de coasting (stakes-aware) ──────────────────────────────────
@@ -93,7 +115,8 @@ async def match_forecast(
                     wc = result["withCrowd"]
                     damped = apply_coast_damp(
                         (wc["aWin"], wc["draw"], wc["bWin"]),
-                        fav_is_home, intensity,
+                        fav_is_home,
+                        intensity,
                     )
                     result["withCrowd"] = {
                         "aWin": round(damped[0], 4),
@@ -108,6 +131,7 @@ async def match_forecast(
                     }
             except Exception as stakes_exc:
                 import logging
+
                 logging.getLogger(__name__).warning(
                     "Damp de coasting omitido: %s", stakes_exc
                 )
@@ -120,10 +144,9 @@ async def match_forecast(
                 match_odds = await get_match_odds(known_names=known)
                 if match_odds:
                     # Buscar en ambas orientaciones (home, away) y (away, home)
-                    odds_payload = (
-                        match_odds.get((home, away))
-                        or match_odds.get((away, home))
-                    )
+                    odds_payload = match_odds.get(
+                        (home, away)
+                    ) or match_odds.get((away, home))
                     if odds_payload:
                         draw_raw = odds_payload["draw"]
 
@@ -140,7 +163,11 @@ async def match_forecast(
                                     ph_m, pa_m = 0.5, 0.5
                                 p_market = (ph_m, 0.0, pa_m)
                             else:
-                                p_market = (odds_payload["homeWin"], 0.0, odds_payload["awayWin"])
+                                p_market = (
+                                    odds_payload["homeWin"],
+                                    0.0,
+                                    odds_payload["awayWin"],
+                                )
                         else:
                             # Fase de grupos: usar empate del mercado, o 0 si no hay
                             p_market = (
@@ -151,21 +178,31 @@ async def match_forecast(
 
                         wc = result["withCrowd"]
                         p_model = (wc["aWin"], wc["draw"], wc["bWin"])
-                        blended = predictor.blend_with_market(p_model, p_market)
+                        blended = predictor.blend_with_market(
+                            p_model, p_market
+                        )
 
                         market_section = {
-                            "available":      True,
-                            "source":         "the-odds-api.com",
+                            "available": True,
+                            "source": "the-odds-api.com",
                             "bookmakerCount": odds_payload["bookmakerCount"],
-                            "rawOdds":        odds_payload["rawOdds"],
+                            "rawOdds": odds_payload["rawOdds"],
                             "marketProb": {
                                 "homeWin": round(p_market[0], 4),
-                                "draw":    round(p_market[1], 4) if not is_knockout else None,
+                                "draw": (
+                                    round(p_market[1], 4)
+                                    if not is_knockout
+                                    else None
+                                ),
                                 "awayWin": round(p_market[2], 4),
                             },
                             "blended": {
                                 "homeWin": round(blended[0], 4),
-                                "draw":    round(blended[1], 4) if not is_knockout else None,
+                                "draw": (
+                                    round(blended[1], 4)
+                                    if not is_knockout
+                                    else None
+                                ),
                                 "awayWin": round(blended[2], 4),
                             },
                             "blendAlpha": _BLEND_ALPHA,
@@ -173,7 +210,10 @@ async def match_forecast(
             except Exception as odds_exc:
                 # Los momios son optativos — no interrumpir si fallan
                 import logging
-                logging.getLogger(__name__).warning("No se pudieron obtener momios: %s", odds_exc)
+
+                logging.getLogger(__name__).warning(
+                    "No se pudieron obtener momios: %s", odds_exc
+                )
 
         # ── Registro en el ledger de pronósticos ─────────────────────────────
         model_probs = {
@@ -181,12 +221,28 @@ async def match_forecast(
             "draw": None if is_knockout else result["withCrowd"]["draw"],
             "awayWin": result["withCrowd"]["bWin"],
         }
+        # Capa de calibración sobre la producción (blended si hay mercado, si
+        # no el modelo): encoge la sobreconfianza del favorito. A/B en ledger.
+        prod = (market_section or {}).get("blended") or model_probs
+        p_cal = apply_favorite_shrink(
+            (prod["homeWin"], prod["draw"] or 0.0, prod["awayWin"]),
+            is_knockout,
+        )
+        calibrated_probs = {
+            "homeWin": round(p_cal[0], 4),
+            "draw": None if is_knockout else round(p_cal[1], 4),
+            "awayWin": round(p_cal[2], 4),
+        }
         record_snapshot(
-            home, away, stage, resolved_venue,
+            home,
+            away,
+            stage,
+            resolved_venue,
             probs={
                 "model": model_probs,
                 "market": (market_section or {}).get("marketProb"),
                 "blended": (market_section or {}).get("blended"),
+                "calibrated": calibrated_probs,
             },
             extras={"affinity": {"home": aff_home, "away": aff_away}},
         )
@@ -260,5 +316,28 @@ async def forecast_ledger():
             for m in data.get("matches", [])
         ]
         return evaluate(matches)
+    except Exception as e:
+        raise HTTPException(status_code=502, detail=str(e))
+
+
+@router.get("/forecast/stakes")
+async def forecast_stakes(
+    group: str = Query(
+        None, description="Group letter A-L; omit for all groups."
+    ),
+    sims: int = Query(
+        8000, description="Monte-Carlo iterations per group (heavier = finer)."
+    ),
+):
+    """
+    Advancement-aware match stakes per group (top-2 OR best-third).
+
+    For every remaining group match, returns each team's pAdvance / pTop2 and
+    the win-vs-loss swings, with an advanceLabel (PIVOTAL / SECURED / SEEDING /
+    LIVE / DOOMED). The best-thirds cutoff is computed once across all groups.
+    """
+    try:
+        matches = await get_matches()
+        return group_stakes_report(matches, group=group, n_sims=sims)
     except Exception as e:
         raise HTTPException(status_code=502, detail=str(e))

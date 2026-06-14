@@ -59,6 +59,22 @@ _STAKES_COAST_DAMP: float = float(os.getenv("STAKES_COAST_DAMP", "0.0"))
 # underdog): un favorito que afloja empata más de lo que pierde.
 _COAST_TO_DRAW: float = 0.6
 
+# ── Calibración de favorito (always-on) ──────────────────────────────────────
+# El ledger de jornada 1 muestra que el blended sobre-confía en favoritos
+# amplios y subvalúa el empate (bucket heavyFavorite: predijo 74%, observó
+# 50%). Esta capa encoge la masa de victoria del favorito hacia empate+underdog
+# proporcional a su sobreconfianza (exceso sobre el ancla). Parámetros
+# PROVISIONALES fijados desde priors, NO ajustados al óptimo: a n=8 la
+# superficie de RPS no tiene mínimo interior (pide el borde → sobreajuste).
+# Re-ajustar al acumular jornadas. Ver apply_favorite_shrink.
+_FAV_SHRINK_LAMBDA: float = float(os.getenv("FAV_SHRINK_LAMBDA", "0.5"))
+_FAV_SHRINK_CAP: float = float(os.getenv("FAV_SHRINK_CAP", "0.12"))
+_FAV_SHRINK_ANCHOR: float = float(os.getenv("FAV_SHRINK_ANCHOR", "0.55"))
+# Fracción de la masa quitada que va al empate (resto al underdog): los
+# tropiezos del favorito son mayoritariamente empates, pero se deja masa al
+# underdog para no sobreajustar a "todo bust es empate".
+_FAV_SHRINK_TO_DRAW: float = 0.7
+
 _K = 3.0             # logistic scale: higher → more decisive wins for stronger teams
 _P_DRAW_GROUP = 0.245 # WC group-stage draw rate at perfect parity — promedio histórico WC2014-2022 ≈ 23.6%
 # Escala de paridad del empate. A paridad (p_a=0.5) el empate vale
@@ -189,6 +205,50 @@ def apply_coast_damp(
     p_home, p_draw, p_away = probs
     move = (p_home if fav_is_home else p_away) * intensity
     to_draw = move * _COAST_TO_DRAW
+    to_dog = move - to_draw
+    p_draw += to_draw
+    if fav_is_home:
+        p_home -= move
+        p_away += to_dog
+    else:
+        p_away -= move
+        p_home += to_dog
+    return p_home, p_draw, p_away
+
+
+def apply_favorite_shrink(
+    probs: tuple[float, float, float],
+    is_knockout: bool = False,
+) -> tuple[float, float, float]:
+    """Recalibrate the final W/D/L by shrinking an over-confident favourite.
+
+    Always-on companion of :func:`apply_coast_damp`. The ledger shows wide
+    favourites win less often than the blended layer predicts and that draws
+    are under-priced, so this moves a bounded fraction of the favourite's win
+    mass toward draw + underdog, proportional to how far its win probability
+    exceeds parity (``_FAV_SHRINK_ANCHOR``). The cap (``_FAV_SHRINK_CAP``)
+    keeps the favourite the most likely outcome; mass is conserved.
+
+    Args:
+        probs: (p_home, p_draw, p_away), summing to 1.0.
+        is_knockout: When True there is no draw, so the shifted mass goes
+            entirely to the underdog.
+
+    Returns:
+        Recalibrated (p_home, p_draw, p_away). Identity when the favourite is
+        at or below the parity anchor.
+    """
+    p_home, p_draw, p_away = probs
+    fav_is_home = p_home >= p_away
+    p_fav = p_home if fav_is_home else p_away
+    intensity = min(
+        _FAV_SHRINK_CAP,
+        _FAV_SHRINK_LAMBDA * max(0.0, p_fav - _FAV_SHRINK_ANCHOR),
+    )
+    if intensity <= 0.0:
+        return probs
+    move = p_fav * intensity
+    to_draw = 0.0 if is_knockout else move * _FAV_SHRINK_TO_DRAW
     to_dog = move - to_draw
     p_draw += to_draw
     if fav_is_home:

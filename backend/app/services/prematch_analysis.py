@@ -33,7 +33,11 @@ from pathlib import Path
 import httpx
 
 from app.services.forecast_ledger import record_snapshot
-from app.services.match_predictor import get_strength, predictor
+from app.services.match_predictor import (
+    apply_favorite_shrink,
+    get_strength,
+    predictor,
+)
 from app.services.odds_api import get_match_odds
 from app.services.team_data import TEAM_DATA, missing_ratings
 
@@ -97,6 +101,24 @@ def _apif(path: str, **params) -> dict:
     return data
 
 
+def _apif_search_term(name: str) -> str:
+    """ASCII-fold para el parámetro `search` del endpoint /teams.
+
+    API-Football rechaza el campo `search` si contiene cualquier carácter
+    que no sea alfanumérico o espacio (p.ej. la 'ç' de 'Curaçao'). Quitamos
+    diacríticos y sustituimos el resto de signos por espacios.
+    """
+    folded = "".join(
+        c
+        for c in unicodedata.normalize("NFD", name.replace("ı", "i"))
+        if unicodedata.category(c) != "Mn"
+    )
+    cleaned = "".join(
+        ch if ch.isalnum() or ch.isspace() else " " for ch in folded
+    )
+    return " ".join(cleaned.split())
+
+
 def find_team_id(name: str) -> int:
     """Resuelve el id de selección en API-Football por nombre.
 
@@ -105,7 +127,7 @@ def find_team_id(name: str) -> int:
     equipos nacionales.
     """
     apif_name = _APIF_TEAM_ALIASES.get(name, name)
-    resp = _apif("/teams", search=apif_name)["response"]
+    resp = _apif("/teams", search=_apif_search_term(apif_name))["response"]
     nationals = [
         t
         for t in resp
@@ -115,7 +137,14 @@ def find_team_id(name: str) -> int:
     ]
     if not nationals:
         raise LookupError(f"Selección no encontrada en APIF: {name}")
-    exact = [t for t in nationals if t["team"]["name"] == apif_name]
+    # El proveedor puede devolver el nombre sin diacríticos ('Curacao'):
+    # comparamos ASCII-folded para no fallar el match exacto por una tilde.
+    folded_target = _apif_search_term(apif_name).lower()
+    exact = [
+        t
+        for t in nationals
+        if _apif_search_term(t["team"]["name"]).lower() == folded_target
+    ]
     return (exact or nationals)[0]["team"]["id"]
 
 
@@ -123,9 +152,11 @@ def find_team_id(name: str) -> int:
 
 
 def _toks(name: str) -> list[str]:
+    # La 'ı' turca (U+0131) es letra base, no decompone a 'i' con NFD:
+    # hay que transliterarla a mano o 'Yılmaz' nunca casa con 'Yilmaz'.
     s = "".join(
         c
-        for c in unicodedata.normalize("NFD", name.lower())
+        for c in unicodedata.normalize("NFD", name.lower().replace("ı", "i"))
         if unicodedata.category(c) != "Mn"
     )
     return [t for t in s.replace("-", " ").replace(".", "").split() if t]
@@ -147,17 +178,22 @@ def same_player(a: str, b: str) -> bool:
         return True
     if len(tb) >= 2 and set(tb) <= set(ta):
         return True
+    # Abbreviated given name ('E. Wahi'): the surname (last token) must
+    # match exactly and the initial must match the first letter of ANY
+    # given-name token. Providers abbreviate by first OR middle name
+    # ('E.' = Elye in 'Sepe Elye Wahi'), so anchoring the initial on the
+    # first token alone silently drops middle-name abbreviations.
     if len(ta) == 2 and len(ta[0]) == 1:
-        return ta[1] == tb[-1] and ta[0] == tb[0][0]
+        return ta[1] == tb[-1] and any(t[0] == ta[0] for t in tb[:-1])
     if len(tb) == 2 and len(tb[0]) == 1:
-        return tb[1] == ta[-1] and tb[0] == ta[0][0]
+        return tb[1] == ta[-1] and any(t[0] == tb[0] for t in ta[:-1])
     return False
 
 
 def _norm(s: str) -> str:
     return "".join(
         c
-        for c in unicodedata.normalize("NFD", s.lower())
+        for c in unicodedata.normalize("NFD", s.lower().replace("ı", "i"))
         if unicodedata.category(c) != "Mn"
     ).replace("-", " ")
 
@@ -184,11 +220,18 @@ def lookup_club(player_name: str, pcm: dict[str, dict]) -> dict:
         if cand.replace(" ", "") == target_joined:
             return info
         overlap = set(target_parts) & set(cand_parts)
+        # Both tokens must be >2 chars: a single-letter candidate token
+        # (e.g. the 'a' in 'Wong-a-Soij') is a substring of almost any
+        # target token and turned such names into false-positive sinks
+        # (Pacho/Inao Oulai both wrongly mapped to FC Volendam).
         joined_hits = sum(
             1
             for tp in target_parts
             if any(
-                tp != cp and (tp in cp or cp in tp) and len(tp) > 2
+                tp != cp
+                and len(tp) > 2
+                and len(cp) > 2
+                and (tp in cp or cp in tp)
                 for cp in cand_parts
             )
         )
@@ -364,6 +407,7 @@ async def run_prematch(
     match_date: str,
     stage: str = "GROUP_STAGE",
     venue: str | None = None,
+    with_stakes: bool = False,
 ) -> dict:
     """Corre el análisis pre-partido completo y lo registra en el ledger.
 
@@ -374,6 +418,9 @@ async def run_prematch(
             historial de últimos 5.
         stage: Etapa del torneo.
         venue: Sede; si None se auto-detecta para fase de grupos.
+        with_stakes: Si True y es fase de grupos, añade ``report["stakes"]``
+            con las motivaciones de avance (top-2 o mejor-tercero) de cada
+            equipo para este partido. Corre un Monte-Carlo extra del torneo.
 
     Returns:
         Reporte completo: XIs probables, afinidades, probabilidades por
@@ -449,6 +496,10 @@ async def run_prematch(
     except (httpx.HTTPError, RuntimeError, KeyError) as err:
         log.warning("Momios no disponibles: %s", err)
 
+    # Capa de calibración: encoge la sobreconfianza del favorito sobre el
+    # blended (producción). Función pura de p_final → A/B-able en el ledger.
+    p_cal = apply_favorite_shrink(p_final, stage != "GROUP_STAGE")
+
     report = {
         "home": home,
         "away": away,
@@ -467,10 +518,25 @@ async def run_prematch(
                 "draw": round(p_final[1], 4),
                 "awayWin": round(p_final[2], 4),
             },
+            "calibrated": {
+                "homeWin": round(p_cal[0], 4),
+                "draw": round(p_cal[1], 4),
+                "awayWin": round(p_cal[2], 4),
+            },
         },
         "market": market,
         "scorelines": conditioned_scorelines(home, away, p_final),
     }
+
+    report["stakes"] = None
+    if with_stakes and stage == "GROUP_STAGE":
+        try:
+            from app.services.football_api import get_matches
+            from app.services.stakes import match_stakes
+
+            report["stakes"] = match_stakes(home, away, await get_matches())
+        except (LookupError, RuntimeError, KeyError, httpx.HTTPError) as err:
+            log.warning("Stakes no disponibles: %s", err)
 
     record_snapshot(
         home,
