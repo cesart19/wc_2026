@@ -4,7 +4,8 @@ evaluación de calibración contra resultados reales.
 
 Cada llamada a /forecast/match (o prematch.py) registra un snapshot por
 capa: ``model`` / ``market`` / ``blended`` y, opcionalmente, ``maturity``
-(prior experto de madurez underdog-vs-potencia). La evaluación usa el
+(prior experto de madurez underdog-vs-potencia) o ``lineup`` (override de
+analista con alineaciones confirmadas pre-kickoff). La evaluación usa el
 ÚLTIMO snapshot tomado ANTES del kickoff de cada partido terminado. Con
 104 partidos esto convierte el ajuste del modelo en una decisión basada
 en evidencia y no en anécdotas.
@@ -42,13 +43,14 @@ log = logging.getLogger(__name__)
 
 LEDGER_PATH = Path(__file__).parent / 'forecast_ledger.json'
 
-# Capas puntuables. ``calibrated`` (favorite-shrink sobre el blended) y
-# ``maturity`` (prior experto) solo aparecen en los snapshots que las traen;
+# Capas puntuables. ``calibrated`` (favorite-shrink sobre el blended),
+# ``maturity`` (prior experto) y ``lineup`` (override de analista con
+# alineaciones confirmadas) solo aparecen en los snapshots que las traen;
 # los partidos sin una capa simplemente no contribuyen a su resumen.
-_LAYERS = ('model', 'market', 'blended', 'calibrated', 'maturity')
+_LAYERS = ('model', 'market', 'blended', 'calibrated', 'maturity', 'lineup')
 
 # Capas de pronóstico (excluye ``market``, que es la referencia externa).
-_FORECAST_LAYERS = ('model', 'blended', 'calibrated', 'maturity')
+_FORECAST_LAYERS = ('model', 'blended', 'calibrated', 'maturity', 'lineup')
 
 _METRICS = ('brier', 'logLoss', 'rps')
 
@@ -114,9 +116,10 @@ def record_snapshot(
         stage: Etapa del torneo (GROUP_STAGE, LAST_32, ...).
         venue: Sede resuelta, si se conoce.
         probs: Probabilidades por capa. Claves esperadas: ``model``,
-            ``market``, ``blended`` y opcionalmente ``maturity``; cada
-            valor es un dict con homeWin / draw / awayWin (draw puede ser
-            None en eliminación directa) o None si la capa no aplica.
+            ``market``, ``blended`` y opcionalmente ``maturity`` o
+            ``lineup``; cada valor es un dict con homeWin / draw / awayWin
+            (draw puede ser None en eliminación directa) o None si la capa
+            no aplica.
         extras: Datos adicionales a persistir (p.ej. afinidades, tier de
             madurez).
         recorded_at: Marca de tiempo del snapshot. Por defecto el instante

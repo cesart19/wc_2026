@@ -122,6 +122,11 @@ def _seed_ledger(path) -> None:
                             'draw': 0.25,
                             'awayWin': 0.25,
                         },
+                        'lineup': {
+                            'homeWin': 0.7,
+                            'draw': 0.2,
+                            'awayWin': 0.1,
+                        },
                     },
                     'extras': {},
                 }
@@ -224,6 +229,21 @@ def test_evaluate_scores_maturity_layer(tmp_path, monkeypatch) -> None:
     # Assert: only A|B had a maturity snapshot; Brier of (.5,.25,.25) vs home.
     assert result['summary']['maturity']['matches'] == 1
     assert result['summary']['maturity']['meanBrier'] == approx(0.375)
+
+
+def test_evaluate_scores_lineup_layer(tmp_path, monkeypatch) -> None:
+    """The lineup layer is scored only on the match that carries it."""
+    # Arrange
+    ledger_file = tmp_path / 'ledger.json'
+    _seed_ledger(ledger_file)
+    monkeypatch.setattr(fl, 'LEDGER_PATH', ledger_file)
+
+    # Act
+    result = evaluate(_fixtures())
+
+    # Assert: only A|B had a lineup snapshot; Brier of (.7,.2,.1) vs home.
+    assert result['summary']['lineup']['matches'] == 1
+    assert result['summary']['lineup']['meanBrier'] == approx(0.14)
 
 
 def test_evaluate_skill_vs_climatology(tmp_path, monkeypatch) -> None:

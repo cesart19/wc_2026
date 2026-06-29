@@ -105,6 +105,7 @@ TEAM_DATA: dict[str, dict] = {
     "Bosnia-Herzegovina": {"elo": 1750, "fifa_pts": 1485, "market_value_m": 170},  # eliminó a Italia en repechaje
     "Sweden":            {"elo": 1820, "fifa_pts": 1528, "market_value_m": 430},  # Isak + Gyökeres elevan el valor
     "Cape Verde Islands": {"elo": 1690, "fifa_pts": 1400, "market_value_m": 60},   # debutante CAF
+    "Cape Verde":        {"elo": 1690, "fifa_pts": 1400, "market_value_m": 60},   # alias football-data de "Cape Verde Islands"
     "Curaçao":           {"elo": 1655, "fifa_pts": 1330, "market_value_m": 35},   # debutante CONCACAF
     "Haiti":             {"elo": 1650, "fifa_pts": 1320, "market_value_m": 45},
 }
@@ -222,6 +223,7 @@ CROWD_SUPPORT: dict[str, int] = {
     "Bosnia-Herzegovina":  11,  # comunidad bosnia notable (St. Louis ~70k)
     "Sweden":               9,
     "Cape Verde Islands":   6,  # comunidad caboverdiana (Nueva Inglaterra)
+    "Cape Verde":           6,  # alias football-data de "Cape Verde Islands"
     "Curaçao":              7,  # diáspora caribeña/neerlandesa
     "Haiti":               12,  # gran comunidad haitiana en Florida/NY
 }
@@ -347,6 +349,7 @@ TREND_DATA: dict[str, dict] = {
     "Bosnia-Herzegovina": {"trend_18m":  8.5, "momentum":  2.0},  # alza tras clasificar vía repechaje
     "Sweden":             {"trend_18m": 10.0, "momentum":  2.0},
     "Cape Verde Islands": {"trend_18m":  9.0, "momentum":  5.0},  # ascenso (1a clasificación)
+    "Cape Verde":         {"trend_18m":  9.0, "momentum":  5.0},  # alias football-data de "Cape Verde Islands"
     "Curaçao":            {"trend_18m":  7.0, "momentum":  5.0},
     "Haiti":              {"trend_18m":  4.5, "momentum": -2.0},
     # Detectados por el guardrail (2026-06-13): tenían elo/crowd pero no trend.

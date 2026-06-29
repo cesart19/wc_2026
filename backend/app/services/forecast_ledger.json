@@ -224,6 +224,37 @@
             "away": 7.83
           }
         }
+      },
+      {
+        "recordedAtUtc": "2026-06-18T18:09:14+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.4939,
+            "draw": 0.2085,
+            "awayWin": 0.2975
+          },
+          "market": {
+            "homeWin": 0.4613,
+            "draw": 0.2972,
+            "awayWin": 0.2416
+          },
+          "blended": {
+            "homeWin": 0.4693,
+            "draw": 0.2659,
+            "awayWin": 0.2649
+          },
+          "calibrated": {
+            "homeWin": 0.4693,
+            "draw": 0.2659,
+            "awayWin": 0.2649
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 14.68,
+            "away": 7.83
+          }
+        }
       }
     ],
     "venue": "Estadio Akron · Guadalajara"
@@ -722,6 +753,37 @@
             "Australia": 33.86
           }
         }
+      },
+      {
+        "recordedAtUtc": "2026-06-18T18:13:44+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.6024,
+            "draw": 0.1769,
+            "awayWin": 0.2208
+          },
+          "market": {
+            "homeWin": 0.597,
+            "draw": 0.2221,
+            "awayWin": 0.1809
+          },
+          "blended": {
+            "homeWin": 0.5943,
+            "draw": 0.2067,
+            "awayWin": 0.199
+          },
+          "calibrated": {
+            "homeWin": 0.5811,
+            "draw": 0.2159,
+            "awayWin": 0.2029
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 6.18,
+            "away": 7.99
+          }
+        }
       }
     ],
     "venue": "Lumen Field · Seattle"
@@ -760,6 +822,68 @@
           "affinity": {
             "Turkey": 38.57,
             "Paraguay": 46.88
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-18T18:13:48+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.5627,
+            "draw": 0.1882,
+            "awayWin": 0.2491
+          },
+          "market": {
+            "homeWin": 0.474,
+            "draw": 0.2825,
+            "awayWin": 0.2435
+          },
+          "blended": {
+            "homeWin": 0.5088,
+            "draw": 0.2495,
+            "awayWin": 0.2417
+          },
+          "calibrated": {
+            "homeWin": 0.5088,
+            "draw": 0.2495,
+            "awayWin": 0.2417
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 18.45,
+            "away": 8.2
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-19T23:32:58+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.5627,
+            "draw": 0.1882,
+            "awayWin": 0.2491
+          },
+          "market": {
+            "homeWin": 0.4675,
+            "draw": 0.2815,
+            "awayWin": 0.251
+          },
+          "blended": {
+            "homeWin": 0.5057,
+            "draw": 0.2489,
+            "awayWin": 0.2455
+          },
+          "calibrated": {
+            "homeWin": 0.5057,
+            "draw": 0.2489,
+            "awayWin": 0.2455
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 18.45,
+            "away": 8.2
           }
         }
       }
@@ -802,6 +926,68 @@
             "United States": 37.46
           }
         }
+      },
+      {
+        "recordedAtUtc": "2026-06-18T18:14:25+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.2594,
+            "draw": 0.1925,
+            "awayWin": 0.5481
+          },
+          "market": {
+            "homeWin": 0.3411,
+            "draw": 0.2627,
+            "awayWin": 0.3962
+          },
+          "blended": {
+            "homeWin": 0.2961,
+            "draw": 0.2383,
+            "awayWin": 0.4656
+          },
+          "calibrated": {
+            "homeWin": 0.2961,
+            "draw": 0.2383,
+            "awayWin": 0.4656
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 18.45,
+            "away": 6.18
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-19T23:35:14+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.2594,
+            "draw": 0.1925,
+            "awayWin": 0.5481
+          },
+          "market": {
+            "homeWin": 0.3668,
+            "draw": 0.2506,
+            "awayWin": 0.3825
+          },
+          "blended": {
+            "homeWin": 0.3095,
+            "draw": 0.2305,
+            "awayWin": 0.46
+          },
+          "calibrated": {
+            "homeWin": 0.3095,
+            "draw": 0.2305,
+            "awayWin": 0.46
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 18.45,
+            "away": 6.18
+          }
+        }
       }
     ],
     "venue": "SoFi Stadium · Los Angeles"
@@ -840,6 +1026,68 @@
           "affinity": {
             "Paraguay": 46.88,
             "Australia": 33.86
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-18T18:14:26+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.2892,
+            "draw": 0.2049,
+            "awayWin": 0.5058
+          },
+          "market": {
+            "homeWin": 0.4369,
+            "draw": 0.2876,
+            "awayWin": 0.2754
+          },
+          "blended": {
+            "homeWin": 0.3572,
+            "draw": 0.2585,
+            "awayWin": 0.3843
+          },
+          "calibrated": {
+            "homeWin": 0.3572,
+            "draw": 0.2585,
+            "awayWin": 0.3843
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 8.2,
+            "away": 7.99
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-19T23:35:17+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.2892,
+            "draw": 0.2049,
+            "awayWin": 0.5058
+          },
+          "market": {
+            "homeWin": 0.4416,
+            "draw": 0.2813,
+            "awayWin": 0.277
+          },
+          "blended": {
+            "homeWin": 0.3599,
+            "draw": 0.2545,
+            "awayWin": 0.3855
+          },
+          "calibrated": {
+            "homeWin": 0.3599,
+            "draw": 0.2545,
+            "awayWin": 0.3855
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 8.2,
+            "away": 7.99
           }
         }
       }
@@ -1313,10 +1561,5276 @@
           "affinity": {
             "Ivory Coast": 33.13,
             "Ecuador": 36.42
+          },
+          "analysisNote": {
+            "recordedAtUtc": "2026-06-15T01:32:34+00:00",
+            "scoring": "POST-FINAL — nota cualitativa; el scoring real lo da evaluate sobre este snapshot pre-kickoff",
+            "finalScore": "Ivory Coast 1-0 Ecuador (Amad Diallo 90')",
+            "forecast": "Ecuador 49.7% (marginal fav) / X 20.8% / CIV 29.5%; SIN mercado (blended=model); calibrated no-op (Ecuador<0.55)",
+            "scored": "RPS 0.3717 / Brier 0.7866 — falla ordinal máxima (predijo favorito visitante, ganó local)",
+            "lessons": [
+              "1-0 al 90' en un 0-0 = varianza máxima, no falla de modelo; el modelo acertó que era parejo",
+              "marginal favorito = modelo casi indiferente (49.7 vs 29.5); ~mitad de las veces Ecuador no gana",
+              "BANDERA: bucket lean 0/3 para favoritos (NL/Ecuador/Turquía) — vigilar, n=3, no concluir",
+              "sin cobertura de mercado = forecast de mayor riesgo (sin la corrección del mercado)",
+              "calibración hizo bien en abstenerse; bucket heavyFavorite desapareció y gap 74/50 -> 60/50",
+              "hipótesis baja-confianza: ¿subvalúa la ventaja de local de un anfitrión fuerte? (CIV local vs Ecuador) — a confirmar",
+              "meta: 6º favorito sin ganar de 10, pero ~1sd bajo lo esperado (5.7) — dentro del ruido, NO re-tunear"
+            ]
           }
         }
       }
     ],
     "venue": "Lincoln Financial Field · Philadelphia"
+  },
+  "Sweden|Tunisia": {
+    "home": "Sweden",
+    "away": "Tunisia",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-15T01:58:06+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.4769,
+            "draw": 0.2137,
+            "awayWin": 0.3094
+          },
+          "market": {
+            "homeWin": 0.5008,
+            "draw": 0.2913,
+            "awayWin": 0.2079
+          },
+          "blended": {
+            "homeWin": 0.4814,
+            "draw": 0.2639,
+            "awayWin": 0.2547
+          },
+          "calibrated": {
+            "homeWin": 0.4814,
+            "draw": 0.2639,
+            "awayWin": 0.2547
+          }
+        },
+        "extras": {
+          "method": "prematch_xi_extended",
+          "affinity": {
+            "Sweden": 47.05,
+            "Tunisia": 30.57
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-15T02:28:50+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.4769,
+            "draw": 0.2137,
+            "awayWin": 0.3094
+          },
+          "market": {
+            "homeWin": 0.5008,
+            "draw": 0.2913,
+            "awayWin": 0.2079
+          },
+          "blended": {
+            "homeWin": 0.4814,
+            "draw": 0.2639,
+            "awayWin": 0.2547
+          },
+          "calibrated": {
+            "homeWin": 0.4814,
+            "draw": 0.2639,
+            "awayWin": 0.2547
+          },
+          "maturity": {
+            "homeWin": 0.5202,
+            "draw": 0.2851,
+            "awayWin": 0.1947
+          }
+        },
+        "extras": {
+          "method": "lineup_confirmed_maturity",
+          "affinity": {
+            "Sweden": 47.05,
+            "Tunisia": 30.57
+          },
+          "maturity": {
+            "tier": "Baja",
+            "deltaPts": -6,
+            "underdog": "Tunisia",
+            "direction": "regressive (fade underdog)",
+            "split": "proporcional-a-masa-actual (home+draw)",
+            "rationale": "XI confirmados: Suecia 3-4-1-2 con Isak+Gyokeres juntos (el XI probable NO tenia a Isak titular); Tunisia 5-4-1 con punta unica (E. Saad) tras el 0-6 vs Belgica. El modelo sobrevalua a Tunisia (30.9%) — ataque-vs-autobus, baja total de goles. Tier decidido pre-kickoff con alineaciones confirmadas en prensa."
+          },
+          "confirmedLineups": {
+            "Sweden": "Nordfeldt; Lagerbielke, Hien, Lindelof; Svensson/Bernhardsson, Karlstrom, Ayari, Gudmundsson; Nygren; Isak, Gyokeres (3-4-1-2)",
+            "Tunisia": "Chamakh; Abdi, Talbi, Rekik, Valery, Ben Hmida; Mejbri, Khedira, Skhiri, Slimane; Saad (5-4-1)"
+          },
+          "sources": [
+            "khelnow.com (Sweden XI confirmed)",
+            "clarosports.com / futbolcentroamerica.com (ambas alineaciones)"
+          ],
+          "scoring": "POST-KICKOFF — NO puntuable. Kickoff real 02:00 UTC; este snapshot se registro 02:28 UTC (28 min despues del pitido). evaluate() lo excluye y puntua el snapshot pre-kickoff de 01:58 (sin maturity). Sin conocimiento del resultado al fijar los numeros, pero el timestamp invalida el scoring. Informativo: vs Suecia 5-1 habria dado RPS 0.134 (mejor que todas), pero NO cuenta."
+        }
+      }
+    ],
+    "venue": "Estadio BBVA · Monterrey"
+  },
+  "Spain|Cape Verde Islands": {
+    "home": "Spain",
+    "away": "Cape Verde Islands",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-15T15:44:12+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.6901,
+            "draw": 0.1526,
+            "awayWin": 0.1573
+          },
+          "market": null,
+          "blended": {
+            "homeWin": 0.6901,
+            "draw": 0.1526,
+            "awayWin": 0.1573
+          },
+          "calibrated": {
+            "homeWin": 0.6418,
+            "draw": 0.1864,
+            "awayWin": 0.1718
+          }
+        },
+        "extras": {
+          "method": "prematch_xi_extended",
+          "affinity": {
+            "Spain": 49.15,
+            "Cape Verde": 28.08
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-15T15:48:56+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.7504,
+            "draw": 0.1365,
+            "awayWin": 0.1131
+          },
+          "market": null,
+          "blended": {
+            "homeWin": 0.7504,
+            "draw": 0.1365,
+            "awayWin": 0.1131
+          },
+          "calibrated": {
+            "homeWin": 0.6752,
+            "draw": 0.1891,
+            "awayWin": 0.1357
+          }
+        },
+        "extras": {
+          "method": "prematch_xi_extended",
+          "affinity": {
+            "Spain": 49.15,
+            "Cape Verde": 28.08
+          }
+        }
+      }
+    ],
+    "venue": null
+  },
+  "Belgium|Egypt": {
+    "home": "Belgium",
+    "away": "Egypt",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-15T16:09:57+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.6088,
+            "draw": 0.175,
+            "awayWin": 0.2162
+          },
+          "market": {
+            "homeWin": 0.6033,
+            "draw": 0.2354,
+            "awayWin": 0.1612
+          },
+          "blended": {
+            "homeWin": 0.5988,
+            "draw": 0.2147,
+            "awayWin": 0.1864
+          },
+          "calibrated": {
+            "homeWin": 0.5842,
+            "draw": 0.2249,
+            "awayWin": 0.1908
+          }
+        },
+        "extras": {
+          "method": "prematch_xi_extended",
+          "affinity": {
+            "Belgium": 45.56,
+            "Egypt": 62.06
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-15T16:15:03+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.6088,
+            "draw": 0.175,
+            "awayWin": 0.2162
+          },
+          "market": {
+            "homeWin": 0.6033,
+            "draw": 0.2354,
+            "awayWin": 0.1612
+          },
+          "blended": {
+            "homeWin": 0.5988,
+            "draw": 0.2147,
+            "awayWin": 0.1864
+          },
+          "calibrated": {
+            "homeWin": 0.5842,
+            "draw": 0.2249,
+            "awayWin": 0.1908
+          },
+          "maturity": {
+            "homeWin": 0.5588,
+            "draw": 0.2407,
+            "awayWin": 0.2004
+          }
+        },
+        "extras": {
+          "method": "maturity_overlay",
+          "affinity": {
+            "Belgium": 45.6,
+            "Egypt": 62.1
+          },
+          "maturityTier": 1,
+          "maturityTierLabel": "leve",
+          "maturityNudge": {
+            "delta": 0.04,
+            "split": 0.65,
+            "from": "blended"
+          },
+          "maturityRationale": "Egypt: nucleo Al Ahly cohesionado + experiencia AFCON + stakes PIVOTAL; talento Belgica manda. Tier fijado ex-ante por Cesar."
+        }
+      }
+    ],
+    "venue": "Lumen Field · Seattle"
+  },
+  "Saudi Arabia|Uruguay": {
+    "home": "Saudi Arabia",
+    "away": "Uruguay",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-15T21:44:41+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.2373,
+            "draw": 0.1834,
+            "awayWin": 0.5792
+          },
+          "market": {
+            "homeWin": 0.1203,
+            "draw": 0.227,
+            "awayWin": 0.6527
+          },
+          "blended": {
+            "homeWin": 0.1773,
+            "draw": 0.2121,
+            "awayWin": 0.6106
+          },
+          "calibrated": {
+            "homeWin": 0.1828,
+            "draw": 0.225,
+            "awayWin": 0.5921
+          }
+        },
+        "extras": {
+          "method": "prematch_xi_extended",
+          "affinity": {
+            "Saudi Arabia": 26.6,
+            "Uruguay": 34.79
+          }
+        }
+      }
+    ],
+    "venue": "Hard Rock Stadium · Miami"
+  },
+  "Switzerland|Bosnia-Herzegovina": {
+    "home": "Switzerland",
+    "away": "Bosnia-Herzegovina",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:09:02+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.5528,
+            "draw": 0.1911,
+            "awayWin": 0.2561
+          },
+          "market": {
+            "homeWin": 0.6149,
+            "draw": 0.23,
+            "awayWin": 0.1552
+          },
+          "blended": {
+            "homeWin": 0.5793,
+            "draw": 0.2166,
+            "awayWin": 0.2041
+          },
+          "calibrated": {
+            "homeWin": 0.5708,
+            "draw": 0.2225,
+            "awayWin": 0.2066
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 7.4,
+            "away": 2.03
+          }
+        }
+      }
+    ],
+    "venue": "SoFi Stadium · Los Angeles"
+  },
+  "Canada|Qatar": {
+    "home": "Canada",
+    "away": "Qatar",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:09:09+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.665,
+            "draw": 0.1594,
+            "awayWin": 0.1756
+          },
+          "market": {
+            "homeWin": 0.7386,
+            "draw": 0.1724,
+            "awayWin": 0.089
+          },
+          "blended": {
+            "homeWin": 0.7,
+            "draw": 0.1681,
+            "awayWin": 0.132
+          },
+          "calibrated": {
+            "homeWin": 0.6475,
+            "draw": 0.2048,
+            "awayWin": 0.1477
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 6.59,
+            "away": 33.74
+          }
+        }
+      }
+    ],
+    "venue": "BC Place · Vancouver"
+  },
+  "Scotland|Morocco": {
+    "home": "Scotland",
+    "away": "Morocco",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:13:45+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.2499,
+            "draw": 0.1885,
+            "awayWin": 0.5616
+          },
+          "market": {
+            "homeWin": 0.1811,
+            "draw": 0.2666,
+            "awayWin": 0.5522
+          },
+          "blended": {
+            "homeWin": 0.2122,
+            "draw": 0.2394,
+            "awayWin": 0.5484
+          },
+          "calibrated": {
+            "homeWin": 0.2122,
+            "draw": 0.2394,
+            "awayWin": 0.5484
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 10.55,
+            "away": 4.69
+          }
+        }
+      }
+    ],
+    "venue": "Gillette Stadium · Boston"
+  },
+  "Brazil|Haiti": {
+    "home": "Brazil",
+    "away": "Haiti",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:13:46+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.8309,
+            "draw": 0.1157,
+            "awayWin": 0.0534
+          },
+          "market": {
+            "homeWin": 0.8668,
+            "draw": 0.0899,
+            "awayWin": 0.0433
+          },
+          "blended": {
+            "homeWin": 0.8533,
+            "draw": 0.0981,
+            "awayWin": 0.0486
+          },
+          "calibrated": {
+            "homeWin": 0.7509,
+            "draw": 0.1698,
+            "awayWin": 0.0793
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 7.83,
+            "away": 1.27
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-19T23:32:52+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.8309,
+            "draw": 0.1157,
+            "awayWin": 0.0534
+          },
+          "market": {
+            "homeWin": 0.8674,
+            "draw": 0.0872,
+            "awayWin": 0.0454
+          },
+          "blended": {
+            "homeWin": 0.854,
+            "draw": 0.0963,
+            "awayWin": 0.0497
+          },
+          "calibrated": {
+            "homeWin": 0.7515,
+            "draw": 0.168,
+            "awayWin": 0.0804
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 7.83,
+            "away": 1.27
+          }
+        }
+      }
+    ],
+    "venue": "Lincoln Financial Field · Philadelphia"
+  },
+  "Netherlands|Sweden": {
+    "home": "Netherlands",
+    "away": "Sweden",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:13:50+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.5931,
+            "draw": 0.1795,
+            "awayWin": 0.2274
+          },
+          "market": {
+            "homeWin": 0.5539,
+            "draw": 0.2477,
+            "awayWin": 0.1984
+          },
+          "blended": {
+            "homeWin": 0.5658,
+            "draw": 0.2242,
+            "awayWin": 0.21
+          },
+          "calibrated": {
+            "homeWin": 0.5613,
+            "draw": 0.2273,
+            "awayWin": 0.2113
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 18.29,
+            "away": 8.03
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-19T23:33:04+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.5931,
+            "draw": 0.1795,
+            "awayWin": 0.2274
+          },
+          "market": {
+            "homeWin": 0.5586,
+            "draw": 0.2361,
+            "awayWin": 0.2054
+          },
+          "blended": {
+            "homeWin": 0.5694,
+            "draw": 0.2167,
+            "awayWin": 0.214
+          },
+          "calibrated": {
+            "homeWin": 0.5639,
+            "draw": 0.2206,
+            "awayWin": 0.2157
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 18.29,
+            "away": 8.03
+          }
+        }
+      }
+    ],
+    "venue": "NRG Stadium · Houston"
+  },
+  "Germany|Ivory Coast": {
+    "home": "Germany",
+    "away": "Ivory Coast",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:13:51+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.6269,
+            "draw": 0.17,
+            "awayWin": 0.2031
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.6028,
+            "draw": 0.1869,
+            "awayWin": 0.2103
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 30.18,
+            "away": 4.1
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-19T23:33:21+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.6269,
+            "draw": 0.17,
+            "awayWin": 0.2031
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.6028,
+            "draw": 0.1869,
+            "awayWin": 0.2103
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 30.18,
+            "away": 4.1
+          }
+        }
+      }
+    ],
+    "venue": "BMO Field · Toronto"
+  },
+  "Ecuador|Curaçao": {
+    "home": "Ecuador",
+    "away": "Curaçao",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:13:52+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.6878,
+            "draw": 0.1532,
+            "awayWin": 0.159
+          },
+          "market": {
+            "homeWin": 0.8666,
+            "draw": 0.0936,
+            "awayWin": 0.0398
+          },
+          "blended": {
+            "homeWin": 0.7866,
+            "draw": 0.1128,
+            "awayWin": 0.1006
+          },
+          "calibrated": {
+            "homeWin": 0.6935,
+            "draw": 0.1779,
+            "awayWin": 0.1285
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 4.24,
+            "away": 18.75
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-19T23:33:25+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.6878,
+            "draw": 0.1532,
+            "awayWin": 0.159
+          },
+          "market": {
+            "homeWin": 0.8642,
+            "draw": 0.0956,
+            "awayWin": 0.0402
+          },
+          "blended": {
+            "homeWin": 0.785,
+            "draw": 0.1142,
+            "awayWin": 0.1008
+          },
+          "calibrated": {
+            "homeWin": 0.6928,
+            "draw": 0.1788,
+            "awayWin": 0.1285
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 4.24,
+            "away": 18.75
+          }
+        }
+      }
+    ],
+    "venue": "GEHA Field at Arrowhead · Kansas City"
+  },
+  "Tunisia|Japan": {
+    "home": "Tunisia",
+    "away": "Japan",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:13:54+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.2674,
+            "draw": 0.1957,
+            "awayWin": 0.5369
+          },
+          "market": {
+            "homeWin": 0.1418,
+            "draw": 0.2331,
+            "awayWin": 0.6251
+          },
+          "blended": {
+            "homeWin": 0.2031,
+            "draw": 0.2202,
+            "awayWin": 0.5767
+          },
+          "calibrated": {
+            "homeWin": 0.2054,
+            "draw": 0.2256,
+            "awayWin": 0.569
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 3.73,
+            "away": 5.9
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-19T23:33:28+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.2674,
+            "draw": 0.1957,
+            "awayWin": 0.5369
+          },
+          "market": {
+            "homeWin": 0.1414,
+            "draw": 0.2328,
+            "awayWin": 0.6258
+          },
+          "blended": {
+            "homeWin": 0.2029,
+            "draw": 0.22,
+            "awayWin": 0.5771
+          },
+          "calibrated": {
+            "homeWin": 0.2052,
+            "draw": 0.2255,
+            "awayWin": 0.5693
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 3.73,
+            "away": 5.9
+          }
+        }
+      }
+    ],
+    "venue": "Estadio BBVA · Monterrey"
+  },
+  "Spain|Saudi Arabia": {
+    "home": "Spain",
+    "away": "Saudi Arabia",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:13:54+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.6581,
+            "draw": 0.1613,
+            "awayWin": 0.1806
+          },
+          "market": {
+            "homeWin": 0.8681,
+            "draw": 0.0946,
+            "awayWin": 0.0373
+          },
+          "blended": {
+            "homeWin": 0.7734,
+            "draw": 0.1162,
+            "awayWin": 0.1104
+          },
+          "calibrated": {
+            "homeWin": 0.687,
+            "draw": 0.1767,
+            "awayWin": 0.1363
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 30.09,
+            "away": 16.49
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-19T23:33:33+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.6581,
+            "draw": 0.1613,
+            "awayWin": 0.1806
+          },
+          "market": {
+            "homeWin": 0.8708,
+            "draw": 0.0926,
+            "awayWin": 0.0367
+          },
+          "blended": {
+            "homeWin": 0.7751,
+            "draw": 0.1148,
+            "awayWin": 0.1102
+          },
+          "calibrated": {
+            "homeWin": 0.6879,
+            "draw": 0.1759,
+            "awayWin": 0.1364
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 30.09,
+            "away": 16.49
+          }
+        }
+      }
+    ],
+    "venue": "Mercedes-Benz Stadium · Atlanta"
+  },
+  "Belgium|Iran": {
+    "home": "Belgium",
+    "away": "Iran",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:13:56+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.6084,
+            "draw": 0.1751,
+            "awayWin": 0.2164
+          },
+          "market": {
+            "homeWin": 0.6692,
+            "draw": 0.2068,
+            "awayWin": 0.124
+          },
+          "blended": {
+            "homeWin": 0.6348,
+            "draw": 0.1961,
+            "awayWin": 0.1691
+          },
+          "calibrated": {
+            "homeWin": 0.6079,
+            "draw": 0.2149,
+            "awayWin": 0.1772
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 8.26,
+            "away": 27.01
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-19T23:33:36+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.6084,
+            "draw": 0.1751,
+            "awayWin": 0.2164
+          },
+          "market": {
+            "homeWin": 0.6687,
+            "draw": 0.2054,
+            "awayWin": 0.1259
+          },
+          "blended": {
+            "homeWin": 0.6347,
+            "draw": 0.1951,
+            "awayWin": 0.1701
+          },
+          "calibrated": {
+            "homeWin": 0.6078,
+            "draw": 0.2139,
+            "awayWin": 0.1782
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 8.26,
+            "away": 27.01
+          }
+        }
+      }
+    ],
+    "venue": "SoFi Stadium · Los Angeles"
+  },
+  "Uruguay|Cape Verde Islands": {
+    "home": "Uruguay",
+    "away": "Cape Verde Islands",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:13:57+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.6943,
+            "draw": 0.1514,
+            "awayWin": 0.1542
+          },
+          "market": {
+            "homeWin": 0.6466,
+            "draw": 0.2293,
+            "awayWin": 0.1241
+          },
+          "blended": {
+            "homeWin": 0.6602,
+            "draw": 0.2028,
+            "awayWin": 0.137
+          },
+          "calibrated": {
+            "homeWin": 0.6238,
+            "draw": 0.2283,
+            "awayWin": 0.1479
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 8.79,
+            "away": 7.19
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-19T23:33:43+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.6943,
+            "draw": 0.1514,
+            "awayWin": 0.1542
+          },
+          "market": {
+            "homeWin": 0.6536,
+            "draw": 0.226,
+            "awayWin": 0.1204
+          },
+          "blended": {
+            "homeWin": 0.6641,
+            "draw": 0.2006,
+            "awayWin": 0.1353
+          },
+          "calibrated": {
+            "homeWin": 0.6262,
+            "draw": 0.2271,
+            "awayWin": 0.1467
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 8.79,
+            "away": 7.19
+          }
+        }
+      }
+    ],
+    "venue": "Hard Rock Stadium · Miami"
+  },
+  "New Zealand|Egypt": {
+    "home": "New Zealand",
+    "away": "Egypt",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:13:58+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.2302,
+            "draw": 0.1806,
+            "awayWin": 0.5892
+          },
+          "market": {
+            "homeWin": 0.1703,
+            "draw": 0.2358,
+            "awayWin": 0.594
+          },
+          "blended": {
+            "homeWin": 0.1981,
+            "draw": 0.2168,
+            "awayWin": 0.5851
+          },
+          "calibrated": {
+            "homeWin": 0.2012,
+            "draw": 0.224,
+            "awayWin": 0.5748
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 29.67,
+            "away": 26.58
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-19T23:33:46+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.2302,
+            "draw": 0.1806,
+            "awayWin": 0.5892
+          },
+          "market": {
+            "homeWin": 0.1718,
+            "draw": 0.2342,
+            "awayWin": 0.594
+          },
+          "blended": {
+            "homeWin": 0.1989,
+            "draw": 0.2158,
+            "awayWin": 0.5853
+          },
+          "calibrated": {
+            "homeWin": 0.202,
+            "draw": 0.223,
+            "awayWin": 0.575
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 29.67,
+            "away": 26.58
+          }
+        }
+      }
+    ],
+    "venue": "BC Place · Vancouver"
+  },
+  "Argentina|Austria": {
+    "home": "Argentina",
+    "away": "Austria",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:14:00+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.7163,
+            "draw": 0.1455,
+            "awayWin": 0.1382
+          },
+          "market": {
+            "homeWin": 0.5964,
+            "draw": 0.2452,
+            "awayWin": 0.1584
+          },
+          "blended": {
+            "homeWin": 0.6435,
+            "draw": 0.2111,
+            "awayWin": 0.1454
+          },
+          "calibrated": {
+            "homeWin": 0.6134,
+            "draw": 0.2322,
+            "awayWin": 0.1544
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 9.76,
+            "away": 21.97
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-19T23:33:50+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.7163,
+            "draw": 0.1455,
+            "awayWin": 0.1382
+          },
+          "market": {
+            "homeWin": 0.603,
+            "draw": 0.2412,
+            "awayWin": 0.1558
+          },
+          "blended": {
+            "homeWin": 0.6473,
+            "draw": 0.2085,
+            "awayWin": 0.1442
+          },
+          "calibrated": {
+            "homeWin": 0.6158,
+            "draw": 0.2305,
+            "awayWin": 0.1536
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 9.76,
+            "away": 21.97
+          }
+        }
+      }
+    ],
+    "venue": "AT&T Stadium · Dallas"
+  },
+  "France|Iraq": {
+    "home": "France",
+    "away": "Iraq",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:14:01+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.7775,
+            "draw": 0.1294,
+            "awayWin": 0.093
+          },
+          "market": {
+            "homeWin": 0.8798,
+            "draw": 0.0886,
+            "awayWin": 0.0316
+          },
+          "blended": {
+            "homeWin": 0.8355,
+            "draw": 0.1017,
+            "awayWin": 0.0628
+          },
+          "calibrated": {
+            "homeWin": 0.7352,
+            "draw": 0.1719,
+            "awayWin": 0.0929
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 11.78,
+            "away": 9.21
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-19T23:33:57+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.7775,
+            "draw": 0.1294,
+            "awayWin": 0.093
+          },
+          "market": {
+            "homeWin": 0.8809,
+            "draw": 0.0874,
+            "awayWin": 0.0317
+          },
+          "blended": {
+            "homeWin": 0.8363,
+            "draw": 0.1009,
+            "awayWin": 0.0629
+          },
+          "calibrated": {
+            "homeWin": 0.7359,
+            "draw": 0.1711,
+            "awayWin": 0.093
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 11.78,
+            "away": 9.21
+          }
+        }
+      }
+    ],
+    "venue": "Lincoln Financial Field · Philadelphia"
+  },
+  "Norway|Senegal": {
+    "home": "Norway",
+    "away": "Senegal",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:14:02+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.2203,
+            "draw": 0.1767,
+            "awayWin": 0.603
+          },
+          "market": {
+            "homeWin": 0.4117,
+            "draw": 0.2735,
+            "awayWin": 0.3147
+          },
+          "blended": {
+            "homeWin": 0.31,
+            "draw": 0.2398,
+            "awayWin": 0.4502
+          },
+          "calibrated": {
+            "homeWin": 0.31,
+            "draw": 0.2398,
+            "awayWin": 0.4502
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 8.79,
+            "away": 10.41
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-19T23:34:00+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.2203,
+            "draw": 0.1767,
+            "awayWin": 0.603
+          },
+          "market": {
+            "homeWin": 0.4159,
+            "draw": 0.2739,
+            "awayWin": 0.3101
+          },
+          "blended": {
+            "homeWin": 0.312,
+            "draw": 0.2401,
+            "awayWin": 0.4479
+          },
+          "calibrated": {
+            "homeWin": 0.312,
+            "draw": 0.2401,
+            "awayWin": 0.4479
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 8.79,
+            "away": 10.41
+          }
+        }
+      }
+    ],
+    "venue": "MetLife Stadium · New York/New Jersey"
+  },
+  "Jordan|Algeria": {
+    "home": "Jordan",
+    "away": "Algeria",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:14:03+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.2862,
+            "draw": 0.2037,
+            "awayWin": 0.5101
+          },
+          "market": {
+            "homeWin": 0.1609,
+            "draw": 0.2317,
+            "awayWin": 0.6073
+          },
+          "blended": {
+            "homeWin": 0.2223,
+            "draw": 0.2221,
+            "awayWin": 0.5556
+          },
+          "calibrated": {
+            "homeWin": 0.2228,
+            "draw": 0.2232,
+            "awayWin": 0.554
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 18.77,
+            "away": 6.53
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-19T23:34:04+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.2862,
+            "draw": 0.2037,
+            "awayWin": 0.5101
+          },
+          "market": {
+            "homeWin": 0.1619,
+            "draw": 0.2308,
+            "awayWin": 0.6073
+          },
+          "blended": {
+            "homeWin": 0.2228,
+            "draw": 0.2215,
+            "awayWin": 0.5557
+          },
+          "calibrated": {
+            "homeWin": 0.2233,
+            "draw": 0.2226,
+            "awayWin": 0.5541
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 18.77,
+            "away": 6.53
+          }
+        }
+      }
+    ],
+    "venue": "Levi's Stadium · San Francisco"
+  },
+  "Portugal|Uzbekistan": {
+    "home": "Portugal",
+    "away": "Uzbekistan",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:14:04+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.7626,
+            "draw": 0.1333,
+            "awayWin": 0.1041
+          },
+          "market": {
+            "homeWin": 0.7964,
+            "draw": 0.1391,
+            "awayWin": 0.0645
+          },
+          "blended": {
+            "homeWin": 0.7786,
+            "draw": 0.1372,
+            "awayWin": 0.0842
+          },
+          "calibrated": {
+            "homeWin": 0.6896,
+            "draw": 0.1995,
+            "awayWin": 0.1109
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 10.3,
+            "away": 21.43
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-19T23:34:07+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.7626,
+            "draw": 0.1333,
+            "awayWin": 0.1041
+          },
+          "market": {
+            "homeWin": 0.7973,
+            "draw": 0.1384,
+            "awayWin": 0.0644
+          },
+          "blended": {
+            "homeWin": 0.7791,
+            "draw": 0.1367,
+            "awayWin": 0.0842
+          },
+          "calibrated": {
+            "homeWin": 0.6899,
+            "draw": 0.1992,
+            "awayWin": 0.111
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 10.3,
+            "away": 21.43
+          }
+        }
+      }
+    ],
+    "venue": "NRG Stadium · Houston"
+  },
+  "England|Ghana": {
+    "home": "England",
+    "away": "Ghana",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:14:05+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.7524,
+            "draw": 0.136,
+            "awayWin": 0.1116
+          },
+          "market": {
+            "homeWin": 0.7813,
+            "draw": 0.1492,
+            "awayWin": 0.0695
+          },
+          "blended": {
+            "homeWin": 0.7648,
+            "draw": 0.1449,
+            "awayWin": 0.0903
+          },
+          "calibrated": {
+            "homeWin": 0.6827,
+            "draw": 0.2024,
+            "awayWin": 0.1149
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 33.32,
+            "away": 7.19
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-19T23:34:10+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.7524,
+            "draw": 0.136,
+            "awayWin": 0.1116
+          },
+          "market": {
+            "homeWin": 0.7812,
+            "draw": 0.1487,
+            "awayWin": 0.0702
+          },
+          "blended": {
+            "homeWin": 0.7648,
+            "draw": 0.1445,
+            "awayWin": 0.0907
+          },
+          "calibrated": {
+            "homeWin": 0.6827,
+            "draw": 0.202,
+            "awayWin": 0.1153
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 33.32,
+            "away": 7.19
+          }
+        }
+      }
+    ],
+    "venue": "Gillette Stadium · Boston"
+  },
+  "Panama|Croatia": {
+    "home": "Panama",
+    "away": "Croatia",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:14:06+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.2308,
+            "draw": 0.1808,
+            "awayWin": 0.5884
+          },
+          "market": {
+            "homeWin": 0.1438,
+            "draw": 0.2371,
+            "awayWin": 0.6191
+          },
+          "blended": {
+            "homeWin": 0.1852,
+            "draw": 0.2178,
+            "awayWin": 0.597
+          },
+          "calibrated": {
+            "homeWin": 0.1894,
+            "draw": 0.2276,
+            "awayWin": 0.583
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 17.67,
+            "away": 7.84
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-19T23:34:12+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.2308,
+            "draw": 0.1808,
+            "awayWin": 0.5884
+          },
+          "market": {
+            "homeWin": 0.1417,
+            "draw": 0.2387,
+            "awayWin": 0.6196
+          },
+          "blended": {
+            "homeWin": 0.1841,
+            "draw": 0.2188,
+            "awayWin": 0.5971
+          },
+          "calibrated": {
+            "homeWin": 0.1883,
+            "draw": 0.2286,
+            "awayWin": 0.583
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 17.67,
+            "away": 7.84
+          }
+        }
+      }
+    ],
+    "venue": "BMO Field · Toronto"
+  },
+  "Colombia|Congo DR": {
+    "home": "Colombia",
+    "away": "Congo DR",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:14:07+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.7122,
+            "draw": 0.1466,
+            "awayWin": 0.1411
+          },
+          "market": {
+            "homeWin": 0.6385,
+            "draw": 0.2275,
+            "awayWin": 0.134
+          },
+          "blended": {
+            "homeWin": 0.6646,
+            "draw": 0.2,
+            "awayWin": 0.1354
+          },
+          "calibrated": {
+            "homeWin": 0.6265,
+            "draw": 0.2267,
+            "awayWin": 0.1468
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 4.35,
+            "away": 6.93
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-19T23:34:17+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.7122,
+            "draw": 0.1466,
+            "awayWin": 0.1411
+          },
+          "market": {
+            "homeWin": 0.6387,
+            "draw": 0.2272,
+            "awayWin": 0.1341
+          },
+          "blended": {
+            "homeWin": 0.6648,
+            "draw": 0.1998,
+            "awayWin": 0.1354
+          },
+          "calibrated": {
+            "homeWin": 0.6266,
+            "draw": 0.2265,
+            "awayWin": 0.1468
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 4.35,
+            "away": 6.93
+          }
+        }
+      }
+    ],
+    "venue": "Estadio Akron · Guadalajara"
+  },
+  "Switzerland|Canada": {
+    "home": "Switzerland",
+    "away": "Canada",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:14:10+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.3601,
+            "draw": 0.2367,
+            "awayWin": 0.4033
+          },
+          "market": {
+            "homeWin": 0.4488,
+            "draw": 0.2818,
+            "awayWin": 0.2694
+          },
+          "blended": {
+            "homeWin": 0.4008,
+            "draw": 0.2659,
+            "awayWin": 0.3333
+          },
+          "calibrated": {
+            "homeWin": 0.4008,
+            "draw": 0.2659,
+            "awayWin": 0.3333
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 7.4,
+            "away": 6.59
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-19T23:34:22+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.3601,
+            "draw": 0.2367,
+            "awayWin": 0.4033
+          },
+          "market": {
+            "homeWin": 0.3931,
+            "draw": 0.31,
+            "awayWin": 0.2969
+          },
+          "blended": {
+            "homeWin": 0.3711,
+            "draw": 0.2838,
+            "awayWin": 0.345
+          },
+          "calibrated": {
+            "homeWin": 0.3711,
+            "draw": 0.2838,
+            "awayWin": 0.345
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 7.4,
+            "away": 6.59
+          }
+        }
+      }
+    ],
+    "venue": "BC Place · Vancouver"
+  },
+  "Bosnia-Herzegovina|Qatar": {
+    "home": "Bosnia-Herzegovina",
+    "away": "Qatar",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:14:10+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.4806,
+            "draw": 0.2126,
+            "awayWin": 0.3068
+          },
+          "market": {
+            "homeWin": 0.5991,
+            "draw": 0.2408,
+            "awayWin": 0.1601
+          },
+          "blended": {
+            "homeWin": 0.5368,
+            "draw": 0.231,
+            "awayWin": 0.2321
+          },
+          "calibrated": {
+            "homeWin": 0.5368,
+            "draw": 0.231,
+            "awayWin": 0.2321
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 2.03,
+            "away": 33.74
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-19T23:34:26+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.4806,
+            "draw": 0.2126,
+            "awayWin": 0.3068
+          },
+          "market": {
+            "homeWin": 0.665,
+            "draw": 0.197,
+            "awayWin": 0.138
+          },
+          "blended": {
+            "homeWin": 0.5746,
+            "draw": 0.2023,
+            "awayWin": 0.2231
+          },
+          "calibrated": {
+            "homeWin": 0.5675,
+            "draw": 0.2072,
+            "awayWin": 0.2252
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 2.03,
+            "away": 33.74
+          }
+        }
+      }
+    ],
+    "venue": "Lumen Field · Seattle"
+  },
+  "Morocco|Haiti": {
+    "home": "Morocco",
+    "away": "Haiti",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:14:11+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.7258,
+            "draw": 0.143,
+            "awayWin": 0.1312
+          },
+          "market": {
+            "homeWin": 0.7416,
+            "draw": 0.1685,
+            "awayWin": 0.0899
+          },
+          "blended": {
+            "homeWin": 0.73,
+            "draw": 0.16,
+            "awayWin": 0.11
+          },
+          "calibrated": {
+            "homeWin": 0.6643,
+            "draw": 0.206,
+            "awayWin": 0.1297
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 4.69,
+            "away": 1.27
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-19T23:34:32+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.7258,
+            "draw": 0.143,
+            "awayWin": 0.1312
+          },
+          "market": {
+            "homeWin": 0.7573,
+            "draw": 0.161,
+            "awayWin": 0.0817
+          },
+          "blended": {
+            "homeWin": 0.7389,
+            "draw": 0.155,
+            "awayWin": 0.1061
+          },
+          "calibrated": {
+            "homeWin": 0.6691,
+            "draw": 0.2039,
+            "awayWin": 0.127
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 4.69,
+            "away": 1.27
+          }
+        }
+      }
+    ],
+    "venue": "Hard Rock Stadium · Miami"
+  },
+  "Scotland|Brazil": {
+    "home": "Scotland",
+    "away": "Brazil",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:14:12+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.1177,
+            "draw": 0.1381,
+            "awayWin": 0.7442
+          },
+          "market": {
+            "homeWin": 0.1381,
+            "draw": 0.1951,
+            "awayWin": 0.6668
+          },
+          "blended": {
+            "homeWin": 0.1265,
+            "draw": 0.176,
+            "awayWin": 0.6975
+          },
+          "calibrated": {
+            "homeWin": 0.1419,
+            "draw": 0.212,
+            "awayWin": 0.6461
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 10.55,
+            "away": 7.83
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-19T23:34:36+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.1177,
+            "draw": 0.1381,
+            "awayWin": 0.7442
+          },
+          "market": {
+            "homeWin": 0.1301,
+            "draw": 0.1876,
+            "awayWin": 0.6823
+          },
+          "blended": {
+            "homeWin": 0.1227,
+            "draw": 0.1711,
+            "awayWin": 0.7063
+          },
+          "calibrated": {
+            "homeWin": 0.1393,
+            "draw": 0.2097,
+            "awayWin": 0.6511
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 10.55,
+            "away": 7.83
+          }
+        }
+      }
+    ],
+    "venue": "Hard Rock Stadium · Miami"
+  },
+  "Czechia|Mexico": {
+    "home": "Czechia",
+    "away": "Mexico",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:14:14+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.1943,
+            "draw": 0.1665,
+            "awayWin": 0.6392
+          },
+          "market": {
+            "homeWin": 0.2046,
+            "draw": 0.2629,
+            "awayWin": 0.5325
+          },
+          "blended": {
+            "homeWin": 0.1957,
+            "draw": 0.2296,
+            "awayWin": 0.5748
+          },
+          "calibrated": {
+            "homeWin": 0.1978,
+            "draw": 0.2346,
+            "awayWin": 0.5677
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 30.83,
+            "away": 14.68
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-19T23:34:39+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.1943,
+            "draw": 0.1665,
+            "awayWin": 0.6392
+          },
+          "market": {
+            "homeWin": 0.2848,
+            "draw": 0.2588,
+            "awayWin": 0.4564
+          },
+          "blended": {
+            "homeWin": 0.2352,
+            "draw": 0.2269,
+            "awayWin": 0.5379
+          },
+          "calibrated": {
+            "homeWin": 0.2352,
+            "draw": 0.2269,
+            "awayWin": 0.5379
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 30.83,
+            "away": 14.68
+          }
+        }
+      }
+    ],
+    "venue": "Estadio Azteca · Ciudad de México"
+  },
+  "South Africa|South Korea": {
+    "home": "South Africa",
+    "away": "South Korea",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:14:17+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.2179,
+            "draw": 0.1757,
+            "awayWin": 0.6064
+          },
+          "market": {
+            "homeWin": 0.1652,
+            "draw": 0.2369,
+            "awayWin": 0.5979
+          },
+          "blended": {
+            "homeWin": 0.1892,
+            "draw": 0.2159,
+            "awayWin": 0.5949
+          },
+          "calibrated": {
+            "homeWin": 0.1932,
+            "draw": 0.2252,
+            "awayWin": 0.5815
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 23.47,
+            "away": 7.83
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-19T23:34:44+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.2179,
+            "draw": 0.1757,
+            "awayWin": 0.6064
+          },
+          "market": {
+            "homeWin": 0.166,
+            "draw": 0.242,
+            "awayWin": 0.5919
+          },
+          "blended": {
+            "homeWin": 0.1894,
+            "draw": 0.2192,
+            "awayWin": 0.5913
+          },
+          "calibrated": {
+            "homeWin": 0.1931,
+            "draw": 0.2277,
+            "awayWin": 0.5791
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 23.47,
+            "away": 7.83
+          }
+        }
+      }
+    ],
+    "venue": "Estadio BBVA · Monterrey"
+  },
+  "Ecuador|Germany": {
+    "home": "Ecuador",
+    "away": "Germany",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:14:19+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.2816,
+            "draw": 0.2017,
+            "awayWin": 0.5166
+          },
+          "market": {
+            "homeWin": 0.1942,
+            "draw": 0.2482,
+            "awayWin": 0.5576
+          },
+          "blended": {
+            "homeWin": 0.2357,
+            "draw": 0.2321,
+            "awayWin": 0.5322
+          },
+          "calibrated": {
+            "homeWin": 0.2357,
+            "draw": 0.2321,
+            "awayWin": 0.5322
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 4.24,
+            "away": 30.18
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-19T23:34:49+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.2816,
+            "draw": 0.2017,
+            "awayWin": 0.5166
+          },
+          "market": {
+            "homeWin": 0.1943,
+            "draw": 0.2489,
+            "awayWin": 0.5568
+          },
+          "blended": {
+            "homeWin": 0.2357,
+            "draw": 0.2326,
+            "awayWin": 0.5317
+          },
+          "calibrated": {
+            "homeWin": 0.2357,
+            "draw": 0.2326,
+            "awayWin": 0.5317
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 4.24,
+            "away": 30.18
+          }
+        }
+      }
+    ],
+    "venue": "MetLife Stadium · New York/New Jersey"
+  },
+  "Curaçao|Ivory Coast": {
+    "home": "Curaçao",
+    "away": "Ivory Coast",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:14:21+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.2295,
+            "draw": 0.1803,
+            "awayWin": 0.5902
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.2331,
+            "draw": 0.1886,
+            "awayWin": 0.5783
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 18.75,
+            "away": 4.1
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-19T23:34:52+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.2295,
+            "draw": 0.1803,
+            "awayWin": 0.5902
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.2331,
+            "draw": 0.1886,
+            "awayWin": 0.5783
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 18.75,
+            "away": 4.1
+          }
+        }
+      }
+    ],
+    "venue": "Lincoln Financial Field · Philadelphia"
+  },
+  "Tunisia|Netherlands": {
+    "home": "Tunisia",
+    "away": "Netherlands",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:14:22+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.1679,
+            "draw": 0.1565,
+            "awayWin": 0.6756
+          },
+          "market": {
+            "homeWin": 0.1021,
+            "draw": 0.1786,
+            "awayWin": 0.7194
+          },
+          "blended": {
+            "homeWin": 0.1344,
+            "draw": 0.1712,
+            "awayWin": 0.6944
+          },
+          "calibrated": {
+            "homeWin": 0.1494,
+            "draw": 0.2063,
+            "awayWin": 0.6443
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 3.73,
+            "away": 18.29
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-19T23:35:07+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.1679,
+            "draw": 0.1565,
+            "awayWin": 0.6756
+          },
+          "market": {
+            "homeWin": 0.1016,
+            "draw": 0.1772,
+            "awayWin": 0.7212
+          },
+          "blended": {
+            "homeWin": 0.1342,
+            "draw": 0.1703,
+            "awayWin": 0.6955
+          },
+          "calibrated": {
+            "homeWin": 0.1494,
+            "draw": 0.2057,
+            "awayWin": 0.6449
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 3.73,
+            "away": 18.29
+          }
+        }
+      }
+    ],
+    "venue": "GEHA Field at Arrowhead · Kansas City"
+  },
+  "Japan|Sweden": {
+    "home": "Japan",
+    "away": "Sweden",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:14:23+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.4378,
+            "draw": 0.2258,
+            "awayWin": 0.3364
+          },
+          "market": {
+            "homeWin": 0.4466,
+            "draw": 0.2764,
+            "awayWin": 0.277
+          },
+          "blended": {
+            "homeWin": 0.4378,
+            "draw": 0.2586,
+            "awayWin": 0.3036
+          },
+          "calibrated": {
+            "homeWin": 0.4378,
+            "draw": 0.2586,
+            "awayWin": 0.3036
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 5.9,
+            "away": 8.03
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-19T23:35:10+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.4378,
+            "draw": 0.2258,
+            "awayWin": 0.3364
+          },
+          "market": {
+            "homeWin": 0.4381,
+            "draw": 0.2778,
+            "awayWin": 0.2841
+          },
+          "blended": {
+            "homeWin": 0.4334,
+            "draw": 0.2595,
+            "awayWin": 0.3071
+          },
+          "calibrated": {
+            "homeWin": 0.4334,
+            "draw": 0.2595,
+            "awayWin": 0.3071
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 5.9,
+            "away": 8.03
+          }
+        }
+      }
+    ],
+    "venue": "AT&T Stadium · Dallas"
+  },
+  "Norway|France": {
+    "home": "Norway",
+    "away": "France",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:14:27+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.092,
+            "draw": 0.1291,
+            "awayWin": 0.7789
+          },
+          "market": {
+            "homeWin": 0.2229,
+            "draw": 0.2535,
+            "awayWin": 0.5236
+          },
+          "blended": {
+            "homeWin": 0.1536,
+            "draw": 0.2109,
+            "awayWin": 0.6354
+          },
+          "calibrated": {
+            "homeWin": 0.1617,
+            "draw": 0.2299,
+            "awayWin": 0.6083
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 8.79,
+            "away": 11.78
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-19T23:35:22+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.092,
+            "draw": 0.1291,
+            "awayWin": 0.7789
+          },
+          "market": {
+            "homeWin": 0.2224,
+            "draw": 0.2525,
+            "awayWin": 0.5251
+          },
+          "blended": {
+            "homeWin": 0.1534,
+            "draw": 0.2103,
+            "awayWin": 0.6363
+          },
+          "calibrated": {
+            "homeWin": 0.1616,
+            "draw": 0.2295,
+            "awayWin": 0.6088
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 8.79,
+            "away": 11.78
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-26T04:43:41+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.092,
+            "draw": 0.1291,
+            "awayWin": 0.7789
+          },
+          "market": {
+            "homeWin": 0.1913,
+            "draw": 0.2073,
+            "awayWin": 0.6013
+          },
+          "blended": {
+            "homeWin": 0.1395,
+            "draw": 0.181,
+            "awayWin": 0.6795
+          },
+          "calibrated": {
+            "homeWin": 0.1527,
+            "draw": 0.2118,
+            "awayWin": 0.6355
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 8.79,
+            "away": 11.78
+          }
+        }
+      }
+    ],
+    "venue": "Gillette Stadium · Boston"
+  },
+  "Senegal|Iraq": {
+    "home": "Senegal",
+    "away": "Iraq",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:14:28+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.6004,
+            "draw": 0.1774,
+            "awayWin": 0.2222
+          },
+          "market": {
+            "homeWin": 0.7102,
+            "draw": 0.1889,
+            "awayWin": 0.1009
+          },
+          "blended": {
+            "homeWin": 0.6538,
+            "draw": 0.185,
+            "awayWin": 0.1612
+          },
+          "calibrated": {
+            "homeWin": 0.6199,
+            "draw": 0.2088,
+            "awayWin": 0.1714
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 10.41,
+            "away": 9.21
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-19T23:35:28+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.6004,
+            "draw": 0.1774,
+            "awayWin": 0.2222
+          },
+          "market": {
+            "homeWin": 0.7277,
+            "draw": 0.1785,
+            "awayWin": 0.0938
+          },
+          "blended": {
+            "homeWin": 0.6639,
+            "draw": 0.1781,
+            "awayWin": 0.158
+          },
+          "calibrated": {
+            "homeWin": 0.6261,
+            "draw": 0.2046,
+            "awayWin": 0.1693
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 10.41,
+            "away": 9.21
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-26T04:43:43+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.6004,
+            "draw": 0.1774,
+            "awayWin": 0.2222
+          },
+          "market": {
+            "homeWin": 0.7807,
+            "draw": 0.1434,
+            "awayWin": 0.0758
+          },
+          "blended": {
+            "homeWin": 0.6953,
+            "draw": 0.1547,
+            "awayWin": 0.15
+          },
+          "calibrated": {
+            "homeWin": 0.6448,
+            "draw": 0.1901,
+            "awayWin": 0.1652
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 10.41,
+            "away": 9.21
+          }
+        }
+      }
+    ],
+    "venue": "BMO Field · Toronto"
+  },
+  "Uruguay|Spain": {
+    "home": "Uruguay",
+    "away": "Spain",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:14:30+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.313,
+            "draw": 0.2153,
+            "awayWin": 0.4717
+          },
+          "market": {
+            "homeWin": 0.1585,
+            "draw": 0.2264,
+            "awayWin": 0.615
+          },
+          "blended": {
+            "homeWin": 0.2352,
+            "draw": 0.2226,
+            "awayWin": 0.5422
+          },
+          "calibrated": {
+            "homeWin": 0.2352,
+            "draw": 0.2226,
+            "awayWin": 0.5422
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 8.79,
+            "away": 30.09
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-19T23:35:35+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.313,
+            "draw": 0.2153,
+            "awayWin": 0.4717
+          },
+          "market": {
+            "homeWin": 0.1592,
+            "draw": 0.2264,
+            "awayWin": 0.6144
+          },
+          "blended": {
+            "homeWin": 0.2356,
+            "draw": 0.2226,
+            "awayWin": 0.5418
+          },
+          "calibrated": {
+            "homeWin": 0.2356,
+            "draw": 0.2226,
+            "awayWin": 0.5418
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 8.79,
+            "away": 30.09
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-26T04:43:46+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.313,
+            "draw": 0.2153,
+            "awayWin": 0.4717
+          },
+          "market": {
+            "homeWin": 0.1275,
+            "draw": 0.2385,
+            "awayWin": 0.634
+          },
+          "blended": {
+            "homeWin": 0.2192,
+            "draw": 0.2305,
+            "awayWin": 0.5503
+          },
+          "calibrated": {
+            "homeWin": 0.2192,
+            "draw": 0.2306,
+            "awayWin": 0.5502
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 8.79,
+            "away": 30.09
+          }
+        }
+      }
+    ],
+    "venue": "Estadio Akron · Guadalajara"
+  },
+  "Cape Verde Islands|Saudi Arabia": {
+    "home": "Cape Verde Islands",
+    "away": "Saudi Arabia",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:14:32+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.2793,
+            "draw": 0.2007,
+            "awayWin": 0.5199
+          },
+          "market": {
+            "homeWin": 0.3448,
+            "draw": 0.2611,
+            "awayWin": 0.3941
+          },
+          "blended": {
+            "homeWin": 0.3083,
+            "draw": 0.2401,
+            "awayWin": 0.4516
+          },
+          "calibrated": {
+            "homeWin": 0.3083,
+            "draw": 0.2401,
+            "awayWin": 0.4516
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 7.19,
+            "away": 16.49
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-19T23:35:38+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.2793,
+            "draw": 0.2007,
+            "awayWin": 0.5199
+          },
+          "market": {
+            "homeWin": 0.344,
+            "draw": 0.2616,
+            "awayWin": 0.3944
+          },
+          "blended": {
+            "homeWin": 0.3079,
+            "draw": 0.2404,
+            "awayWin": 0.4517
+          },
+          "calibrated": {
+            "homeWin": 0.3079,
+            "draw": 0.2404,
+            "awayWin": 0.4517
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 7.19,
+            "away": 16.49
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-26T04:43:48+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.2793,
+            "draw": 0.2007,
+            "awayWin": 0.5199
+          },
+          "market": {
+            "homeWin": 0.3611,
+            "draw": 0.2859,
+            "awayWin": 0.3531
+          },
+          "blended": {
+            "homeWin": 0.3148,
+            "draw": 0.256,
+            "awayWin": 0.4292
+          },
+          "calibrated": {
+            "homeWin": 0.3148,
+            "draw": 0.256,
+            "awayWin": 0.4292
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 7.19,
+            "away": 16.49
+          }
+        }
+      }
+    ],
+    "venue": "NRG Stadium · Houston"
+  },
+  "New Zealand|Belgium": {
+    "home": "New Zealand",
+    "away": "Belgium",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:14:32+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.1071,
+            "draw": 0.1344,
+            "awayWin": 0.7585
+          },
+          "market": {
+            "homeWin": 0.0783,
+            "draw": 0.1532,
+            "awayWin": 0.7686
+          },
+          "blended": {
+            "homeWin": 0.0923,
+            "draw": 0.147,
+            "awayWin": 0.7607
+          },
+          "calibrated": {
+            "homeWin": 0.1163,
+            "draw": 0.2031,
+            "awayWin": 0.6806
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 29.67,
+            "away": 8.26
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-19T23:35:42+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.1071,
+            "draw": 0.1344,
+            "awayWin": 0.7585
+          },
+          "market": {
+            "homeWin": 0.0785,
+            "draw": 0.1532,
+            "awayWin": 0.7683
+          },
+          "blended": {
+            "homeWin": 0.0925,
+            "draw": 0.147,
+            "awayWin": 0.7605
+          },
+          "calibrated": {
+            "homeWin": 0.1165,
+            "draw": 0.203,
+            "awayWin": 0.6805
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 29.67,
+            "away": 8.26
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-26T04:43:56+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.1071,
+            "draw": 0.1344,
+            "awayWin": 0.7585
+          },
+          "market": {
+            "homeWin": 0.0573,
+            "draw": 0.1205,
+            "awayWin": 0.8223
+          },
+          "blended": {
+            "homeWin": 0.0824,
+            "draw": 0.125,
+            "awayWin": 0.7926
+          },
+          "calibrated": {
+            "homeWin": 0.1109,
+            "draw": 0.1916,
+            "awayWin": 0.6975
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 29.67,
+            "away": 8.26
+          }
+        }
+      }
+    ],
+    "venue": "BC Place · Vancouver"
+  },
+  "Egypt|Iran": {
+    "home": "Egypt",
+    "away": "Iran",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:14:34+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.3812,
+            "draw": 0.2438,
+            "awayWin": 0.375
+          },
+          "market": {
+            "homeWin": 0.4509,
+            "draw": 0.303,
+            "awayWin": 0.246
+          },
+          "blended": {
+            "homeWin": 0.4112,
+            "draw": 0.2819,
+            "awayWin": 0.3069
+          },
+          "calibrated": {
+            "homeWin": 0.4112,
+            "draw": 0.2819,
+            "awayWin": 0.3069
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 26.58,
+            "away": 27.01
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-19T23:35:46+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.3812,
+            "draw": 0.2438,
+            "awayWin": 0.375
+          },
+          "market": {
+            "homeWin": 0.4529,
+            "draw": 0.3019,
+            "awayWin": 0.2452
+          },
+          "blended": {
+            "homeWin": 0.4123,
+            "draw": 0.2812,
+            "awayWin": 0.3065
+          },
+          "calibrated": {
+            "homeWin": 0.4123,
+            "draw": 0.2812,
+            "awayWin": 0.3065
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 26.58,
+            "away": 27.01
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-26T04:43:58+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.3812,
+            "draw": 0.2438,
+            "awayWin": 0.375
+          },
+          "market": {
+            "homeWin": 0.3864,
+            "draw": 0.3659,
+            "awayWin": 0.2478
+          },
+          "blended": {
+            "homeWin": 0.3746,
+            "draw": 0.3214,
+            "awayWin": 0.304
+          },
+          "calibrated": {
+            "homeWin": 0.3746,
+            "draw": 0.3214,
+            "awayWin": 0.304
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 26.58,
+            "away": 27.01
+          }
+        }
+      }
+    ],
+    "venue": "Lumen Field · Seattle"
+  },
+  "Panama|England": {
+    "home": "Panama",
+    "away": "England",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:14:35+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.1488,
+            "draw": 0.1494,
+            "awayWin": 0.7017
+          },
+          "market": {
+            "homeWin": 0.0974,
+            "draw": 0.1552,
+            "awayWin": 0.7474
+          },
+          "blended": {
+            "homeWin": 0.123,
+            "draw": 0.1533,
+            "awayWin": 0.7237
+          },
+          "calibrated": {
+            "homeWin": 0.1419,
+            "draw": 0.1973,
+            "awayWin": 0.6608
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 17.67,
+            "away": 33.32
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-19T23:35:50+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.1488,
+            "draw": 0.1494,
+            "awayWin": 0.7017
+          },
+          "market": {
+            "homeWin": 0.0949,
+            "draw": 0.1493,
+            "awayWin": 0.7558
+          },
+          "blended": {
+            "homeWin": 0.1219,
+            "draw": 0.1493,
+            "awayWin": 0.7288
+          },
+          "calibrated": {
+            "homeWin": 0.1414,
+            "draw": 0.1949,
+            "awayWin": 0.6636
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 17.67,
+            "away": 33.32
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-26T04:44:05+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.1488,
+            "draw": 0.1494,
+            "awayWin": 0.7017
+          },
+          "market": {
+            "homeWin": 0.0571,
+            "draw": 0.119,
+            "awayWin": 0.824
+          },
+          "blended": {
+            "homeWin": 0.1036,
+            "draw": 0.1289,
+            "awayWin": 0.7675
+          },
+          "calibrated": {
+            "homeWin": 0.1286,
+            "draw": 0.1873,
+            "awayWin": 0.684
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 17.67,
+            "away": 33.32
+          }
+        }
+      }
+    ],
+    "venue": "MetLife Stadium · New York/New Jersey"
+  },
+  "Croatia|Ghana": {
+    "home": "Croatia",
+    "away": "Ghana",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:14:37+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.6582,
+            "draw": 0.1613,
+            "awayWin": 0.1806
+          },
+          "market": {
+            "homeWin": 0.5782,
+            "draw": 0.25,
+            "awayWin": 0.1719
+          },
+          "blended": {
+            "homeWin": 0.6074,
+            "draw": 0.2195,
+            "awayWin": 0.1732
+          },
+          "calibrated": {
+            "homeWin": 0.59,
+            "draw": 0.2317,
+            "awayWin": 0.1784
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 7.84,
+            "away": 7.19
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-19T23:35:53+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.6582,
+            "draw": 0.1613,
+            "awayWin": 0.1806
+          },
+          "market": {
+            "homeWin": 0.5875,
+            "draw": 0.2451,
+            "awayWin": 0.1673
+          },
+          "blended": {
+            "homeWin": 0.6126,
+            "draw": 0.2163,
+            "awayWin": 0.1711
+          },
+          "calibrated": {
+            "homeWin": 0.5934,
+            "draw": 0.2297,
+            "awayWin": 0.1769
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 7.84,
+            "away": 7.19
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-26T04:44:07+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.6582,
+            "draw": 0.1613,
+            "awayWin": 0.1806
+          },
+          "market": {
+            "homeWin": 0.5378,
+            "draw": 0.2928,
+            "awayWin": 0.1694
+          },
+          "blended": {
+            "homeWin": 0.5826,
+            "draw": 0.2468,
+            "awayWin": 0.1705
+          },
+          "calibrated": {
+            "homeWin": 0.5731,
+            "draw": 0.2534,
+            "awayWin": 0.1733
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 7.84,
+            "away": 7.19
+          }
+        }
+      }
+    ],
+    "venue": "Lincoln Financial Field · Philadelphia"
+  },
+  "Colombia|Portugal": {
+    "home": "Colombia",
+    "away": "Portugal",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:14:38+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.3237,
+            "draw": 0.22,
+            "awayWin": 0.4562
+          },
+          "market": {
+            "homeWin": 0.2744,
+            "draw": 0.2799,
+            "awayWin": 0.4457
+          },
+          "blended": {
+            "homeWin": 0.2955,
+            "draw": 0.2588,
+            "awayWin": 0.4456
+          },
+          "calibrated": {
+            "homeWin": 0.2955,
+            "draw": 0.2588,
+            "awayWin": 0.4456
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 4.35,
+            "away": 10.3
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-19T23:35:56+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.3237,
+            "draw": 0.22,
+            "awayWin": 0.4562
+          },
+          "market": {
+            "homeWin": 0.2673,
+            "draw": 0.2765,
+            "awayWin": 0.4561
+          },
+          "blended": {
+            "homeWin": 0.2922,
+            "draw": 0.2567,
+            "awayWin": 0.4511
+          },
+          "calibrated": {
+            "homeWin": 0.2922,
+            "draw": 0.2567,
+            "awayWin": 0.4511
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 4.35,
+            "away": 10.3
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-26T04:44:12+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.3237,
+            "draw": 0.22,
+            "awayWin": 0.4562
+          },
+          "market": {
+            "homeWin": 0.2298,
+            "draw": 0.2562,
+            "awayWin": 0.514
+          },
+          "blended": {
+            "homeWin": 0.2748,
+            "draw": 0.2436,
+            "awayWin": 0.4816
+          },
+          "calibrated": {
+            "homeWin": 0.2748,
+            "draw": 0.2436,
+            "awayWin": 0.4816
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 4.35,
+            "away": 10.3
+          }
+        }
+      }
+    ],
+    "venue": "Hard Rock Stadium · Miami"
+  },
+  "Congo DR|Uzbekistan": {
+    "home": "Congo DR",
+    "away": "Uzbekistan",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:14:40+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.3843,
+            "draw": 0.2428,
+            "awayWin": 0.3729
+          },
+          "market": {
+            "homeWin": 0.4469,
+            "draw": 0.2669,
+            "awayWin": 0.2862
+          },
+          "blended": {
+            "homeWin": 0.4136,
+            "draw": 0.2584,
+            "awayWin": 0.328
+          },
+          "calibrated": {
+            "homeWin": 0.4136,
+            "draw": 0.2584,
+            "awayWin": 0.328
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 6.93,
+            "away": 21.43
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-19T23:36:03+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.3843,
+            "draw": 0.2428,
+            "awayWin": 0.3729
+          },
+          "market": {
+            "homeWin": 0.4457,
+            "draw": 0.2662,
+            "awayWin": 0.2881
+          },
+          "blended": {
+            "homeWin": 0.4131,
+            "draw": 0.258,
+            "awayWin": 0.329
+          },
+          "calibrated": {
+            "homeWin": 0.4131,
+            "draw": 0.258,
+            "awayWin": 0.329
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 6.93,
+            "away": 21.43
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-26T04:44:15+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.3843,
+            "draw": 0.2428,
+            "awayWin": 0.3729
+          },
+          "market": {
+            "homeWin": 0.555,
+            "draw": 0.2305,
+            "awayWin": 0.2145
+          },
+          "blended": {
+            "homeWin": 0.4708,
+            "draw": 0.2348,
+            "awayWin": 0.2944
+          },
+          "calibrated": {
+            "homeWin": 0.4708,
+            "draw": 0.2348,
+            "awayWin": 0.2944
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 6.93,
+            "away": 21.43
+          }
+        }
+      }
+    ],
+    "venue": "Mercedes-Benz Stadium · Atlanta"
+  },
+  "Jordan|Argentina": {
+    "home": "Jordan",
+    "away": "Argentina",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:14:42+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.0499,
+            "draw": 0.1146,
+            "awayWin": 0.8356
+          },
+          "market": {
+            "homeWin": 0.071,
+            "draw": 0.1432,
+            "awayWin": 0.7858
+          },
+          "blended": {
+            "homeWin": 0.0601,
+            "draw": 0.1338,
+            "awayWin": 0.806
+          },
+          "calibrated": {
+            "homeWin": 0.0891,
+            "draw": 0.2015,
+            "awayWin": 0.7093
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 18.77,
+            "away": 9.76
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-19T23:36:07+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.0499,
+            "draw": 0.1146,
+            "awayWin": 0.8356
+          },
+          "market": {
+            "homeWin": 0.0698,
+            "draw": 0.1398,
+            "awayWin": 0.7903
+          },
+          "blended": {
+            "homeWin": 0.0595,
+            "draw": 0.1316,
+            "awayWin": 0.8089
+          },
+          "calibrated": {
+            "homeWin": 0.0886,
+            "draw": 0.1995,
+            "awayWin": 0.7118
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 18.77,
+            "away": 9.76
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-26T04:44:24+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.0499,
+            "draw": 0.1146,
+            "awayWin": 0.8356
+          },
+          "market": {
+            "homeWin": 0.0621,
+            "draw": 0.1274,
+            "awayWin": 0.8105
+          },
+          "blended": {
+            "homeWin": 0.0559,
+            "draw": 0.1232,
+            "awayWin": 0.8209
+          },
+          "calibrated": {
+            "homeWin": 0.0855,
+            "draw": 0.1922,
+            "awayWin": 0.7224
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 18.77,
+            "away": 9.76
+          }
+        }
+      }
+    ],
+    "venue": "AT&T Stadium · Dallas"
+  },
+  "Algeria|Austria": {
+    "home": "Algeria",
+    "away": "Austria",
+    "stage": "GROUP_STAGE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:14:42+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.2835,
+            "draw": 0.2025,
+            "awayWin": 0.514
+          },
+          "market": {
+            "homeWin": 0.3109,
+            "draw": 0.3082,
+            "awayWin": 0.3809
+          },
+          "blended": {
+            "homeWin": 0.291,
+            "draw": 0.2708,
+            "awayWin": 0.4382
+          },
+          "calibrated": {
+            "homeWin": 0.291,
+            "draw": 0.2708,
+            "awayWin": 0.4382
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 6.53,
+            "away": 21.97
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-19T23:36:10+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.2835,
+            "draw": 0.2025,
+            "awayWin": 0.514
+          },
+          "market": {
+            "homeWin": 0.3093,
+            "draw": 0.3093,
+            "awayWin": 0.3814
+          },
+          "blended": {
+            "homeWin": 0.2902,
+            "draw": 0.2715,
+            "awayWin": 0.4383
+          },
+          "calibrated": {
+            "homeWin": 0.2902,
+            "draw": 0.2715,
+            "awayWin": 0.4383
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 6.53,
+            "away": 21.97
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-26T04:44:27+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.2835,
+            "draw": 0.2025,
+            "awayWin": 0.514
+          },
+          "market": {
+            "homeWin": 0.2412,
+            "draw": 0.426,
+            "awayWin": 0.3328
+          },
+          "blended": {
+            "homeWin": 0.2511,
+            "draw": 0.3436,
+            "awayWin": 0.4053
+          },
+          "calibrated": {
+            "homeWin": 0.2511,
+            "draw": 0.3436,
+            "awayWin": 0.4053
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 6.53,
+            "away": 21.97
+          }
+        }
+      }
+    ],
+    "venue": "GEHA Field at Arrowhead · Kansas City"
+  },
+  "Mexico|Ecuador": {
+    "home": "Mexico",
+    "away": "Ecuador",
+    "stage": "LAST_32",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:25:54+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.6224,
+            "draw": null,
+            "awayWin": 0.3776
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.5999,
+            "draw": null,
+            "awayWin": 0.4001
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 14.68,
+            "away": 4.24
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-19T23:36:52+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.6224,
+            "draw": null,
+            "awayWin": 0.3776
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.5999,
+            "draw": null,
+            "awayWin": 0.4001
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 14.68,
+            "away": 4.24
+          }
+        }
+      }
+    ],
+    "venue": null
+  },
+  "South Korea|Canada": {
+    "home": "South Korea",
+    "away": "Canada",
+    "stage": "LAST_32",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:26:16+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.4517,
+            "draw": null,
+            "awayWin": 0.5483
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.4517,
+            "draw": null,
+            "awayWin": 0.5483
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 7.83,
+            "away": 6.59
+          }
+        }
+      }
+    ],
+    "venue": null
+  },
+  "Morocco|Netherlands": {
+    "home": "Morocco",
+    "away": "Netherlands",
+    "stage": "LAST_32",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:26:17+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.3428,
+            "draw": null,
+            "awayWin": 0.6572
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.378,
+            "draw": null,
+            "awayWin": 0.622
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 4.69,
+            "away": 18.29
+          }
+        }
+      }
+    ],
+    "venue": null
+  },
+  "Germany|Scotland": {
+    "home": "Germany",
+    "away": "Scotland",
+    "stage": "LAST_32",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:26:18+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.7956,
+            "draw": null,
+            "awayWin": 0.2044
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.7001,
+            "draw": null,
+            "awayWin": 0.2999
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 30.18,
+            "away": 10.55
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-19T23:36:41+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.7956,
+            "draw": null,
+            "awayWin": 0.2044
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.7001,
+            "draw": null,
+            "awayWin": 0.2999
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 30.18,
+            "away": 10.55
+          }
+        }
+      }
+    ],
+    "venue": null
+  },
+  "Japan|Brazil": {
+    "home": "Japan",
+    "away": "Brazil",
+    "stage": "LAST_32",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:26:19+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.2537,
+            "draw": null,
+            "awayWin": 0.7463
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.3269,
+            "draw": null,
+            "awayWin": 0.6731
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 5.9,
+            "away": 7.83
+          }
+        }
+      }
+    ],
+    "venue": null
+  },
+  "Ivory Coast|Senegal": {
+    "home": "Ivory Coast",
+    "away": "Senegal",
+    "stage": "LAST_32",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:26:20+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.3892,
+            "draw": null,
+            "awayWin": 0.6108
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.4078,
+            "draw": null,
+            "awayWin": 0.5922
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 4.1,
+            "away": 10.41
+          }
+        }
+      }
+    ],
+    "venue": null
+  },
+  "France|Sweden": {
+    "home": "France",
+    "away": "Sweden",
+    "stage": "LAST_32",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:26:22+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.7875,
+            "draw": null,
+            "awayWin": 0.2125
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.694,
+            "draw": null,
+            "awayWin": 0.306
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 11.78,
+            "away": 8.03
+          }
+        }
+      }
+    ],
+    "venue": null
+  },
+  "England|Congo DR": {
+    "home": "England",
+    "away": "Congo DR",
+    "stage": "LAST_32",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:26:26+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.8855,
+            "draw": null,
+            "awayWin": 0.1145
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.7792,
+            "draw": null,
+            "awayWin": 0.2208
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 33.32,
+            "away": 6.93
+          }
+        }
+      }
+    ],
+    "venue": null
+  },
+  "United States|Bosnia-Herzegovina": {
+    "home": "United States",
+    "away": "Bosnia-Herzegovina",
+    "stage": "LAST_32",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:26:26+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.789,
+            "draw": null,
+            "awayWin": 0.211
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.6947,
+            "draw": null,
+            "awayWin": 0.3053
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 6.18,
+            "away": 2.03
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-19T23:36:58+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.789,
+            "draw": null,
+            "awayWin": 0.211
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.6947,
+            "draw": null,
+            "awayWin": 0.3053
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 6.18,
+            "away": 2.03
+          }
+        }
+      }
+    ],
+    "venue": null
+  },
+  "Belgium|Saudi Arabia": {
+    "home": "Belgium",
+    "away": "Saudi Arabia",
+    "stage": "LAST_32",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:26:27+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.7614,
+            "draw": null,
+            "awayWin": 0.2386
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.6809,
+            "draw": null,
+            "awayWin": 0.3191
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 8.26,
+            "away": 16.49
+          }
+        }
+      }
+    ],
+    "venue": null
+  },
+  "Colombia|Croatia": {
+    "home": "Colombia",
+    "away": "Croatia",
+    "stage": "LAST_32",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:26:28+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.5468,
+            "draw": null,
+            "awayWin": 0.4532
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.5468,
+            "draw": null,
+            "awayWin": 0.4532
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 4.35,
+            "away": 7.84
+          }
+        }
+      }
+    ],
+    "venue": null
+  },
+  "Spain|Austria": {
+    "home": "Spain",
+    "away": "Austria",
+    "stage": "LAST_32",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:26:29+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.7073,
+            "draw": null,
+            "awayWin": 0.2927
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.6517,
+            "draw": null,
+            "awayWin": 0.3483
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 30.09,
+            "away": 21.97
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-19T23:37:07+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.7073,
+            "draw": null,
+            "awayWin": 0.2927
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.6517,
+            "draw": null,
+            "awayWin": 0.3483
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 30.09,
+            "away": 21.97
+          }
+        }
+      }
+    ],
+    "venue": null
+  },
+  "Switzerland|Norway": {
+    "home": "Switzerland",
+    "away": "Norway",
+    "stage": "LAST_32",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:26:31+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.7576,
+            "draw": null,
+            "awayWin": 0.2424
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.679,
+            "draw": null,
+            "awayWin": 0.321
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 7.4,
+            "away": 8.79
+          }
+        }
+      }
+    ],
+    "venue": null
+  },
+  "Argentina|Uruguay": {
+    "home": "Argentina",
+    "away": "Uruguay",
+    "stage": "LAST_32",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:26:32+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.7637,
+            "draw": null,
+            "awayWin": 0.2363
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.6821,
+            "draw": null,
+            "awayWin": 0.3179
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 9.76,
+            "away": 8.79
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-19T23:37:11+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.7637,
+            "draw": null,
+            "awayWin": 0.2363
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.6821,
+            "draw": null,
+            "awayWin": 0.3179
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 9.76,
+            "away": 8.79
+          }
+        }
+      }
+    ],
+    "venue": null
+  },
+  "Portugal|Ghana": {
+    "home": "Portugal",
+    "away": "Ghana",
+    "stage": "LAST_32",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:26:33+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.8611,
+            "draw": null,
+            "awayWin": 0.1389
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.7578,
+            "draw": null,
+            "awayWin": 0.2422
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 10.3,
+            "away": 7.19
+          }
+        }
+      }
+    ],
+    "venue": null
+  },
+  "Australia|Egypt": {
+    "home": "Australia",
+    "away": "Egypt",
+    "stage": "LAST_32",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:26:34+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.4995,
+            "draw": null,
+            "awayWin": 0.5005
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.4995,
+            "draw": null,
+            "awayWin": 0.5005
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 7.99,
+            "away": 26.58
+          }
+        }
+      }
+    ],
+    "venue": null
+  },
+  "Canada|Germany": {
+    "home": "Canada",
+    "away": "Germany",
+    "stage": "LAST_16",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:26:44+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.3799,
+            "draw": null,
+            "awayWin": 0.6201
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.4016,
+            "draw": null,
+            "awayWin": 0.5984
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 6.59,
+            "away": 30.18
+          }
+        }
+      }
+    ],
+    "venue": null
+  },
+  "France|Senegal": {
+    "home": "France",
+    "away": "Senegal",
+    "stage": "LAST_16",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:26:45+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.7557,
+            "draw": null,
+            "awayWin": 0.2443
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.678,
+            "draw": null,
+            "awayWin": 0.322
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 11.78,
+            "away": 10.41
+          }
+        }
+      }
+    ],
+    "venue": null
+  },
+  "Brazil|Netherlands": {
+    "home": "Brazil",
+    "away": "Netherlands",
+    "stage": "LAST_16",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:26:46+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.5948,
+            "draw": null,
+            "awayWin": 0.4052
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.5815,
+            "draw": null,
+            "awayWin": 0.4185
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 7.83,
+            "away": 18.29
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-19T23:36:38+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.5948,
+            "draw": null,
+            "awayWin": 0.4052
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.5815,
+            "draw": null,
+            "awayWin": 0.4185
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 7.83,
+            "away": 18.29
+          }
+        }
+      }
+    ],
+    "venue": null
+  },
+  "Mexico|England": {
+    "home": "Mexico",
+    "away": "England",
+    "stage": "LAST_16",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:26:48+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.4042,
+            "draw": null,
+            "awayWin": 0.5958
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.4178,
+            "draw": null,
+            "awayWin": 0.5822
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 14.68,
+            "away": 33.32
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-19T23:37:34+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.4042,
+            "draw": null,
+            "awayWin": 0.5958
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.4178,
+            "draw": null,
+            "awayWin": 0.5822
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 14.68,
+            "away": 33.32
+          }
+        }
+      }
+    ],
+    "venue": null
+  },
+  "United States|Belgium": {
+    "home": "United States",
+    "away": "Belgium",
+    "stage": "LAST_16",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:26:50+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.4961,
+            "draw": null,
+            "awayWin": 0.5039
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.4961,
+            "draw": null,
+            "awayWin": 0.5039
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 6.18,
+            "away": 8.26
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-19T23:37:38+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.4961,
+            "draw": null,
+            "awayWin": 0.5039
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.4961,
+            "draw": null,
+            "awayWin": 0.5039
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 6.18,
+            "away": 8.26
+          }
+        }
+      }
+    ],
+    "venue": null
+  },
+  "Switzerland|Argentina": {
+    "home": "Switzerland",
+    "away": "Argentina",
+    "stage": "LAST_16",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:26:52+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.1884,
+            "draw": null,
+            "awayWin": 0.8116
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.2858,
+            "draw": null,
+            "awayWin": 0.7142
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 7.4,
+            "away": 9.76
+          }
+        }
+      }
+    ],
+    "venue": null
+  },
+  "Colombia|Spain": {
+    "home": "Colombia",
+    "away": "Spain",
+    "stage": "LAST_16",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:26:53+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.4255,
+            "draw": null,
+            "awayWin": 0.5745
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.4325,
+            "draw": null,
+            "awayWin": 0.5675
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 4.35,
+            "away": 30.09
+          }
+        }
+      }
+    ],
+    "venue": null
+  },
+  "Portugal|Egypt": {
+    "home": "Portugal",
+    "away": "Egypt",
+    "stage": "LAST_16",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:26:54+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.7672,
+            "draw": null,
+            "awayWin": 0.2328
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.6839,
+            "draw": null,
+            "awayWin": 0.3161
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 10.3,
+            "away": 26.58
+          }
+        }
+      }
+    ],
+    "venue": null
+  },
+  "Germany|France": {
+    "home": "Germany",
+    "away": "France",
+    "stage": "QUARTER_FINALS",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:26:58+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.3887,
+            "draw": null,
+            "awayWin": 0.6113
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.4074,
+            "draw": null,
+            "awayWin": 0.5926
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 30.18,
+            "away": 11.78
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-19T23:38:01+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.3887,
+            "draw": null,
+            "awayWin": 0.6113
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.4074,
+            "draw": null,
+            "awayWin": 0.5926
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 30.18,
+            "away": 11.78
+          }
+        }
+      }
+    ],
+    "venue": null
+  },
+  "Brazil|England": {
+    "home": "Brazil",
+    "away": "England",
+    "stage": "QUARTER_FINALS",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:26:59+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.5509,
+            "draw": null,
+            "awayWin": 0.4491
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.5507,
+            "draw": null,
+            "awayWin": 0.4493
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 7.83,
+            "away": 33.32
+          }
+        }
+      },
+      {
+        "recordedAtUtc": "2026-06-19T23:38:02+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.5509,
+            "draw": null,
+            "awayWin": 0.4491
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.5507,
+            "draw": null,
+            "awayWin": 0.4493
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 7.83,
+            "away": 33.32
+          }
+        }
+      }
+    ],
+    "venue": null
+  },
+  "Belgium|Argentina": {
+    "home": "Belgium",
+    "away": "Argentina",
+    "stage": "QUARTER_FINALS",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:27:01+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.2899,
+            "draw": null,
+            "awayWin": 0.7101
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.3467,
+            "draw": null,
+            "awayWin": 0.6533
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 8.26,
+            "away": 9.76
+          }
+        }
+      }
+    ],
+    "venue": null
+  },
+  "Spain|Portugal": {
+    "home": "Spain",
+    "away": "Portugal",
+    "stage": "QUARTER_FINALS",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-18T18:27:02+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.4893,
+            "draw": null,
+            "awayWin": 0.5107
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.4893,
+            "draw": null,
+            "awayWin": 0.5107
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 30.09,
+            "away": 10.3
+          }
+        }
+      }
+    ],
+    "venue": null
+  },
+  "South Korea|Switzerland": {
+    "home": "South Korea",
+    "away": "Switzerland",
+    "stage": "LAST_32",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-19T23:36:29+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.4649,
+            "draw": null,
+            "awayWin": 0.5351
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.4649,
+            "draw": null,
+            "awayWin": 0.5351
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 7.83,
+            "away": 7.4
+          }
+        }
+      }
+    ],
+    "venue": null
+  },
+  "Sweden|Morocco": {
+    "home": "Sweden",
+    "away": "Morocco",
+    "stage": "LAST_32",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-19T23:36:43+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.4237,
+            "draw": null,
+            "awayWin": 0.5763
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.4313,
+            "draw": null,
+            "awayWin": 0.5687
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 8.03,
+            "away": 4.69
+          }
+        }
+      }
+    ],
+    "venue": null
+  },
+  "Ivory Coast|Norway": {
+    "home": "Ivory Coast",
+    "away": "Norway",
+    "stage": "LAST_32",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-19T23:36:46+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.6356,
+            "draw": null,
+            "awayWin": 0.3644
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.6084,
+            "draw": null,
+            "awayWin": 0.3916
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 4.1,
+            "away": 8.79
+          }
+        }
+      }
+    ],
+    "venue": null
+  },
+  "France|Japan": {
+    "home": "France",
+    "away": "Japan",
+    "stage": "LAST_32",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-19T23:36:49+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.7401,
+            "draw": null,
+            "awayWin": 0.2599
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.6698,
+            "draw": null,
+            "awayWin": 0.3302
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 11.78,
+            "away": 5.9
+          }
+        }
+      }
+    ],
+    "venue": null
+  },
+  "England|Senegal": {
+    "home": "England",
+    "away": "Senegal",
+    "stage": "LAST_32",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-19T23:36:55+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.7226,
+            "draw": null,
+            "awayWin": 0.2774
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.6602,
+            "draw": null,
+            "awayWin": 0.3398
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 33.32,
+            "away": 10.41
+          }
+        }
+      }
+    ],
+    "venue": null
+  },
+  "Belgium|Czechia": {
+    "home": "Belgium",
+    "away": "Czechia",
+    "stage": "LAST_32",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-19T23:37:00+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.7874,
+            "draw": null,
+            "awayWin": 0.2126
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.6939,
+            "draw": null,
+            "awayWin": 0.3061
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 8.26,
+            "away": 30.83
+          }
+        }
+      }
+    ],
+    "venue": null
+  },
+  "Portugal|Croatia": {
+    "home": "Portugal",
+    "away": "Croatia",
+    "stage": "LAST_32",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-19T23:37:03+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.6296,
+            "draw": null,
+            "awayWin": 0.3704
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.6045,
+            "draw": null,
+            "awayWin": 0.3955
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 10.3,
+            "away": 7.84
+          }
+        }
+      }
+    ],
+    "venue": null
+  },
+  "Canada|Egypt": {
+    "home": "Canada",
+    "away": "Egypt",
+    "stage": "LAST_32",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-19T23:37:09+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.6238,
+            "draw": null,
+            "awayWin": 0.3762
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.6008,
+            "draw": null,
+            "awayWin": 0.3992
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 6.59,
+            "away": 26.58
+          }
+        }
+      }
+    ],
+    "venue": null
+  },
+  "Colombia|Ghana": {
+    "home": "Colombia",
+    "away": "Ghana",
+    "stage": "LAST_32",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-19T23:37:13+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.8147,
+            "draw": null,
+            "awayWin": 0.1853
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.7169,
+            "draw": null,
+            "awayWin": 0.2831
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 4.35,
+            "away": 7.19
+          }
+        }
+      }
+    ],
+    "venue": null
+  },
+  "Australia|Iran": {
+    "home": "Australia",
+    "away": "Iran",
+    "stage": "LAST_32",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-19T23:37:15+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.5036,
+            "draw": null,
+            "awayWin": 0.4964
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.5036,
+            "draw": null,
+            "awayWin": 0.4964
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 7.99,
+            "away": 27.01
+          }
+        }
+      }
+    ],
+    "venue": null
+  },
+  "South Korea|Germany": {
+    "home": "South Korea",
+    "away": "Germany",
+    "stage": "LAST_16",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-19T23:37:28+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.3354,
+            "draw": null,
+            "awayWin": 0.6646
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.3735,
+            "draw": null,
+            "awayWin": 0.6265
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 7.83,
+            "away": 30.18
+          }
+        }
+      }
+    ],
+    "venue": null
+  },
+  "France|Ivory Coast": {
+    "home": "France",
+    "away": "Ivory Coast",
+    "stage": "LAST_16",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-19T23:37:30+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.8292,
+            "draw": null,
+            "awayWin": 0.1708
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.7297,
+            "draw": null,
+            "awayWin": 0.2703
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 11.78,
+            "away": 4.1
+          }
+        }
+      }
+    ],
+    "venue": null
+  },
+  "Morocco|Brazil": {
+    "home": "Morocco",
+    "away": "Brazil",
+    "stage": "LAST_16",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-19T23:37:32+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.2622,
+            "draw": null,
+            "awayWin": 0.7378
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.3315,
+            "draw": null,
+            "awayWin": 0.6685
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 4.69,
+            "away": 7.83
+          }
+        }
+      }
+    ],
+    "venue": null
+  },
+  "Canada|Argentina": {
+    "home": "Canada",
+    "away": "Argentina",
+    "stage": "LAST_16",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-19T23:37:41+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.1966,
+            "draw": null,
+            "awayWin": 0.8034
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.293,
+            "draw": null,
+            "awayWin": 0.707
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 6.59,
+            "away": 9.76
+          }
+        }
+      }
+    ],
+    "venue": null
+  },
+  "Portugal|Spain": {
+    "home": "Portugal",
+    "away": "Spain",
+    "stage": "LAST_16",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-19T23:37:49+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.5107,
+            "draw": null,
+            "awayWin": 0.4893
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.5107,
+            "draw": null,
+            "awayWin": 0.4893
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 10.3,
+            "away": 30.09
+          }
+        }
+      }
+    ],
+    "venue": null
+  },
+  "Colombia|Australia": {
+    "home": "Colombia",
+    "away": "Australia",
+    "stage": "LAST_16",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-19T23:37:53+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.7009,
+            "draw": null,
+            "awayWin": 0.2991
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.648,
+            "draw": null,
+            "awayWin": 0.352
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 4.35,
+            "away": 7.99
+          }
+        }
+      }
+    ],
+    "venue": null
+  },
+  "United States|Argentina": {
+    "home": "United States",
+    "away": "Argentina",
+    "stage": "QUARTER_FINALS",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-19T23:38:05+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.2867,
+            "draw": null,
+            "awayWin": 0.7133
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.3449,
+            "draw": null,
+            "awayWin": 0.6551
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 6.18,
+            "away": 9.76
+          }
+        }
+      }
+    ],
+    "venue": null
+  },
+  "Spain|Colombia": {
+    "home": "Spain",
+    "away": "Colombia",
+    "stage": "QUARTER_FINALS",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-19T23:38:09+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.5745,
+            "draw": null,
+            "awayWin": 0.4255
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.5675,
+            "draw": null,
+            "awayWin": 0.4325
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 30.09,
+            "away": 4.35
+          }
+        }
+      }
+    ],
+    "venue": null
+  },
+  "France|Brazil": {
+    "home": "France",
+    "away": "Brazil",
+    "stage": "SEMI_FINALS",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-19T23:38:23+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.4918,
+            "draw": null,
+            "awayWin": 0.5082
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.4918,
+            "draw": null,
+            "awayWin": 0.5082
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 11.78,
+            "away": 7.83
+          }
+        }
+      }
+    ],
+    "venue": null
+  },
+  "Argentina|Spain": {
+    "home": "Argentina",
+    "away": "Spain",
+    "stage": "SEMI_FINALS",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-19T23:38:24+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.682,
+            "draw": null,
+            "awayWin": 0.318
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.637,
+            "draw": null,
+            "awayWin": 0.363
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 9.76,
+            "away": 30.09
+          }
+        }
+      }
+    ],
+    "venue": null
+  },
+  "France|Spain": {
+    "home": "France",
+    "away": "Spain",
+    "stage": "THIRD_PLACE",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-19T23:38:29+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.5741,
+            "draw": null,
+            "awayWin": 0.4259
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.5672,
+            "draw": null,
+            "awayWin": 0.4328
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 11.78,
+            "away": 30.09
+          }
+        }
+      }
+    ],
+    "venue": null
+  },
+  "Brazil|Argentina": {
+    "home": "Brazil",
+    "away": "Argentina",
+    "stage": "FINAL",
+    "snapshots": [
+      {
+        "recordedAtUtc": "2026-06-19T23:38:32+00:00",
+        "probs": {
+          "model": {
+            "homeWin": 0.3937,
+            "draw": null,
+            "awayWin": 0.6063
+          },
+          "market": null,
+          "blended": null,
+          "calibrated": {
+            "homeWin": 0.4108,
+            "draw": null,
+            "awayWin": 0.5892
+          }
+        },
+        "extras": {
+          "affinity": {
+            "home": 7.83,
+            "away": 9.76
+          }
+        }
+      }
+    ],
+    "venue": null
   }
 }
