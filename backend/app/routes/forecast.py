@@ -1,7 +1,12 @@
 from fastapi import APIRouter, HTTPException, Query
 from app.services.football_api import get_matches, get_standings
 from app.services.forecast_ledger import evaluate, record_snapshot
-from app.services.forecasting import run_forecast, _get_affinity, _build_groups
+from app.services.forecasting import (
+    run_forecast,
+    _get_affinity,
+    _build_groups,
+    team_ppg_map,
+)
 from app.services.match_predictor import (
     predictor,
     apply_coast_damp,
@@ -81,9 +86,29 @@ async def match_forecast(
         aff_away = _get_affinity(away)
 
         is_knockout = stage in _KNOCKOUT_STAGES
+
+        # Forma de grupos → predictor SOLO en eliminatoria, donde el ppg de
+        # grupos ya está cerrado (información nueva legítima, no hindsight). En
+        # fase de grupos se deja el 1.5 neutral para no tocar el pipeline ya
+        # validado. Ver forecasting.team_ppg_map / _form_adjustment.
+        ppg_home = ppg_away = 1.5
+        if is_knockout:
+            try:
+                ppg = team_ppg_map(await get_standings(), await get_matches())
+                ppg_home = ppg.get(home, 1.5)
+                ppg_away = ppg.get(away, 1.5)
+            except Exception as form_exc:
+                import logging
+
+                logging.getLogger(__name__).warning(
+                    "Forma de grupos no disponible: %s", form_exc
+                )
+
         result = predictor.predict_both(
             home,
             away,
+            ppg_a=ppg_home,
+            ppg_b=ppg_away,
             stage=stage,
             venue=resolved_venue,
             affinity_a=aff_home,
@@ -92,6 +117,8 @@ async def match_forecast(
         feats = predictor.build_features(
             home,
             away,
+            ppg_a=ppg_home,
+            ppg_b=ppg_away,
             stage=stage,
             venue=resolved_venue,
             affinity_a=aff_home,

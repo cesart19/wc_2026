@@ -461,9 +461,27 @@ async def run_prematch(
             },
         }
 
+    # Forma de grupos → predictor SOLO en eliminatoria, donde el ppg de grupos
+    # ya está cerrado: información nueva legítima, no hindsight. En fase de
+    # grupos el ppg es parcial y co-determinado con el pronóstico, así que se
+    # deja el 1.5 neutral para preservar el pipeline de grupos validado.
+    ppg_home = ppg_away = 1.5
+    if stage != "GROUP_STAGE":
+        try:
+            from app.services.football_api import get_matches, get_standings
+            from app.services.forecasting import team_ppg_map
+
+            ppg = team_ppg_map(await get_standings(), await get_matches())
+            ppg_home = ppg.get(home, 1.5)
+            ppg_away = ppg.get(away, 1.5)
+        except (httpx.HTTPError, RuntimeError, KeyError) as err:
+            log.warning("Forma de grupos no disponible: %s", err)
+
     p_model = predictor.predict(
         home,
         away,
+        ppg_a=ppg_home,
+        ppg_b=ppg_away,
         stage=stage,
         venue=resolved_venue,
         affinity_a=affinities[home],
@@ -547,6 +565,7 @@ async def run_prematch(
         extras={
             "method": "prematch_xi_extended",
             "affinity": affinities,
+            "groupPpg": {home: ppg_home, away: ppg_away},
         },
     )
     return report

@@ -73,17 +73,17 @@ def test_cap_bounds_the_move() -> None:
     assert home == approx(p_home * (1.0 - _FAV_SHRINK_CAP))
 
 
-def test_knockout_routes_all_mass_to_underdog() -> None:
-    """With no draw, the shifted mass goes entirely to the underdog."""
-    # Arrange / Act
-    home, draw, away = apply_favorite_shrink(
-        (0.75, 0.0, 0.25), is_knockout=True
-    )
+def test_knockout_is_identity() -> None:
+    """In knockout the layer is a no-op (n=62 reversed its premise).
 
-    # Assert: draw stays at zero, underdog absorbs the full move.
-    assert draw == approx(0.0)
-    assert away > 0.25
-    assert sum((home, draw, away)) == approx(1.0)
+    Wide favourites win MORE than predicted, and a knockout has no draw, so
+    the shrink could only push mass to the underdog — the wrong direction.
+    """
+    # Arrange
+    probs = (0.75, 0.0, 0.25)
+
+    # Act / Assert: same probabilities returned untouched.
+    assert apply_favorite_shrink(probs, is_knockout=True) == probs
 
 
 def test_away_favourite_is_handled_symmetrically() -> None:

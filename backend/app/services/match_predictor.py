@@ -222,22 +222,30 @@ def apply_favorite_shrink(
 ) -> tuple[float, float, float]:
     """Recalibrate the final W/D/L by shrinking an over-confident favourite.
 
-    Always-on companion of :func:`apply_coast_damp`. The ledger shows wide
-    favourites win less often than the blended layer predicts and that draws
-    are under-priced, so this moves a bounded fraction of the favourite's win
-    mass toward draw + underdog, proportional to how far its win probability
-    exceeds parity (``_FAV_SHRINK_ANCHOR``). The cap (``_FAV_SHRINK_CAP``)
-    keeps the favourite the most likely outcome; mass is conserved.
+    Always-on companion of :func:`apply_coast_damp` in the GROUP STAGE only.
+    Early group-stage data (n=8) showed wide favourites busting and draws
+    under-priced, so this moves a bounded fraction of the favourite's win mass
+    toward draw + underdog, proportional to how far its win probability exceeds
+    parity (``_FAV_SHRINK_ANCHOR``). The cap (``_FAV_SHRINK_CAP``) keeps the
+    favourite the most likely outcome; mass is conserved.
+
+    Knockout no-op: over the full group stage (n=62) wide favourites instead
+    win MORE than predicted (clearFavorite 71% observed vs 62% predicted;
+    heavyFavorite 100% vs 74%), reversing the premise above. A knockout match
+    has no draw, so the shrink could only move mass to the underdog — exactly
+    the wrong direction given that evidence — so it is disabled there. The
+    group-stage parameters are left as-is pending a ledger-driven A/B re-fit.
 
     Args:
         probs: (p_home, p_draw, p_away), summing to 1.0.
-        is_knockout: When True there is no draw, so the shifted mass goes
-            entirely to the underdog.
+        is_knockout: When True the layer is a no-op (see above).
 
     Returns:
-        Recalibrated (p_home, p_draw, p_away). Identity when the favourite is
-        at or below the parity anchor.
+        Recalibrated (p_home, p_draw, p_away). Identity in knockout matches and
+        whenever the favourite is at or below the parity anchor.
     """
+    if is_knockout:
+        return probs
     p_home, p_draw, p_away = probs
     fav_is_home = p_home >= p_away
     p_fav = p_home if fav_is_home else p_away
@@ -248,7 +256,7 @@ def apply_favorite_shrink(
     if intensity <= 0.0:
         return probs
     move = p_fav * intensity
-    to_draw = 0.0 if is_knockout else move * _FAV_SHRINK_TO_DRAW
+    to_draw = move * _FAV_SHRINK_TO_DRAW
     to_dog = move - to_draw
     p_draw += to_draw
     if fav_is_home:

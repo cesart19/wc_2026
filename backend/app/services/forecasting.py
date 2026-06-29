@@ -135,13 +135,24 @@ def _sim_group(
     return 0, ga - gb, ga,  3, gb - ga, gb
 
 
-def _sim_knockout(name_a: str, name_b: str, venue: str | None = None) -> bool:
+def _sim_knockout(
+    name_a: str,
+    name_b: str,
+    venue: str | None = None,
+    ppg_a: float = 1.5,
+    ppg_b: float = 1.5,
+) -> bool:
     """
     Simula un partido de fase eliminatoria.
     Devuelve True si A gana. El venue se usa para crowd-boost del co-anfitrión.
+
+    ppg_a/ppg_b son los puntos-por-partido de fase de grupos de cada equipo,
+    que alimentan el ajuste de forma del predictor (_form_adjustment). Cuando
+    un grupo ya terminó es información real y asentada; durante grupos parciales
+    es una aproximación (no refleja los partidos de grupo aún simulados).
     """
     p_a, _, _ = predictor.predict(
-        name_a, name_b, stage="KNOCKOUT", venue=venue,
+        name_a, name_b, ppg_a, ppg_b, stage="KNOCKOUT", venue=venue,
         affinity_a=_get_affinity(name_a), affinity_b=_get_affinity(name_b),
     )
     return random.random() < p_a
@@ -242,6 +253,23 @@ def _build_groups_from_fixtures(matches_raw: dict) -> list[dict]:
     return groups
 
 
+def team_ppg_map(standings_raw: dict, matches_raw: dict) -> dict[str, float]:
+    """Puntos-por-partido de fase de grupos, indexados por nombre de equipo.
+
+    Derivado de las standings en vivo para que los pronósticos de eliminatoria
+    puedan alimentar la forma real de grupos al predictor (el término
+    _form_adjustment). En octavos en adelante el ppg de grupos ya está cerrado,
+    así que es información nueva legítima, no hindsight. Los equipos ausentes
+    de las standings se omiten; el llamador debe usar 1.5 por defecto (neutral
+    → ajuste de forma nulo).
+    """
+    return {
+        t["name"]: t["ppg"]
+        for grp in _build_groups(standings_raw, matches_raw)
+        for t in grp["teams"]
+    }
+
+
 # ---------------------------------------------------------------------------
 # One tournament simulation
 # ---------------------------------------------------------------------------
@@ -314,7 +342,10 @@ def _simulate_once(
         if home is None or away is None:
             return None
         venue = get_venue_by_id(match_id)
-        winner_is_home = _sim_knockout(home["name"], away["name"], venue=venue)
+        winner_is_home = _sim_knockout(
+            home["name"], away["name"], venue=venue,
+            ppg_a=home.get("ppg", 1.5), ppg_b=away.get("ppg", 1.5),
+        )
         match_results[match_id] = {
             "winner": home if winner_is_home else away,
             "loser":  away if winner_is_home else home,
