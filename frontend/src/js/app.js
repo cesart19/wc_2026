@@ -75,6 +75,28 @@ function saveSimulation(matchId, result) {
   renderFixtures();  // then re-renders fixtures with updated projections
 }
 
+// Wipe every "what-if" simulation and forecast pick, then re-render so the
+// group tables fall back to the real standings from the API.
+function clearAllSimulations() {
+  if (!Object.keys(simulations).length) return;
+  simulations = {};
+  forecasts = {};
+  localStorage.removeItem('wc_simulations');
+  renderGroups();
+  renderFixtures();
+}
+
+// Keep the header "Limpiar simulaciones" button in sync with the active count:
+// hidden when there is nothing to clear, otherwise shows the running total.
+function updateClearSimsButton() {
+  const btn = document.getElementById('clear-sims-btn');
+  if (!btn) return;
+  const count = Object.keys(simulations).length;
+  btn.hidden = count === 0;
+  const countEl = document.getElementById('clear-sims-count');
+  if (countEl) countEl.textContent = count ? `(${count})` : '';
+}
+
 // --- TAB NAVIGATION ---
 document.querySelectorAll('.tab-btn').forEach(btn => {
   btn.addEventListener('click', () => {
@@ -155,6 +177,7 @@ function renderGroups() {
   const groups = applySimulationsToGroups(baseGroups);
   currentSimGroups = groups;
   container.innerHTML = `<div class="groups-grid">${groups.map(renderGroupCard).join('')}</div>`;
+  updateClearSimsButton();
 }
 
 // Returns { 't_ABCDF': teamObj, 't_CDFGH': teamObj, ... } using the official
@@ -502,6 +525,8 @@ async function refresh() {
 }
 
 async function init() {
+  document.getElementById('clear-sims-btn').addEventListener('click', clearAllSimulations);
+
   document.getElementById('fixtures-container').addEventListener('click', async e => {
     const simBtn = e.target.closest('.sim-btn');
     if (simBtn) { saveSimulation(simBtn.dataset.matchId, simBtn.dataset.result); return; }

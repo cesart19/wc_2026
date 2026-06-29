@@ -32,8 +32,41 @@ header h1 {
   letter-spacing: 1px;
 }
 
-.refresh-info {
+.header-controls {
   margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.clear-sims-btn {
+  background: #2a0d12;
+  border: 1px solid #6a2230;
+  color: #e58a98;
+  padding: 0.4rem 0.8rem;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.clear-sims-btn:hover {
+  background: #3a1018;
+  border-color: #c94257;
+  color: #ff9aa8;
+}
+
+.clear-sims-btn[hidden] {
+  display: none;
+}
+
+.clear-sims-count {
+  font-weight: 700;
+  opacity: 0.85;
+}
+
+.refresh-info {
   font-size: 0.75rem;
   color: #888;
 }
